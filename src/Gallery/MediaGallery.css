@@ -1,0 +1,43 @@
+
+.gallery {
+    background: rgba(35, 35, 35, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    position: relative;
+    column-count: 3;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.gal-img {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.gal-img img {
+    width: 100%;
+    transition: all 0.25s ease-out;
+}
+
+.gal-img:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ui.modal>.content {
+    display: flex !important;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.ui.modal>.content>img {
+    max-width: 100%;
+    max-height: 90vh;
+}
+

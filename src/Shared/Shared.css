@@ -1,0 +1,126 @@
+
+.header-menu {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+.menu-btn {
+    position: absolute;
+    z-index: 10;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.menu-btn.spin .btn-line.line1 {
+    transform: rotate(225deg) translate(-5px, -6px)
+}
+
+.menu-btn.spin .btn-line.line2 {
+    opacity: 0;
+}
+
+.menu-btn.spin .btn-line.line3 {
+    transform: rotate(-225deg) translate(-6px, 7px)
+}
+
+.btn-line {
+    width: 35px;
+    height: 3px;
+    margin: 0 0 6px 0;
+    background: #fff;
+    transition: all 0.5s ease-out;
+}
+
+
+/* ********* MainMenu ******** */
+
+.main-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-menu.show {
+    visibility: visible;
+}
+
+.main-menu .menu-branding, .main-menu .menu-nav {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-menu .menu-nav {
+    background-color: rgba(58,58,58, 1);
+    transform: translate3d(0, -100%, 0);
+    transition: all 0.5s ease-out;
+}
+
+.main-menu .menu-nav.show {
+    transform: translate3d(0, 0, 0);
+}
+
+.main-menu .menu-branding {
+    background-color: rgba(37,37,37, 1);
+    transform: translate3d(0, 100%, 0);
+    transition: all 0.5s ease-out;
+}
+
+.main-menu .menu-branding.show {
+    transform: translate3d(0, 0, 0);
+}
+
+.main-menu .menu-branding .branding-logo {
+    height: 300px;
+    width: 300px;
+    background: url('../png_logo_small_NSL.png') center;
+}
+
+.main-menu .menu-nav .nav-item {
+    font-size: 2rem;
+    color: #fff;
+    padding: 15px 0px;
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-out;
+}
+
+.main-menu .menu-nav .nav-item.show {
+    transform: translate3d(0, 0, 0);
+}
+
+.main-menu .menu-nav .nav-item.show#link1 {
+    transition-delay: 0.1s;
+}
+
+.main-menu .menu-nav .nav-item.show#link2 {
+    transition-delay: 0.2s;
+}
+
+.main-menu .menu-nav .nav-item.show#link3 {
+    transition-delay: 0.3s;
+}
+
+.main-menu .menu-nav .nav-item.show#link4 {
+    transition-delay: 0.4s;
+}
+
+
+
+.main-menu .menu-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+
+
+
+
