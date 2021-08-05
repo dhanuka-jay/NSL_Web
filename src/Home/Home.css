@@ -125,8 +125,8 @@ h2.sm-heading {
 
 
   /* Screen Size: ............ */
-  @media only screen and (max-width: 2000px) {
-    .home-menu {
+  @media (max-width: 2000px) {
+    #home-main {
       display: flex;
       flex-direction: column;
       justify-content: center;
