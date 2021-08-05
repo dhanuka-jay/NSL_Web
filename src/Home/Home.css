@@ -134,7 +134,15 @@ h2.sm-heading {
       text-align: center;
     }
 
-    .h1.lg-heading {
+    h1.lg-heading {
+      font-size: 4rem;
+    }
+
+    h2.sm-heading {
+      font-size: 1.9rem;
+    }
+
+    h2.sm-heading>.highlight {
       font-size: 3rem;
     }
   }

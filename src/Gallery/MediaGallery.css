@@ -1,5 +1,6 @@
 
 .gallery {
+    height: 100vh;
     background: rgba(35, 35, 35, 1);
     display: flex;
     justify-content: center;
@@ -39,5 +40,15 @@
 .ui.modal>.content>img {
     max-width: 100%;
     max-height: 90vh;
+}
+
+
+@media (max-width: 600px) {
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 

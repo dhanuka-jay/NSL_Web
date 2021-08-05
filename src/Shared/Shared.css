@@ -5,6 +5,7 @@
     width: 100%;
 }
 
+
 .menu-btn {
     position: absolute;
     z-index: 10;
@@ -12,6 +13,14 @@
     top: 35px;
     cursor: pointer;
     transition: all 0.5s ease-out;
+    width: 100px;
+    height: 100px;
+    background: url('../png_logo_NSL_100px.png') center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .menu-btn.spin .btn-line.line1 {
@@ -99,19 +108,19 @@
 }
 
 .main-menu .menu-nav .nav-item.show#link1 {
-    transition-delay: 0.1s;
-}
-
-.main-menu .menu-nav .nav-item.show#link2 {
     transition-delay: 0.2s;
 }
 
-.main-menu .menu-nav .nav-item.show#link3 {
+.main-menu .menu-nav .nav-item.show#link2 {
     transition-delay: 0.3s;
 }
 
-.main-menu .menu-nav .nav-item.show#link4 {
+.main-menu .menu-nav .nav-item.show#link3 {
     transition-delay: 0.4s;
+}
+
+.main-menu .menu-nav .nav-item.show#link4 {
+    transition-delay: 0.5s;
 }
 
 
@@ -119,6 +128,40 @@
 .main-menu .menu-nav .nav-item .nav-link {
     color: #fff;
 }
+
+
+/* Screen Size: ............ */
+
+/* Smaller Screens */
+@media (max-width:600px) {
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-menu .menu-branding {
+        height: 40vh;
+        width: 100vw;
+        transform: translate3d(0, 1000px, 0);
+        transition: all 0.7s ease-out;
+    }
+
+    .main-menu .menu-branding.show {
+        transform: translate3d(0, 0, 0);
+    }
+    
+    .main-menu .menu-nav {
+        height: 60vh;
+        width: 100vw;
+        transform: translate3d(0, -1000px, 0);
+        transition: all 0.7s ease-out;
+    }
+
+    .main-menu .menu-nav.show {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 
 
 
