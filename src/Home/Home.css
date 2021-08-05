@@ -125,12 +125,13 @@ h2.sm-heading {
 
 
   /* Screen Size: ............ */
-  @media (max-width: 2000px) {
-    #home-main {
+  @media (max-width: 600px) {
+    .home-content {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
   }
   
