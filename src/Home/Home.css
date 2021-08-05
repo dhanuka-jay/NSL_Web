@@ -133,6 +133,10 @@ h2.sm-heading {
       align-items: center;
       text-align: center;
     }
+
+    .h1.lg-heading {
+      font-size: 3rem;
+    }
   }
   
 
