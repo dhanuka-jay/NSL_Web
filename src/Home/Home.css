@@ -60,7 +60,7 @@ h1, h2 {
 h1.lg-heading {
     font-size: 6rem;
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.8rem;
     background-color: rgba(34, 36, 36, 0.5);
     width: fit-content;
     color: #e8491d;
@@ -69,7 +69,8 @@ h1.lg-heading {
                           0.75px 0.75px 0 #fff,
                          0.75px -0.75px 0 #fff,
                         -0.75px -0.75px 0 #fff;
-    animation: main-enter 0.5s ease-in-out;
+    transform: translateX(0);
+    transition: all 0.5s ease-out;
 }
 
 h2 .highlight {
@@ -78,22 +79,23 @@ h2 .highlight {
 
 h2.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.8rem;
     background-color: rgba(34, 36, 36, 0.5);
     /* width -> stop background running all the way
       across the screen */
     width: fit-content;
-    animation: main-enter 0.6s ease-in-out;
+    transform: translateX(0);
+    transition: all 0.6s ease-out;
     border-radius: 10px;
 }
 
 .social-icons {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     background-color: rgba(34, 36, 36, 0.5);
     width: fit-content;
     border-radius: 10px;
     transform: translateX(0);
-    animation: main-enter 0.8s ease-in-out;
+    transition: all 0.7s ease-out;
 }
 
 .social-icons a {
@@ -107,18 +109,18 @@ h2.sm-heading {
 }
 
 .lg-heading.hide {
-    animation: main-exit 1.2s ease-in-out;
-    transform: translateX(-100%);
+    transform: translateX(-1000px);
+    transition: all 0.7s ease-out;
   }
   
 .sm-heading.hide {
-    animation: main-exit 0.8s ease-in-out;
-    transform: translateX(-150%);
+    transform: translateX(-1000px);
+    transition: all 0.6s ease-out;
   }
   
-.social-icons.hide {
-    animation: main-exit 0.9s ease-in-out;
-    transform: translateX(-1000%);
+.social-icons.hide {  
+    transform: translateX(-1000px);
+    transition: all 0.5s ease-out;
   }
 
 
@@ -137,14 +139,16 @@ h2.sm-heading {
 
     h1.lg-heading {
       font-size: 4rem;
+      padding: 5px 6px;
     }
 
     h2.sm-heading {
-      font-size: 1.9rem;
+      font-size: 1.5rem;
+      padding: 5px 0;
     }
 
     h2.sm-heading>.highlight {
-      font-size: 3rem;
+      font-size: 1.8rem;
     }
   }
   

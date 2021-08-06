@@ -1,4 +1,6 @@
 
+import './Shared.css';
+
 const MenuButton = ({rotateBtn, changeRotateBtn}) => {
     return (
         <div className={rotateBtn ? 'menu-btn spin' : 'menu-btn'} onClick={() => changeRotateBtn(!rotateBtn)}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
+import { Dimmer, Icon, Loader, Segment } from 'semantic-ui-react';
 import './Home.css';
 import Trailer from '../logo_trailer.m4v'
 
@@ -23,6 +23,7 @@ const HomeMain = ({rotateBtn}) => {
                         <Icon name='youtube' size='big'/>
                     </a>                
                 </div>
+                <Loader size="massive" indeterminate inline="centered"></Loader>            
             </div>
         </div>
     )

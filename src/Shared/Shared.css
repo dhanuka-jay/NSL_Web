@@ -5,7 +5,6 @@
     width: 100%;
 }
 
-
 .menu-btn {
     position: absolute;
     z-index: 10;
@@ -15,7 +14,6 @@
     transition: all 0.5s ease-out;
     width: 100px;
     height: 100px;
-    background: url('../png_logo_NSL_100px.png') center no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
