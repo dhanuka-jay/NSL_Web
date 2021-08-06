@@ -7,7 +7,7 @@ const HomeMain = ({rotateBtn}) => {
     return (
         <div id='home-main'>            
             <div className="overlay"></div>
-            <video src={Trailer} muted loop autoPlay />
+            <video src={Trailer} playsInline muted loop autoPlay />
             <div className="home-content">
                 <h1 className={ rotateBtn ? 'lg-heading hide' : 'lg-heading' }>
                     Northside Legends
