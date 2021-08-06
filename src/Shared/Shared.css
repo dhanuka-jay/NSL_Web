@@ -5,11 +5,22 @@
     width: 100%;
 }
 
-.menu-btn {
+.btn-background {
     position: absolute;
     z-index: 10;
     right: 35px;
     top: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(212,175,55, 0.2);
+}
+
+.menu-btn {
+    z-index: 10;
     cursor: pointer;
     transition: all 0.5s ease-out;
     width: 100px;
@@ -36,7 +47,7 @@
 .btn-line {
     width: 35px;
     height: 3px;
-    margin: 0 0 6px 0;
+    margin: 3px 0 3px 0;
     background: #fff;
     transition: all 0.5s ease-out;
 }

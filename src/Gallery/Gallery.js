@@ -1,7 +1,7 @@
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './MediaGallery.css';
-import { Modal } from 'semantic-ui-react';
+import { Modal, Popup } from 'semantic-ui-react';
 import img1 from '../img/gal_img_1.jpg';
 import img2 from '../img/gal_img_2.jpg';
 import img3 from '../img/gal_img_3.jpg';
@@ -13,6 +13,7 @@ const Gallery = () => {
 
     const [isImgOpen, setIsImgOpen] = useState(false);
     const [currImg, setCurrImg] = useState();
+    const imgRef = useRef();
 
     const handleImageClick = (img_id) => {
         setIsImgOpen(true);
@@ -73,11 +74,12 @@ const Gallery = () => {
                 <div 
                     className="gal-img"
                     onClick={() => handleImageClick(5)}>
-                    <img src={img5} alt="Sorry, Photo unavailable" />
+                    <img ref={imgRef} src={img5} alt="Sorry, Photo unavailable" />
                 </div>
             </div>
 
             <Modal
+                closeIcon
                 size='large'
                 open={isImgOpen}
                 onClose={() => setIsImgOpen(false)}
