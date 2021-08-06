@@ -92,7 +92,8 @@ h2.sm-heading {
     background-color: rgba(34, 36, 36, 0.5);
     width: fit-content;
     border-radius: 10px;
-    animation: main-enter 0.7s ease-in-out;
+    transform: translateX(0);
+    animation: main-enter 0.8s ease-in-out;
 }
 
 .social-icons a {
@@ -116,8 +117,8 @@ h2.sm-heading {
   }
   
 .social-icons.hide {
-    animation: main-exit 1.5s ease-in-out;
-    transform: translateX(-100%);
+    animation: main-exit 0.9s ease-in-out;
+    transform: translateX(-1000%);
   }
 
 
@@ -125,7 +126,7 @@ h2.sm-heading {
 
 
   /* Screen Size: ............ */
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .home-content {
       display: flex;
       flex-direction: column;
