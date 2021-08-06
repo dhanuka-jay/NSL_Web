@@ -101,7 +101,7 @@
 .main-menu .menu-branding .branding-logo {
     height: 300px;
     width: 300px;
-    background: url('../png_logo_small_NSL.png') center;
+    background: url('../png_logo_NSL_250px.png') center no-repeat;
 }
 
 .main-menu .menu-nav .nav-item {
