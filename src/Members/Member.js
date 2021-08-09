@@ -7,12 +7,17 @@ const Member = () => {
         console.log(res);
     }
 
+    const letsDoFacebook = () => {
+        console.log('Im clicked...123456')
+    }
+
     return (
         <div className='member-login'>
             <FacebookLogin
                 appId="193590582676222"
                 autoLoad={true}
                 fields="name,email,picture"
+                onClick={() => letsDoFacebook()}
                 callback={responseFacebook} 
             />
         </div>
