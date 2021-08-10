@@ -24,7 +24,7 @@ const Member = () => {
             <FacebookLogin
                 className='fb-btn'
                 appId="526218825319359"
-                autoLoad={true}
+                autoLoad={false}
                 fields="name,email,picture"
                 icon={<Icon className='facebook official' size='large'/>}
                 textButton="Member Login"
