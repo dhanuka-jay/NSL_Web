@@ -13,7 +13,6 @@ const Member = () => {
             email: res.email,
             photoUrl: res.picture.data.url
         })
-        console.log(loggedInMember);
     }
 
     const letsDoFacebook = () => {

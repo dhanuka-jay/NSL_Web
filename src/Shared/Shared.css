@@ -110,7 +110,7 @@
     color: #fff;
     padding: 15px 0px;
     transform: translate3d(600px, 0, 0);
-    transition: alls 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 .main-menu .menu-nav .nav-item.show {
