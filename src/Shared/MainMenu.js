@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Member from '../Members/Member';
 
 const MainMenu = ({rotateBtn, changeRotateBtn}) => {
     return (
         <div className={ rotateBtn ? 'main-menu show' : 'main-menu' }>
             <div className={ rotateBtn ? 'menu-branding show' : 'menu-branding' }>
                 <div className="branding-logo">
-                </div>
+                </div>                                              
+                <Member />
             </div>
             <div className={ rotateBtn ? 'menu-nav show' : 'menu-nav' }>
                 <Link 
@@ -23,7 +25,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn}) => {
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
                     Media Gallery
-                </Link>
+                </Link>   
             </div>
             
         </div>

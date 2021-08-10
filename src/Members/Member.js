@@ -1,10 +1,18 @@
-import React from 'react'
+import { useState } from 'react';
 import FacebookLogin from 'react-facebook-login';
+import { Icon } from 'semantic-ui-react'
+import './Member.css'
 
 const Member = () => {
 
+    const [loggedInMember, setLoggedInMember] = useState({});
+
     const responseFacebook = (res) => {
-        console.log(res);
+        setLoggedInMember({
+            email: res.email,
+            photoUrl: res.picture.data.url
+        })
+        console.log(loggedInMember);
     }
 
     const letsDoFacebook = () => {
@@ -14,9 +22,12 @@ const Member = () => {
     return (
         <div className='member-login'>
             <FacebookLogin
-                appId="193590582676222"
+                className='fb-btn'
+                appId="526218825319359"
                 autoLoad={true}
                 fields="name,email,picture"
+                icon={<Icon className='facebook official' size='large'/>}
+                textButton="Member Login"
                 onClick={() => letsDoFacebook()}
                 callback={responseFacebook} 
             />

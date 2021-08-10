@@ -15,7 +15,6 @@ const HomeMain = ({rotateBtn}) => {
                 </h1>
                 <h2 className={ rotateBtn ? 'sm-heading hide' : 'sm-heading' }>
                     We welcome you to <span className="highlight">Northside Legends</span> cricket club!
-                    <Member />
                 </h2>
                 <div className={ rotateBtn ? 'social-icons hide' : 'social-icons' }>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
@@ -24,8 +23,7 @@ const HomeMain = ({rotateBtn}) => {
                     <a href="https://www.youtube.com/channel/UCPmT74NawRaPkpVuVtWYkMA" target='_blank'>
                         <Icon name='youtube' size='big'/>
                     </a>                
-                </div>
-                <Loader size="massive" indeterminate inline="centered"></Loader>            
+                </div>        
             </div>
         </div>
     )
