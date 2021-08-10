@@ -9,6 +9,7 @@ const Member = () => {
 
     const responseFacebook = (res) => {
         setLoggedInMember({
+            fbName: res.name,
             email: res.email,
             photoUrl: res.picture.data.url
         })

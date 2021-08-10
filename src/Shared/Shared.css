@@ -81,7 +81,7 @@
 .main-menu .menu-nav {
     background-color: rgba(58,58,58, 1);
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .main-menu .menu-nav.show {
@@ -91,7 +91,7 @@
 .main-menu .menu-branding {
     background-color: rgba(37,37,37, 1);
     transform: translate3d(0, 100%, 0);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .main-menu .menu-branding.show {
@@ -105,11 +105,12 @@
 }
 
 .main-menu .menu-nav .nav-item {
+    font-family: 'ANDYB';
     font-size: 2rem;
     color: #fff;
     padding: 15px 0px;
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-in-out;
+    transition: alls 0.7s ease-in-out;
 }
 
 .main-menu .menu-nav .nav-item.show {
@@ -138,6 +139,13 @@
     color: #fff;
 }
 
+.main-menu .menu-nav .nav-item:hover {
+    text-shadow: -0.75px 0.75px 0 #e8491d,
+        0.75px 0.75px 0 #e8491d,
+        0.75px -0.75px 0 #e8491d,
+        -0.75px -0.75px 0 #e8491d;
+}
+
 
 /* Screen Size: ............ */
 
@@ -149,6 +157,7 @@
     }
 
     .main-menu .menu-branding {
+        z-index: 8;
         height: 50vh;
         width: 100vw;
         transform: translate3d(0, 1000px, 0);
@@ -160,6 +169,7 @@
     }
     
     .main-menu .menu-nav {
+        z-index: 6;
         height: 50vh;
         width: 100vw;
         transform: translate3d(0, -1000px, 0);
