@@ -19,7 +19,7 @@ const Facebook = ({isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {
     }
 
     const letsDoFacebook = () => {
-        console.log('Fb button clicked')
+        console.log('Fb button clicked2')
     }
 
     return (
