@@ -7,3 +7,24 @@
 .kep-login-facebook {
     padding: 5px 10px !important;
 }
+
+.member-profile-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-profile-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-profile-body>.member-photo {
+    border-radius: 10px;
+}

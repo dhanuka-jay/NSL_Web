@@ -2,7 +2,6 @@ import React from 'react';
 import { Dimmer, Icon, Loader, Segment } from 'semantic-ui-react';
 import './Home.css';
 import Trailer from '../logo_trailer.m4v'
-import Member from '../Members/Member';
 
 const HomeMain = ({rotateBtn}) => {
     return (

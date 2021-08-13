@@ -1,13 +1,19 @@
 import { Link } from 'react-router-dom';
-import Member from '../Members/Member';
+import Facebook from '../Members/Facebook';
 
-const MainMenu = ({rotateBtn, changeRotateBtn}) => {
+const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    
+
     return (
         <div className={ rotateBtn ? 'main-menu show' : 'main-menu' }>
             <div className={ rotateBtn ? 'menu-branding show' : 'menu-branding' }>
                 <div className="branding-logo">
-                </div>                                              
-                <Member />
+                </div>
+                {isLoggedIn ? '' : <Facebook 
+                                        isLoggedIn={isLoggedIn}
+                                        setIsLoggedIn={setIsLoggedIn}   
+                                        setLoggedInMember={setLoggedInMember}                                     
+                                    />
+                }
             </div>
             <div className={ rotateBtn ? 'menu-nav show' : 'menu-nav' }>
                 <Link 
@@ -25,7 +31,19 @@ const MainMenu = ({rotateBtn, changeRotateBtn}) => {
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
                     Media Gallery
-                </Link>   
+                </Link>
+                { isLoggedIn ?
+                <Link 
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link3'
+                    to='/member'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    My Profile
+                </Link> 
+                :
+                ''
+                }    
             </div>
             
         </div>
