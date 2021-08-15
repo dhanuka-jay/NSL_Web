@@ -4,6 +4,20 @@
     border: 1px solid #cd853f;
 }
 
+h2, h3 {
+    font-family: 'ANDYB' !important;
+    padding: 5px 0 0 10px !important;
+    margin: 0 !important;
+}
+
+.member-profile-container h2 {
+    font-size: 2.5rem !important;
+    text-shadow: -0.75px 0.75px 0 #e8491d,
+        0.75px 0.75px 0 #e8491d,
+        0.75px -0.75px 0 #e8491d,
+        -0.75px -0.75px 0 #e8491d;
+}
+
 .kep-login-facebook {
     padding: 5px 10px !important;
 }
@@ -17,14 +31,25 @@
     align-items: center;
 }
 
-.member-profile-body {
-    height: 100vh;
+.member-personal-details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.member-score-container {
+    width: 100%;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.member-profile-body>.member-photo {
+.ui.table {
+    margin: 0 !important;
+}
+
+.member-photo>img {
     border-radius: 10px;
 }
