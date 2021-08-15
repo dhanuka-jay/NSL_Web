@@ -5,6 +5,7 @@ import MainMenu from "./Shared/MainMenu";
 import MemberProfile from "./Members/MemberProfile";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from "./Gallery/Gallery";
+import Footer from "./Shared/Footer";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
@@ -33,11 +34,13 @@ function App() {
           </Route>
           <Route path='/gallery'>
             <Gallery />
+            <Footer />
           </Route>
           <Route path='/member'>
             <MemberProfile 
               loggedInMember={loggedInMember}
             />
+            <Footer />
           </Route>
         </Switch>
       </div>

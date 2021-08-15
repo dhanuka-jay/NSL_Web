@@ -1,9 +1,6 @@
-import { useState } from 'react';
-import { flushSync } from 'react-dom';
 import FacebookLogin from 'react-facebook-login';
-import { Icon, Modal, Button, Image } from 'semantic-ui-react'
+import { Icon} from 'semantic-ui-react'
 import './Member.css'
-import MemberProfile from './MemberProfile';
 
 const Facebook = ({isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {
 
@@ -30,8 +27,8 @@ const Facebook = ({isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {
                     :
                     <FacebookLogin
                         className='fb-btn'
-                        // appId="526218825319359"
-                        appId="193590582676222"
+                        appId="526218825319359"
+                        // appId="193590582676222"
                         isMobile={false}
                         autoLoad={false}
                         fields="name,email,picture"

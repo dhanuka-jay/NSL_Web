@@ -64,8 +64,8 @@ const MemberProfile = ({loggedInMember}) => {
                             </Table.Row>
                             <Table.Row>
                                 <Table.Cell>32</Table.Cell>
-                                <Table.Cell>4</Table.Cell>
-                                <Table.Cell>1</Table.Cell>
+                                <Table.Cell>6</Table.Cell>
+                                <Table.Cell>3</Table.Cell>
                                 <Table.Cell>72.6</Table.Cell>
                                 <Table.Cell>11.0</Table.Cell>
                             </Table.Row>
