@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Transition } from 'semantic-ui-react';
 import Facebook from '../Members/Facebook';
 
 const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    

@@ -110,7 +110,7 @@
     color: #fff;
     padding: 15px 0px;
     transform: translate3d(600px, 0, 0);
-    transition: all 0.7s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .main-menu .menu-nav .nav-item.show {
@@ -133,13 +133,9 @@
     transition-delay: 0.5s;
 }
 
-
-
-.main-menu .menu-nav .nav-item .nav-link {
-    color: #fff;
-}
-
 .main-menu .menu-nav .nav-item:hover {
+    transition: none;
+    transform: scaleX(1.2);
     text-shadow: -0.75px 0.75px 0 #e8491d,
         0.75px 0.75px 0 #e8491d,
         0.75px -0.75px 0 #e8491d,
