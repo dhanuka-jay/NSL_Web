@@ -1,4 +1,4 @@
-import { Button, Form, Icon, Message } from 'semantic-ui-react';
+import { Button, Form, Icon, Message, Divider, Header } from 'semantic-ui-react';
 import './Contacts.css';
 
 const Contacts = () => {
@@ -12,6 +12,12 @@ const Contacts = () => {
                     <h3>It's great to have you here! Let's get in touch for sure.</h3>
                 </div>
             </div>
+            <Divider horizontal>
+                <Header as='h4'>
+                    <Icon name='handshake' />
+                    Reach Us on...
+                </Header>
+            </Divider>
             <div className="contact-method-container">
                 <div className="contact-phone">
                     <Icon name="facebook f" size="large" />
@@ -29,8 +35,14 @@ const Contacts = () => {
                     <h4>info@northsidelegends.com</h4>     
                 </div>
             </div>
+            <Divider horizontal>
+                <Header as='h4'>
+                    <Icon name='mail outline' />
+                    Send us a message...
+                </Header>
+            </Divider>
             <div className="send-message-container">
-                <Form success size="small">
+                <Form success size="mini">
                     <Form.Input label='Email' placeholder='joe@schmoe.com' />
                     <Form.Input label='Phone' placeholder='+99 9999 999' />
                     <Form.TextArea label='Message' placeholder='Your query here...' />

@@ -15,12 +15,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 5px 0px;
 }
 
+.contacts-container .ui.divider {
+    width: 60% !important;
+}
+
 .contact-method-container {
-    margin: 35px;
+    margin: 15px;
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -78,6 +82,10 @@
 }
 
 @media (max-width: 1000px) {
+    .contacts-container {
+        padding-top: 50px;
+    }
+
     .contact-header, .contact-method-container, .send-message-container {
         width: 90%;
     }
@@ -89,15 +97,21 @@
     }
 
     .contact-big-header h1 {
+        padding: 0px 30px 0px 30px;
         font-size: 2.2rem !important;
     }
 
+    .contact-small-header h3 {
+        padding: 0px 30px 0px 30px;
+        font-size: 1.1rem !important;
+    }
+
     .contact-phone, .contact-email, .contact-facebook {
-        margin: 20px 0px;
+        margin: 5px 0px 10px 0px;
     }
 
     .contact-method-container {
-        margin: 35px 0px 15px 0px;
+        margin: 5px 0px 15px 0px;
         width: 60%;
         display: flex;
         flex-direction: column;
@@ -105,6 +119,6 @@
     }
 
     .send-message-container .ui.form {
-        size: "huge";
+        size: "huge" !important;
     }
 }
