@@ -33,10 +33,18 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 >
                     Media Gallery
                 </Link>
+                <Link
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link3'
+                    to='/contacts'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    Contact Us
+                </Link>
                 { isLoggedIn ?
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link3'
+                    id='link4'
                     to='/member'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >

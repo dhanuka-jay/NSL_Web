@@ -27,8 +27,8 @@ const Facebook = ({isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {
                     :
                     <FacebookLogin
                         className='fb-btn'
-                        // appId="526218825319359"
-                        appId="193590582676222"
+                        appId="526218825319359"
+                        // appId="193590582676222"
                         isMobile={false}
                         autoLoad={false}
                         fields="name,email,picture"

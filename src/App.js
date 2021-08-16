@@ -1,7 +1,7 @@
 import Header from "./Shared/Header";
 import { useState } from "react";
 import HomeMain from "./Home/HomeMain";
-import MainMenu from "./Shared/MainMenu";
+import Contacts from "./ContactMe/Contacts";
 import MemberProfile from "./Members/MemberProfile";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from "./Gallery/Gallery";
@@ -40,6 +40,10 @@ function App() {
             <MemberProfile 
               loggedInMember={loggedInMember}
             />
+            <Footer />
+          </Route>
+          <Route path='/contacts'>
+            <Contacts />
             <Footer />
           </Route>
         </Switch>
