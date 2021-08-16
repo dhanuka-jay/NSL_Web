@@ -1,7 +1,12 @@
+.contacts-container * {
+    box-sizing: border-box !important;
+    margin: 0%;
+    padding: 0%;
+}
 
 .contacts-container {
     width: 100vw;
-    height: 100%;    
+    height: 100vh;    
     background: url('../img/gal_img_2.jpg') center cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -82,8 +87,12 @@
 }
 
 @media (max-width: 1000px) {
+
     .contacts-container {
-        padding-top: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
     }
 
     .contacts-container .ui.divider {
@@ -97,7 +106,7 @@
     .contact-header {
         word-wrap: break-word;
         text-align: center;
-        /* margin-top: 270px; */
+        margin-top: 10px;
     }
 
     .contact-big-header h1 {
