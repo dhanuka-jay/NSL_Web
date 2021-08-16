@@ -30,7 +30,7 @@ const Contacts = () => {
                 </div>
             </div>
             <div className="send-message-container">
-                <Form success>
+                <Form success size="small">
                     <Form.Input label='Email' placeholder='joe@schmoe.com' />
                     <Form.Input label='Phone' placeholder='+99 9999 999' />
                     <Form.TextArea label='Message' placeholder='Your query here...' />
