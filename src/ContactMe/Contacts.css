@@ -154,6 +154,13 @@
         margin: 10px 0px 0px 0px;
     }
 
+    .contacts-container .ui.divider::before,
+    .contacts-container .ui.divider::after
+    {
+        transform: scaleY(2) !important;
+    }
+
+
     .contact-header, .contact-method-container, .send-message-container {
         width: 90%;
     }
