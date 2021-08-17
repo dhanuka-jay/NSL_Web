@@ -187,7 +187,7 @@
 
     .main-menu .menu-branding {
         z-index: 8;
-        height: 50vh;
+        height: 45vh;
         width: 100vw;
         transform: translate3d(0, 1000px, 0);
         transition: all 0.7s ease-in-out;
@@ -198,12 +198,18 @@
     }
     
     .main-menu .menu-nav {
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         z-index: 6;
-        height: 50vh;
+        height: 55vh;
         width: 100vw;
         transform: translate3d(0, -1000px, 0);
         transition: all 0.7s ease-in-out;
+    }
+
+    .main-menu .menu-nav .nav-item {
+        font-size: 1.8rem;
+        color: #fff;
+        padding: 10px 0px;
     }
 
     .main-menu .menu-nav.show {

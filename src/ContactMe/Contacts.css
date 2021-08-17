@@ -47,6 +47,7 @@
 }
 
 .contact-phone .icon, .contact-email .icon, .contact-facebook .icon {
+    color: #fff;
     text-shadow: -0.75px 0.75px 0 #e8491d,
         0.75px 0.75px 0 #e8491d,
         0.75px -0.75px 0 #e8491d,
@@ -66,7 +67,7 @@
     text-shadow: -0.75px 0.75px 0 #e8491d,
         0.75px 0.75px 0 #e8491d,
         0.75px -0.75px 0 #e8491d,
-        -0.75px -0.75px 0 #e8491d;
+        -0.75px -0.75px 0 #e8491d !important;
 }
 
 .contact-small-header h3 {
@@ -88,7 +89,6 @@
 }
 
 @media (max-width: 1000px) {
-
     .contacts-container {
         display: flex;
         flex-direction: column;
@@ -111,12 +111,12 @@
     }
 
     .contact-big-header h1 {
-        padding: 0px 30px 0px 30px;
+        padding: 5px 30px 5px 30px;
         font-size: 2.2rem !important;
-        text-shadow: -0.75px 0.75px 0 #e8491d,
-        0.75px 0.75px 0 #e8491d,
-        0.75px -0.75px 0 #e8491d,
-        -0.75px -0.75px 0 #e8491d;
+        text-shadow: -1.25px 1.25px 0 #e8491d,
+        1.25px 1.25px 0 #e8491d,
+        1.25px -1.25px 0 #e8491d,
+        -1.25px -1.25px 0 #e8491d !important;
     }
 
     .contact-small-header h3 {
@@ -129,10 +129,10 @@
     }
 
     .contact-phone .icon, .contact-email .icon, .contact-facebook .icon {
-        text-shadow: -0.75px 0.75px 0 #e8491d,
-            0.75px 0.75px 0 #e8491d,
-            0.75px -0.75px 0 #e8491d,
-            -0.75px -0.75px 0 #e8491d;
+        text-shadow: -1.25px 1.25px 0 #e8491d,
+        1.25px 1.25px 0 #e8491d,
+        1.25px -1.25px 0 #e8491d,
+        -1.25px -1.25px 0 #e8491d !important;
     }
 
     .contact-phone h4, 
