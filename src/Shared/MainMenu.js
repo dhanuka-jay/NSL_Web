@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { Transition } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import Facebook from '../Members/Facebook';
+import MainLogo from '../png_logo_NSL_250px.png';
 
 const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    
 
@@ -8,6 +9,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
         <div className={ rotateBtn ? 'main-menu show' : 'main-menu' }>
             <div className={ rotateBtn ? 'menu-branding show' : 'menu-branding' }>
                 <div className="branding-logo">
+                    <Image src={MainLogo} centered alt="Player Profile Photo" />
                 </div>
                 {isLoggedIn ? '' : <Facebook 
                                         isLoggedIn={isLoggedIn}
