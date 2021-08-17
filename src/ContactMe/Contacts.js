@@ -38,7 +38,7 @@ const Contacts = () => {
             <Divider horizontal>
                 <Header as='h4'>
                     <Icon name='mail outline' />
-                    Send us a message...
+                    Message Us...
                 </Header>
             </Divider>
             <div className="send-message-container">

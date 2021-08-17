@@ -4,6 +4,7 @@ import FooterLogo from '../png_logo_NSL_70px.png';
 const Footer = () => {
     return (
         <div className="footer-container">
+            <div className="footer-overlay"></div>
             <div className="footer-logo-container">
                 <Image src={FooterLogo} alt="Player Profile Photo" /> 
             </div>  

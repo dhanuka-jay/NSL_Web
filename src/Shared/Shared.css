@@ -143,8 +143,9 @@
 
 /*    Footer   */
 .footer-container {
+    position: relative;
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,25 +153,28 @@
     z-index: 3;
     border-top: 3px solid #e8491d;
     border-bottom: 3px solid #e8491d;
+    /* background: url('../img/gal_img_2.jpg') center;
+    background-position: 0% 45%; */
+}
+
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(68, 71, 71, 0.2);
 }
 
 .footer-logo-container {
     width: 50px;
     height: 50px;
-}
-
-.footer-social-media-icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.footer-social-media-icons a {
-    padding: 0px 5px;
+    margin-top: 10px;
 }
 
 .copyright h4 {
     font-family: 'ANDYB' !important;
+    font-size: 1.3rem;
     color: #000;
 }
 
@@ -219,6 +223,11 @@
         height: 200px;
         width: 200px;
         margin-bottom: 15px;
+    }
+
+    .copyright h4 {
+        font-size: 1.1rem;
+        padding: 10px 0px 10px 0px;
     }
 }
 
