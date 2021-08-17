@@ -15,7 +15,7 @@ const Contacts = () => {
             <Divider horizontal>
                 <Header as='h2'>
                     <Icon name='handshake' />
-                    Reach Us on...
+                    Reach Us On..
                 </Header>
             </Divider>
             <div className="contact-method-container">
@@ -38,7 +38,7 @@ const Contacts = () => {
             <Divider horizontal>
                 <Header as='h2'>
                     <Icon name='mail outline' />
-                    Message Us...
+                    Message Us..
                 </Header>
             </Divider>
             <div className="send-message-container">

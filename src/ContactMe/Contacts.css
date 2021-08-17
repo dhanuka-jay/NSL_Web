@@ -154,6 +154,10 @@
         margin: 10px 0px 0px 0px;
     }
 
+    .contacts-container .ui.divider .ui.header{
+        font-size: 1.2rem;
+    }
+
     .contacts-container .ui.divider::before,
     .contacts-container .ui.divider::after
     {
