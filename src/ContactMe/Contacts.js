@@ -13,47 +13,45 @@ const Contacts = () => {
                 </div>
             </div>
             <Divider horizontal>
-                <Header as='h4'>
+                <Header as='h2'>
                     <Icon name='handshake' />
                     Reach Us on...
                 </Header>
             </Divider>
             <div className="contact-method-container">
+                <div className="contact-facebook">
+                    <Icon name="facebook f" size="big" />
+                    <h4>Like our facebook page</h4>
+                    <h3>Northside Legends</h3>
+                </div>
                 <div className="contact-phone">
-                    <Icon name="facebook f" size="large" />
-                    <h3>Like our facebook page</h3>
-                    <h4>Northside Legegends</h4>
+                    <Icon name="phone" size="big" />
+                    <h4>Give us a call</h4>
+                    <h3>+61 432009680</h3>                    
                 </div>
                 <div className="contact-email">
-                    <Icon name="phone" size="large" />
-                    <h3>Give us a call</h3>
-                    <h4>+61 432009680</h4>                    
-                </div>
-                <div className="contact-facebook">
-                    <Icon name="mail" size="large" /> 
-                    <h3>Send us an Email</h3>
-                    <h4>info@northsidelegends.com</h4>     
+                    <Icon name="mail" size="big" /> 
+                    <h4>Send us an Email</h4>
+                    <h3>info@northsidelegends.com</h3>     
                 </div>
             </div>
             <Divider horizontal>
-                <Header as='h4'>
+                <Header as='h2'>
                     <Icon name='mail outline' />
                     Message Us...
                 </Header>
             </Divider>
             <div className="send-message-container">
-                <Form success size="mini">
-                    <Form.Input label='Email' placeholder='joe@schmoe.com' />
-                    <Form.Input label='Phone' placeholder='+99 9999 999' />
+                <Form size="large">
+                    <Form.Group widths="equal">
+                        <Form.Input label='Name' placeholder='Your Name' />
+                        <Form.Input label='Email' placeholder='joe@schmoe.com' />
+                    </Form.Group>
                     <Form.TextArea label='Message' placeholder='Your query here...' />
-                    <Message
-                        success
-                        header="Thanks heaps for getting in touch with us."
-                        content="We will get back to you as soon as we can. We appreciate your concern."
-                    />
-                    <Button>Send</Button>
+                    <Button size="large" floated="right">Send</Button>
                 </Form>
             </div>
+            <div className="contact-overlay"></div>
         </div>
     )
 }

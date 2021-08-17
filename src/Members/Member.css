@@ -1,4 +1,5 @@
-.kep-login-facebook.metro {
+.member-login .kep-login-facebook {
+    font-family: 'ANDYB' !important;
     border-radius: 10px !important;
     /* border: 1px solid #8b0000; */
     border: 1px solid #cd853f;

@@ -5,15 +5,30 @@
 }
 
 .contacts-container {
+    position: relative;
     width: 100vw;
     min-height: 100%;    
-    background: url('../img/gal_img_2.jpg') center cover no-repeat;
+    background: url('../img/gal_img_2.jpg') fixed center;
+    background-size: cover;
     background-color: #444;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: auto;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 17, 17, 0.9);
+}
+
+.contact-header, .contact-method-container, .send-message-container , .contacts-container .ui.divider{
+    z-index: 2;
 }
 
 .contact-header {
@@ -29,6 +44,10 @@
     width: 60% !important;
 }
 
+.contacts-container .ui.divider .ui.header{
+    color: rgb(163, 129, 129);
+}
+
 .contact-method-container {
     margin: 15px;
     width: 60%;
@@ -36,6 +55,10 @@
     flex-direction: row;
     justify-content: space-between;
 
+}
+
+.contact-method-container h3:hover {
+    transform: scaleX(1.2);
 }
 
 .contact-phone, .contact-email, .contact-facebook {
@@ -52,6 +75,7 @@
         0.75px 0.75px 0 #e8491d,
         0.75px -0.75px 0 #e8491d,
         -0.75px -0.75px 0 #e8491d;
+    padding-bottom: 30px;
 }
 
 .contacts-container h1, 
@@ -60,6 +84,14 @@
 .contacts-container h4 {
     margin: 3px 0 0 0 !important;
     font-family: 'ANDYB' !important;
+}
+
+.contact-phone h3, .contact-email h3, .contact-facebook h3 {
+    font-size: 1.8rem;
+}
+
+.contact-phone h4, .contact-email h4, .contact-facebook h4 {
+    font-size: 1.3rem;
 }
 
 .contact-big-header h1{
@@ -83,10 +115,32 @@
     width: 100%;
 }
 
-.send-message-container .ui.button {
-    color: #e8491d;
-    border: 1px solid #e8491d
+.send-message-container .ui.form .field>label {
+    font-family: 'ANDYB' !important;
+    color: #fff;
+    font-size: 1.2rem;
 }
+
+.send-message-container .ui.form input,
+.send-message-container .ui.form textarea
+{
+    font-family: 'ANDYB' !important;
+    font-size: 1.3rem !important;
+    background: rgba(135, 138, 138, 0.3) !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.send-message-container .ui.button {
+    font-family: 'ANDYB' !important;
+    font-size: 1.8rem !important;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 35px;
+    background-color: #e8491d;
+}
+
+/* ===================================================== */
 
 @media (max-width: 1000px) {
     .contacts-container {
@@ -107,7 +161,7 @@
     .contact-header {
         word-wrap: break-word;
         text-align: center;
-        margin-top: 10px;
+        margin: 10px 0px 20px 0px;
     }
 
     .contact-big-header h1 {
@@ -125,7 +179,7 @@
     }
 
     .contact-phone, .contact-email, .contact-facebook {
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
 
     .contact-phone .icon, .contact-email .icon, .contact-facebook .icon {
@@ -138,7 +192,6 @@
     .contact-phone h4, 
     .contact-email h4, 
     .contact-facebook h4 {
-        border: 1px dotted #000;
         padding: 2px 5px;
         border-radius: 5px;
     }
