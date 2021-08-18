@@ -150,6 +150,10 @@ h2.sm-heading {
     h1.lg-heading {
       font-size: 4rem;
       padding: 5px 6px;
+      text-shadow: -1px 1px 0 #fff,
+                    1px 1px 0 #fff,
+                    1px -1px 0 #fff,
+                    -1px -1px 0 #fff;
     }
 
     h2.sm-heading {

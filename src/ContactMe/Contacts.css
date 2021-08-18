@@ -148,6 +148,7 @@
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 60px;
+        background-size: initial;
     }
 
     .contacts-container .ui.divider {
