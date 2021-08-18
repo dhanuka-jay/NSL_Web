@@ -17,10 +17,14 @@ const HomeMain = ({rotateBtn}) => {
                 </h2>
                 <div className={ rotateBtn ? 'social-icons hide' : 'social-icons' }>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
-                        <Icon name='facebook square' size='big'/>
+                        <div className="icon-container">
+                            <Icon name='facebook f' size='large'/>
+                        </div>
                     </a>
                     <a href="https://www.youtube.com/channel/UCPmT74NawRaPkpVuVtWYkMA" target='_blank'>
-                        <Icon name='youtube' size='big'/>
+                        <div className="icon-container">
+                            <Icon name='youtube play' size='large'/>
+                        </div>
                     </a>                
                 </div>        
             </div>

@@ -99,6 +99,7 @@ h2.sm-heading {
 }
 
 .social-icons {
+    display: flex;
     padding: 0.5rem 0.8rem;
     background-color: rgba(34, 36, 36, 0.5);
     width: fit-content;
@@ -109,8 +110,14 @@ h2.sm-heading {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #000;
     padding: 0.2rem;
+}
+
+.social-icons .icon-container {  
+  padding: 7px 7px;
+  border-radius: 50%;
+  background: #fff;
 }
 
 .social-icons a:hover {

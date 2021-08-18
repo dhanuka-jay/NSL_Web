@@ -45,6 +45,7 @@ const Gallery = () => {
 
     return (
         <div className='gallery'>
+            <div className="gallery-overlay"></div>
             <div className="gallery-container">
                 <div 
                     className="gal-img"
