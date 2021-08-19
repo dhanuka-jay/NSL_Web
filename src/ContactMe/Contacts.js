@@ -1,3 +1,4 @@
+import Thankyou from './ThankyouPage';
 import { Button, Form, Icon, Message, Divider, Header } from 'semantic-ui-react';
 import './Contacts.css';
 
@@ -47,7 +48,7 @@ const Contacts = () => {
                         <Form.Input label='Name' name="name" placeholder='Your Name' required/>
                         <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>                        
                     </Form.Group>
-                    <input type="hidden" name="_next" value="https://northsidelegends.netlify.app/thankyou" />
+                    <input type="hidden" name="_next" value={<Thankyou />} />
                     <Form.TextArea label='Message' name="message" placeholder='Your query here...' required/>
                     <Button type="submit" size="large" floated="right">Send</Button>
                 </Form>
