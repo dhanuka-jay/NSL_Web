@@ -115,7 +115,8 @@ h2.sm-heading {
 }
 
 .social-icons .icon-container {  
-  padding: 7px 7px;
+  padding: 7px 3px 6px 6px;
+  margin-left: 5px;
   border-radius: 50%;
   background: #fff;
 }

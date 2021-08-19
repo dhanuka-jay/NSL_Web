@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Image } from 'semantic-ui-react';
 import Facebook from '../Members/Facebook';
-import MainLogo from '../png_logo_NSL_250px.png';
+import MainLogo from '../png_logo_NSL.png';
 
 const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    
 

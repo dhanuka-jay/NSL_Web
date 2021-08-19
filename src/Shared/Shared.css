@@ -32,18 +32,6 @@
     
 }
 
-.menu-btn.spin .btn-line.line1 {
-    transform: rotate(225deg) translate(-5px, -6px)
-}
-
-.menu-btn.spin .btn-line.line2 {
-    opacity: 0;
-}
-
-.menu-btn.spin .btn-line.line3 {
-    transform: rotate(-225deg) translate(-6px, 7px)
-}
-
 .btn-line {
     width: 35px;
     height: 3px;
@@ -52,7 +40,17 @@
     transition: all 0.5s ease-out;
 }
 
+.menu-btn.spin .btn-line.line1 {
+    transform: rotate(225deg) translate(-6px, -6px);
+}
 
+.menu-btn.spin .btn-line.line2 {
+    opacity: 0;
+}
+
+.menu-btn.spin .btn-line.line3 {
+    transform: rotate(-225deg) translate(-6px, 7px);
+}
 /* ********* MainMenu ******** */
 
 .main-menu {
@@ -99,8 +97,8 @@
 }
 
 .main-menu .menu-branding .branding-logo {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .main-menu .menu-nav .nav-item {
