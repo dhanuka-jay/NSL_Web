@@ -1,13 +1,13 @@
 
-.gallery {
+.gallery {    
     min-height: 100vh;
-    background: linear-gradient(rgba(46, 45, 46, 0.8), rgba(83, 81, 81, 0.8)), url('../img/gal_img_2.jpg') fixed center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: linear-gradient(rgba(46, 45, 46, 0.8), rgba(83, 81, 81, 0.8)), url('../img/gal_img_2.jpg') center no-repeat;
+    background-size: cover;   
     /* background: rgba(35, 35, 35, 1); */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    background-attachment: fixed;    
 }
 
 /* .gallery-overlay {
@@ -58,8 +58,9 @@
 @media (max-width: 600px) {
     .gallery {
         background-attachment: fixed;
+        background-size: cover;
     }
-    
+
     .gallery-container {
         display: flex;
         flex-direction: column;
