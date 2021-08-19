@@ -42,7 +42,7 @@ const Contacts = () => {
                 </Header>
             </Divider>
             <div className="send-message-container">
-                <Form size="large" action="https://formsubmit.co/dhanuka.singhe@email.com" method="POST">
+                <Form size="large" action="https://formsubmit.co/dhanuka.singhe@gmail.com" method="POST">
                     <Form.Group widths="equal">
                         <Form.Input label='Name' name="name" placeholder='Your Name' required/>
                         <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>
