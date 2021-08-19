@@ -5,6 +5,7 @@ import Contacts from "./ContactMe/Contacts";
 import MemberProfile from "./Members/MemberProfile";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from "./Gallery/Gallery";
+import ThankyouPage from "./ContactMe/ThankyouPage";
 import Footer from "./Shared/Footer";
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
           </Route>
           <Route path='/contacts'>
             <Contacts />
+            <Footer />
+          </Route>
+          <Route path="/thankyou">
+            <ThankyouPage />
             <Footer />
           </Route>
         </Switch>

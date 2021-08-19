@@ -45,8 +45,9 @@ const Contacts = () => {
                 <Form size="large" action="https://formsubmit.co/dhanuka.singhe@gmail.com" method="POST">
                     <Form.Group widths="equal">
                         <Form.Input label='Name' name="name" placeholder='Your Name' required/>
-                        <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>
+                        <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>                        
                     </Form.Group>
+                    <input type="hidden" name="_next" value="https://northsidelegends.netlify.app/thankyou" />
                     <Form.TextArea label='Message' name="message" placeholder='Your query here...' required/>
                     <Button type="submit" size="large" floated="right">Send</Button>
                 </Form>

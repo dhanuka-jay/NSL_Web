@@ -140,6 +140,28 @@
     background-color: #e8491d;
 }
 
+.contact-thankyou {
+    height: 100vh;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-thankyou h2 {
+    font-family: 'ANDYB' !important;
+    font-size: 1.8rem;
+}
+
+.contact-thankyou h3 {
+    font-family: 'ANDYB' !important;
+    font-size: 1.4rem;
+}
+
+
 /* ===================================================== */
 
 @media (max-width: 1000px) {
