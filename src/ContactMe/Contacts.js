@@ -42,13 +42,13 @@ const Contacts = () => {
                 </Header>
             </Divider>
             <div className="send-message-container">
-                <Form size="large">
+                <Form size="large" action="https://formsubmit.co/dhanuka.singhe@email.com" method="POST">
                     <Form.Group widths="equal">
-                        <Form.Input label='Name' placeholder='Your Name' />
-                        <Form.Input label='Email' placeholder='joe@schmoe.com' />
+                        <Form.Input label='Name' name="name" placeholder='Your Name' required/>
+                        <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>
                     </Form.Group>
-                    <Form.TextArea label='Message' placeholder='Your query here...' />
-                    <Button size="large" floated="right">Send</Button>
+                    <Form.TextArea label='Message' name="message" placeholder='Your query here...' required/>
+                    <Button type="submit" size="large" floated="right">Send</Button>
                 </Form>
             </div>
             <div className="contact-overlay"></div>
