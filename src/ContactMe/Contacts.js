@@ -9,7 +9,7 @@ const Contacts = () => {
     const sendMessage = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_c2iw184', 'template_4nzquvn', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
+        emailjs.sendForm('service_ids_mail', 'template_4nzquvn', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
         .then((result) => {
             // console.log(result.text);
             console.log(result.text, 'Message recieved')
@@ -43,17 +43,19 @@ const Contacts = () => {
                 <div className="contact-facebook">
                     <Icon name="facebook f" size="big" />
                     <h4>Like our facebook page</h4>
-                    <h3>Northside Legends</h3>
+                    <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
+                        <h3>Northside Legends</h3>
+                    </a>                    
                 </div>
                 <div className="contact-phone">
                     <Icon name="phone" size="big" />
                     <h4>Give us a call</h4>
-                    <h3>+61 432009680</h3>                    
+                    <h3>0423 863519</h3>                    
                 </div>
                 <div className="contact-email">
                     <Icon name="mail" size="big" /> 
                     <h4>Send us an Email</h4>
-                    <h3>info@northsidelegends.com</h3>     
+                    <h3>info@northsidelegends.com.au</h3>     
                 </div>
             </div>
             <Divider horizontal>

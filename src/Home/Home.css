@@ -39,9 +39,9 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    object-fit: cover;
     opacity: 0.7;
     z-index: 1;
+    object-fit: cover;
 }
 
 #home-main .overlay {
@@ -154,6 +154,10 @@ h2.sm-heading {
       align-items: center;
       text-align: center;
     }
+
+    /* #home-main video {
+      transform: scale(90% , 90%);
+    } */
 
     h1.lg-heading {
       font-size: 4rem;

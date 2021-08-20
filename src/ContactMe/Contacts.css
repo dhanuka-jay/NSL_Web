@@ -87,11 +87,16 @@
 }
 
 .contact-phone h3, .contact-email h3, .contact-facebook h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    color: #ffd700;
+}
+
+.contact-facebook h3:hover {
+    color: cornflowerblue;
 }
 
 .contact-phone h4, .contact-email h4, .contact-facebook h4 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .contact-big-header h1{
@@ -118,7 +123,7 @@
 .send-message-container .ui.form .field>label {
     font-family: 'ANDYB' !important;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .send-message-container .ui.form input,
@@ -216,6 +221,15 @@
     .contact-phone, .contact-email, .contact-facebook {
         margin: 0px 0px 20px 0px;
     }
+
+    .contact-phone h3, .contact-email h3, .contact-facebook h3 {
+        font-size: 1.6rem;
+    }
+
+    .contact-phone h4, .contact-email h4, .contact-facebook h4 {
+        font-size: 1.3rem;
+    }
+    
 
     .contact-phone .icon, .contact-email .icon, .contact-facebook .icon {
         text-shadow: -1.25px 1.25px 0 #e8491d,
