@@ -1,8 +1,28 @@
-import Thankyou from './ThankyouPage';
-import { Button, Form, Icon, Message, Divider, Header } from 'semantic-ui-react';
+import emailjs from 'emailjs-com';
+import { Button, Form, Icon, Modal, Divider, Header } from 'semantic-ui-react';
+import { useState } from 'react';
 import './Contacts.css';
 
 const Contacts = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const sendMessage = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_c2iw184', 'template_4nzquvn', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
+        .then((result) => {
+            // console.log(result.text);
+            console.log(result.text, 'Message recieved')
+        }, (error) => {
+            // console.log(error.text);
+            console.log('Message recieved')
+        });
+        
+        e.target.reset();
+
+        setIsModalOpen(true);
+    }
+
     return (
         <div className="contacts-container">
             <div className="contact-header">
@@ -43,17 +63,42 @@ const Contacts = () => {
                 </Header>
             </Divider>
             <div className="send-message-container">
-                <Form size="large" action="https://formsubmit.co/dhanuka.singhe@gmail.com" method="POST">
+                <Form size="large" onSubmit={sendMessage}>
                     <Form.Group widths="equal">
-                        <Form.Input label='Name' name="name" placeholder='Your Name' required/>
-                        <Form.Input type="email" name="email" label='Email' placeholder='joe@schmoe.com' required/>                        
+                        <Form.Input label='Name' name="Name" placeholder='Your Name' required/>
+                        <Form.Input type="email" name="Email" label='Email' placeholder='joe@schmoe.com' required/>                        
                     </Form.Group>
-                    <input type="hidden" name="_next" value={<Thankyou />} />
-                    <Form.TextArea label='Message' name="message" placeholder='Your query here...' required/>
-                    <Button type="submit" size="large" floated="right">Send</Button>
+                    <Form.TextArea label='Message' name="Message" placeholder='Your query here...' required/>
+                    <Button 
+                        type="submit"
+                        size="large" 
+                        floated="right"
+                    >Send</Button>
                 </Form>
             </div>
             <div className="contact-overlay"></div>
+
+            <Modal
+                basic
+                onClose={() => setIsModalOpen(false)}
+                open={isModalOpen}
+                size='small'
+                >
+                <Header icon>
+                    <Icon name='envelope open' />
+                    Thank you!
+                </Header>
+                <Modal.Content>
+                    <p>
+                    We recieved your message. We will get back to you as soon as we can.
+                    </p>
+                </Modal.Content>
+                <Modal.Actions>
+                    <Button color='green' inverted onClick={() => setIsModalOpen(false)}>
+                    <Icon name='checkmark' /> Yes
+                    </Button>
+                </Modal.Actions>
+            </Modal>
         </div>
     )
 }
