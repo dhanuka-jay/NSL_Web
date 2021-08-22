@@ -8,6 +8,13 @@ import img3 from '../img/gal_img_3.jpg';
 import img4 from '../img/gal_img_4.jpg';
 import img5 from '../img/gal_img_5.jpg';
 import img6 from '../img/gal_img_6.jpg';
+import img7 from '../img/gal_img_7.jpg';
+import img8 from '../img/gal_img_8.jpg';
+import img9 from '../img/gal_img_9.jpg';
+import img10 from '../img/gal_img_10.jpg';
+import img11 from '../img/gal_img_11.jpg';
+import img12 from '../img/gal_img_12.jpg';
+import img13 from '../img/gal_img_13.jpg';
 
 const Gallery = () => {
 
@@ -36,7 +43,28 @@ const Gallery = () => {
                 break;
             case 6:
                 setCurrImg(img6)
-                break;        
+                break;  
+            case 7:
+                setCurrImg(img7)
+                break;
+            case 8:
+                setCurrImg(img8)
+                break;
+            case 9:
+                setCurrImg(img9)
+                break;
+            case 10:
+                setCurrImg(img10)
+                break;
+            case 11:
+                setCurrImg(img11)
+                break;
+            case 12:
+                setCurrImg(img12)
+                break;  
+            case 13:
+                setCurrImg(img13)
+                break;    
             default:
                 setCurrImg('')
                 break;
@@ -47,6 +75,11 @@ const Gallery = () => {
         <div className='gallery'>
             <div className="gallery-overlay"></div>
             <div className="gallery-container">
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(7)}>
+                    <img src={img7} alt="Sorry, Photo unavailable" />
+                </div>
                 <div 
                     className="gal-img"
                     onClick={() => handleImageClick(1)}>
@@ -76,6 +109,31 @@ const Gallery = () => {
                     className="gal-img"
                     onClick={() => handleImageClick(5)}>
                     <img ref={imgRef} src={img5} alt="Sorry, Photo unavailable" />
+                </div>                
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(8)}>
+                    <img src={img8} alt="Sorry, Photo unavailable" />
+                </div>                
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(9)}>
+                    <img src={img9} alt="Sorry, Photo unavailable" />
+                </div>
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(10)}>
+                    <img src={img10} alt="Sorry, Photo unavailable" />
+                </div>
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(11)}>
+                    <img src={img11} alt="Sorry, Photo unavailable" />
+                </div>
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(13)}>
+                    <img src={img13} alt="Sorry, Photo unavailable" />
                 </div>
             </div>
 

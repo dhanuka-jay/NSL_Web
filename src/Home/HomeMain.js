@@ -13,7 +13,7 @@ const HomeMain = ({rotateBtn}) => {
                     Northside Legends
                 </h1>
                 <h2 className={ rotateBtn ? 'sm-heading hide' : 'sm-heading' }>
-                    We welcome you to Northside Legends cricket club!
+                    Welcome to Northside Legends cricket club!
                 </h2>
                 <div className={ rotateBtn ? 'social-icons hide' : 'social-icons' }>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
