@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Icon } from 'semantic-ui-react';
 import './Home.css';
-import Trailer from '../mobile_web_bg_2.mp4'
+import Trailer from '../NSL_TRAILER_FINAL_Trim_2.mp4'
 
 const HomeMain = ({rotateBtn}) => {
     return (
@@ -26,8 +26,22 @@ const HomeMain = ({rotateBtn}) => {
                             <Icon name='youtube play' size='large'/>
                         </div>
                     </a>                
-                </div>        
+                </div>                       
             </div>
+            <div className="home-desc">
+                <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>
+                    <h3>Our Vision</h3>
+                    <p>Foster ongoing respect and success by providing a positive and 
+                        enjoyable cricket experience for all, while developing players, 
+                        people and partnerships in the community.</p>
+                </div>
+                <div className={ rotateBtn ? "desc-mission hide" : "desc-mission"}>
+                    <h3>Our Mission</h3>
+                    <p>Providing an environment that encourages achievement, team spirit and 
+                    sportsmanship Striving to offer the best facilities and coaching 
+                    available To promote the growth of the club in the local community</p>
+                </div>
+            </div> 
         </div>
     )
 }
