@@ -1,7 +1,7 @@
 
 .gallery {    
     min-height: 100vh;
-    background: linear-gradient(rgba(46, 45, 46, 0.8), rgba(83, 81, 81, 0.8)), url('../img/gal_img_2.jpg') center no-repeat;
+    background: linear-gradient(rgba(45, 3, 11, 0.95), rgba(196, 162, 91, 0.95)), url('../img/gal_img_2.jpg') center no-repeat;
     background-size: cover;   
     /* background: rgba(35, 35, 35, 1); */
     display: flex;
@@ -47,6 +47,7 @@
     display: flex !important;
     justify-content: center;
     background: rgba(0, 0, 0, 0.9) !important;
+    background-image: linear-gradient(to right, #2d030b88, #c4a25b88) !important;
 }
 
 .ui.modal>.content>img {

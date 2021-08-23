@@ -66,7 +66,8 @@
     visibility: visible;
 }
 
-.main-menu .menu-branding, .main-menu .menu-nav {
+.main-menu .menu-branding, 
+.main-menu .menu-nav {
     height: 100vh;
     width: 50%;
     display: flex;
@@ -78,6 +79,7 @@
 
 .main-menu .menu-nav {
     background-color: rgba(58,58,58, 1);
+    background-image: linear-gradient(to right, #2d030b88, #c4a25b88);
     transform: translate3d(0, -100%, 0);
     transition: all 0.6s ease-in-out;
 }
@@ -97,14 +99,66 @@
 }
 
 .main-menu .menu-branding .branding-logo {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+}
+
+/* -------------------- */
+
+.main-menu .menu-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 0px 5px;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.main-menu .menu-desc .desc-vision,
+.main-menu .menu-desc .desc-mission {
+  width: 50%;
+  background-color: rgba(45, 3, 11, 0.5);
+  background-image: linear-gradient(to right, #2d030b88, #c4a25b88);
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  
+}
+
+.main-menu .menu-desc .desc-vision h3,
+.main-menu .menu-desc .desc-mission h3{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: -1.5px 1.5px 0 #2d030b,
+                1.5px 1.5px 0 #2d030b,
+                1.5px -1.5px 0 #2d030b,
+                -1.5px -1.5px 0 #2d030b;
+  margin: 0 !important;
+}
+
+.main-menu .menu-desc .desc-vision p,
+.main-menu .menu-desc .desc-mission p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: -0.5px 0.5px 0 #2d030b,
+                0.5px 0.5px 0 #2d030b,
+                0.5px -0.5px 0 #2d030b,
+                -0.5px -0.5px 0 #2d030b;
 }
 
 .main-menu .menu-nav .nav-item {
     font-family: 'ANDYB';
     font-size: 2rem;
     color: #fff;
+    text-shadow:    -1.5px 1.5px 0 #2d030b,
+                    1.5px 1.5px 0 #2d030b,
+                    1.5px -1.5px 0 #2d030b,
+                    -1.5px -1.5px 0 #2d030b;
     padding: 15px 0px;
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-in-out;
@@ -131,16 +185,14 @@
 }
 
 .main-menu .menu-nav .nav-item:hover {
-    text-shadow: -0.75px 0.75px 0 #e8491d,
-        0.75px 0.75px 0 #e8491d,
-        0.75px -0.75px 0 #e8491d,
-        -0.75px -0.75px 0 #e8491d;
+    transition: all 0.5s ease-in-out;
+    text-decoration: underline;
 }
 
-.main-menu .menu-nav .nav-item:active {
+/* .main-menu .menu-nav .nav-item:active {
     transition: all 0.5 ease-in-out;
-    transform: translateX(2.3);
-}
+    transform: translateX(1.3);
+} */
 
 /*    Footer   */
 .footer-container {
@@ -191,7 +243,7 @@
 
     .main-menu .menu-branding {
         z-index: 8;
-        height: 45vh;
+        height: 55vh;
         width: 100vw;
         transform: translate3d(0, 1000px, 0);
         transition: all 0.7s ease-in-out;
@@ -201,10 +253,36 @@
         transform: translate3d(0, 0, 0);
     }
 
+    /* ****************** */
+
+    .main-menu .menu-desc {
+        padding: 5px 0px 0px 5px;
+        margin-top: 10px;
+    }
+    
+    .main-menu .menu-desc .desc-vision,
+    .main-menu .menu-desc .desc-mission {
+      width: 95%;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-radius: 15px;
+      border: 1px solid #fff;      
+    }
+
+    .main-menu .menu-desc .desc-vision h3,
+    .main-menu .menu-desc .desc-mission h3{
+        font-size: 1.5rem;
+    }
+
+    .main-menu .menu-desc .desc-vision p,
+    .main-menu .menu-desc .desc-mission p {
+        font-size: 0.7rem;
+    }
+
     .main-menu .menu-nav {
         padding-bottom: 100px;
         z-index: 6;
-        height: 55vh;
+        height: 45vh;
         width: 100vw;
         transform: translate3d(0, -1000px, 0);
         transition: all 0.7s ease-in-out;
@@ -221,8 +299,8 @@
     }
 
     .main-menu .menu-branding .branding-logo {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         margin-bottom: 15px;
     }
 
