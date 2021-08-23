@@ -11,12 +11,12 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 <div className="branding-logo">
                     <Image src={MainLogo} centered alt="Player Profile Photo" />
                 </div>
-                {isLoggedIn ? '' : <Facebook 
+                {/* {isLoggedIn ? '' : <Facebook 
                                         isLoggedIn={isLoggedIn}
                                         setIsLoggedIn={setIsLoggedIn}   
                                         setLoggedInMember={setLoggedInMember}                                     
                                     />
-                }
+                } */}
                 <div className="menu-desc">
                     <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>
                         <h3>Our Vision</h3>
@@ -67,7 +67,11 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     My Profile
                 </Link> 
                 :
-                ''
+                <Facebook 
+                    isLoggedIn={isLoggedIn}
+                    setIsLoggedIn={setIsLoggedIn}   
+                    setLoggedInMember={setLoggedInMember}                                     
+                />
                 }    
             </div>
             
