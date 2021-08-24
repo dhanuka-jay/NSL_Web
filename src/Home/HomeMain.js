@@ -28,20 +28,6 @@ const HomeMain = ({rotateBtn}) => {
                     </a>                
                 </div>                       
             </div>
-            {/* <div className="home-desc">
-                <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>
-                    <h3>Our Vision</h3>
-                    <p>Foster ongoing respect and success by providing a positive and 
-                        enjoyable cricket experience for all, while developing players, 
-                        people and partnerships in the community.</p>
-                </div>
-                <div className={ rotateBtn ? "desc-mission hide" : "desc-mission"}>
-                    <h3>Our Mission</h3>
-                    <p>Providing an environment that encourages achievement, team spirit and 
-                    sportsmanship Striving to offer the best facilities and coaching 
-                    available To promote the growth of the club in the local community</p>
-                </div>
-            </div>  */}
         </div>
     )
 }

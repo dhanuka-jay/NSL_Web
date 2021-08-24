@@ -36,6 +36,7 @@
 .gal-img img {
     width: 100%;
     transition: all 0.25s ease-out;
+    border-radius: 15px;
 }
 
 .gal-img:hover img {

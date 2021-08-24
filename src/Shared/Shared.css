@@ -118,17 +118,24 @@
 
 .main-menu .menu-desc .desc-vision,
 .main-menu .menu-desc .desc-mission {
-  width: 50%;
-  background-color: rgba(45, 3, 11, 0.5);
-  background-image: linear-gradient(to right, #2d030b88, #c4a25b88);
-  margin-bottom: 10px;
-  padding: 10px 15px;
-  border-radius: 15px;
-  border: 1px solid #fff;
-  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.main-menu .menu-desc .desc-vision h3,
+.main-menu .menu-desc .desc-vision .desc-text,
+.main-menu .menu-desc .desc-mission .desc-text {
+    width: 100%;
+    background-color: rgba(45, 3, 11, 0.5);
+    background-image: linear-gradient(to right, #2d030b88, #c4a25b88);
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    /* border: 1px solid #fff;  */
+}
+
+/* .main-menu .menu-desc .desc-vision h3,
 .main-menu .menu-desc .desc-mission h3{
   font-family: "Lucida Console", "Courier New", monospace;
   text-align: center;
@@ -138,6 +145,25 @@
                 1.5px -1.5px 0 #2d030b,
                 -1.5px -1.5px 0 #2d030b;
   margin: 0 !important;
+} */
+
+/* .main-menu .menu-desc .desc-vision .ui.ribbon.label,
+.main-menu .menu-desc .desc-mission .ui.ribbon.label{
+    background-color: #2d030b;
+    border-color: #2d030b;
+    color: #fff;
+} */
+
+.main-menu .menu-desc .desc-vision .ui.label,
+.main-menu .menu-desc .desc-mission .ui.label{
+    align-self: flex-start;
+    text-shadow: -0.5px 0.5px 0 #2d030b,
+                0.5px 0.5px 0 #2d030b,
+                0.5px -0.5px 0 #2d030b,
+                -0.5px -0.5px 0 #2d030b;
+    font-size: 1.6rem;
+    padding: 3px 10px;
+    margin-bottom: 2px;
 }
 
 .main-menu .menu-desc .desc-vision p,
@@ -164,6 +190,12 @@
     transition: all 0.5s ease-in-out;
 }
 
+.main-menu .menu-nav .fb-login {
+    padding-top: 5px;
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+
 .main-menu .menu-nav .nav-item.show {
     transform: translate3d(0, 0, 0);
 }
@@ -182,6 +214,15 @@
 
 .main-menu .menu-nav .nav-item.show#link4 {
     transition-delay: 0.5s;
+}
+
+.main-menu .menu-nav .nav-item.show#link5 {
+    transition-delay: 0.6s;
+}
+
+.main-menu .menu-nav .fb-login.show {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0.6s;
 }
 
 .main-menu .menu-nav .nav-item:hover {
@@ -235,10 +276,10 @@
 /* Screen Size: ............ */
 
 /* Smaller Screens */
-@media (max-width:600px) {
+@media (max-width:800px) {
     .main-menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .main-menu .menu-branding {
@@ -253,25 +294,39 @@
         transform: translate3d(0, 0, 0);
     }
 
+    .main-menu .menu-nav.show {
+        transform: translate3d(0, 0, 0);
+    }    
+
     /* ****************** */
 
     .main-menu .menu-desc {
         padding: 5px 0px 0px 5px;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
     
     .main-menu .menu-desc .desc-vision,
     .main-menu .menu-desc .desc-mission {
       width: 95%;
-      margin-bottom: 10px;
       padding: 5px 10px;
-      border-radius: 15px;
-      border: 1px solid #fff;      
+      border-radius: 15px;    
     }
 
-    .main-menu .menu-desc .desc-vision h3,
+    /* .main-menu .menu-desc .desc-vision h3,
     .main-menu .menu-desc .desc-mission h3{
         font-size: 1.5rem;
+    } */
+
+    .main-menu .menu-desc .desc-vision .ui.brown.label,
+    .main-menu .menu-desc .desc-mission .ui.brown.label{
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+
+    .main-menu .menu-desc .desc-vision .desc-text,
+    .main-menu .menu-desc .desc-mission .desc-text {
+        margin-bottom: 0px;
     }
 
     .main-menu .menu-desc .desc-vision p,
@@ -280,7 +335,6 @@
     }
 
     .main-menu .menu-nav {
-        padding-bottom: 100px;
         z-index: 6;
         height: 45vh;
         width: 100vw;
@@ -291,7 +345,7 @@
     .main-menu .menu-nav .nav-item {
         font-size: 1.8rem;
         color: #fff;
-        padding: 10px 0px;
+        padding: 5px 0px;
     }
 
     .main-menu .menu-nav.show {
@@ -301,7 +355,6 @@
     .main-menu .menu-branding .branding-logo {
         height: 150px;
         width: 150px;
-        margin-bottom: 15px;
     }
 
     .copyright h4 {

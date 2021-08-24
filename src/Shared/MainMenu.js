@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Image } from 'semantic-ui-react';
+import { Image, Label } from 'semantic-ui-react';
 import Facebook from '../Members/Facebook';
 import MainLogo from '../png_logo_NSL.png';
 
@@ -11,24 +11,27 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 <div className="branding-logo">
                     <Image src={MainLogo} centered alt="Player Profile Photo" />
                 </div>
-                {/* {isLoggedIn ? '' : <Facebook 
-                                        isLoggedIn={isLoggedIn}
-                                        setIsLoggedIn={setIsLoggedIn}   
-                                        setLoggedInMember={setLoggedInMember}                                     
-                                    />
-                } */}
                 <div className="menu-desc">
-                    <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>
-                        <h3>Our Vision</h3>
-                        <p>Foster ongoing respect and success by providing a positive and 
-                            enjoyable cricket experience for all, while developing players, 
-                            people and partnerships in the community.</p>
+                    <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>                        
+                        <Label size="huge" as='a' color='brown' >
+                           Our Vision
+                        </Label>
+                        <div className="desc-text">
+                            <p>Foster ongoing respect and success by providing a positive and 
+                                enjoyable cricket experience for all, while developing players, 
+                                people and partnerships in the community.</p>
+                        </div>
+                        
                     </div>
                     <div className={ rotateBtn ? "desc-mission hide" : "desc-mission"}>
-                        <h3>Our Mission</h3>
-                        <p>Providing an environment that encourages achievement, team spirit and 
-                        sportsmanship. Striving to offer the best facilities and coaching 
-                        available to promote the growth of the club in the local community.</p>
+                        <Label size="huge" as='a' color="brown">
+                           Our Mission
+                        </Label>
+                        <div className="desc-text">
+                            <p>Providing an environment that encourages achievement, team spirit and 
+                            sportsmanship. Striving to offer the best facilities and coaching 
+                            available to promote the growth of the club in the local community.</p>
+                        </div>
                     </div>
                 </div> 
             </div>
@@ -44,6 +47,14 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link2'
+                    to='/aboutus'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    About Us
+                </Link>
+                <Link 
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link3'
                     to='/gallery'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
@@ -51,7 +62,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </Link>
                 <Link
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link3'
+                    id='link4'
                     to='/contacts'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
@@ -60,18 +71,20 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 { isLoggedIn ?
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link4'
+                    id='link5'
                     to='/member'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
                     My Profile
                 </Link> 
                 :
-                <Facebook 
-                    isLoggedIn={isLoggedIn}
-                    setIsLoggedIn={setIsLoggedIn}   
-                    setLoggedInMember={setLoggedInMember}                                     
-                />
+                <div className={ rotateBtn ? 'fb-login show' : 'fb-login' }>
+                    <Facebook 
+                        isLoggedIn={isLoggedIn}
+                        setIsLoggedIn={setIsLoggedIn}   
+                        setLoggedInMember={setLoggedInMember}                                     
+                    />
+                </div>
                 }    
             </div>
             
