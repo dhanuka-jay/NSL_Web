@@ -355,6 +355,7 @@
     .main-menu .menu-branding .branding-logo {
         height: 150px;
         width: 150px;
+        padding-top: 15px;
     }
 
     .copyright h4 {
