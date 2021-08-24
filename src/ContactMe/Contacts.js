@@ -48,7 +48,7 @@ const Contacts = () => {
                     </a>                    
                 </div>
                 <div className="contact-phone">
-                    <Icon name="phone" size="big" />
+                    <Icon name="phone" size="large" />
                     <h4>Give us a call</h4>
                     <h3>0423 863519</h3>                    
                 </div>

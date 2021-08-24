@@ -8,7 +8,7 @@
     width: 100vw;
     min-height: 100%;    
     /* background:  linear-gradient(rgba(46, 45, 46, 1), rgba(83, 81, 81, 0.8)), url('../img/gal_img_2.jpg') center no-repeat; */
-    background: linear-gradient(rgba(45, 3, 11, 0.55), rgba(87,71,38, 0.35));
+    background: linear-gradient(#c4a25b99, #ffffff99);
     background-size: cover;
     background-attachment: fixed;
     background-color: #fff;
@@ -46,7 +46,7 @@
 }
 
 .contacts-container .ui.divider .ui.header{
-    color: rgb(163, 129, 129);
+    color: #2d030b;
 }
 
 .contact-method-container {
@@ -62,6 +62,10 @@
     transform: scaleX(1.2);
 }
 
+.contact-method-container h4 {
+    color: #2d030b;
+}
+
 .contact-phone, .contact-email, .contact-facebook {
     padding: 10px 0px;
     display: flex;
@@ -72,10 +76,10 @@
 
 .contact-phone .icon, .contact-email .icon, .contact-facebook .icon {
     color: #fff;
-    text-shadow: -0.75px 0.75px 0 #e8491d,
-        0.75px 0.75px 0 #e8491d,
-        0.75px -0.75px 0 #e8491d,
-        -0.75px -0.75px 0 #e8491d;
+    text-shadow: -0.75px 0.75px 0 #2d030b,
+        0.75px 0.75px 0 #2d030b,
+        0.75px -0.75px 0 #2d030b,
+        -0.75px -0.75px 0 #2d030b;
     padding-bottom: 30px;
 }
 
@@ -89,11 +93,19 @@
 
 .contact-phone h3, .contact-email h3, .contact-facebook h3 {
     font-size: 1.9rem;
-    color: #ffd700;
+    color: #2d030b;
+    text-shadow: -0.75px 0.75px 0 #fff,
+        0.75px 0.75px 0 #fff,
+        0.75px -0.75px 0 #fff,
+        -0.75px -0.75px 0 #fff;
 }
 
 .contact-facebook h3:hover {
     color: cornflowerblue;
+    text-shadow: -0.75px 0.75px 0 #2d030b,
+        0.75px 0.75px 0 #2d030b,
+        0.75px -0.75px 0 #2d030b,
+        -0.75px -0.75px 0 #2d030b;    
 }
 
 .contact-phone h4, .contact-email h4, .contact-facebook h4 {
@@ -102,13 +114,15 @@
 
 .contact-big-header h1{
     font-size: 3.5rem !important;
-    text-shadow: -0.75px 0.75px 0 #e8491d,
-        0.75px 0.75px 0 #e8491d,
-        0.75px -0.75px 0 #e8491d,
-        -0.75px -0.75px 0 #e8491d !important;
+    text-shadow: -1px 1px 0 #2d030b,
+        1px 1px 0 #2d030b,
+        1px -1px 0 #2d030b,
+        -1px -1px 0 #2d030b;
+    padding-bottom: 2px;
 }
 
 .contact-small-header h3 {
+    color: #2d030b;
     font-size: 1.5rem !important;
 }
 
@@ -123,7 +137,7 @@
 
 .send-message-container .ui.form .field>label {
     font-family: 'ANDYB' !important;
-    color: #fff;
+    color: #2d030b;
     font-size: 1.3rem;
 }
 
@@ -132,16 +146,16 @@
 {
     font-family: 'ANDYB' !important;
     font-size: 1.3rem !important;
-    background: rgba(135, 138, 138, 0.3) !important;
-    border: 1px solid #fff !important;
-    color: #fff !important;
+    background: rgba(255, 255, 255, 0.3) !important;
+    border: 1px solid #2d030b !important;
+    color: #2d030b !important;
 }
 
 .send-message-container .ui.button {
     font-family: 'ANDYB' !important;
     font-size: 1.8rem !important;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #2d030b;;
     padding: 8px 35px;
     background-color: #e8491d;
 }
