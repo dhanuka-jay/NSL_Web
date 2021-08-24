@@ -284,7 +284,7 @@
 
     .main-menu .menu-branding {
         z-index: 8;
-        height: 55vh;
+        height: 65vh;
         width: 100vw;
         transform: translate3d(0, 1000px, 0);
         transition: all 0.7s ease-in-out;
@@ -303,7 +303,7 @@
     .main-menu .menu-desc {
         padding: 5px 0px 0px 5px;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     
     .main-menu .menu-desc .desc-vision,
@@ -336,7 +336,7 @@
 
     .main-menu .menu-nav {
         z-index: 6;
-        height: 45vh;
+        height: 35vh;
         width: 100vw;
         transform: translate3d(0, -1000px, 0);
         transition: all 0.7s ease-in-out;
