@@ -1,4 +1,5 @@
 import './AboutUs.css';
+import { Divider, Header, Icon } from 'semantic-ui-react';
 
 const AboutUs = () => {
     return (
@@ -16,6 +17,11 @@ const AboutUs = () => {
                     nostrum accusantium inventore perferendis, facilis cupiditate itaque vero 
                     adipisci sunt odio!</h4>
             </div>
+            <Divider horizontal>
+                <Header as='h2'>
+                    <Icon name='handshake' />
+                </Header>
+            </Divider>
             <div className="club-history">
                 <div className="photo-circle"></div>
                 <h2 className="history-header">Club History in a nutshell</h2>

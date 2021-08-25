@@ -30,12 +30,12 @@
     border-radius: 50%;
     float: left;
     shape-outside: circle();
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
 }
 
 #aboutus .club-history .photo-circle {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background: url('../img/gal_img_2.jpg') center no-repeat;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-size: cover;
@@ -43,7 +43,7 @@
     border-radius: 50%;
     float: left;
     shape-outside: circle();
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
 }
 
 @media (max-width: 800px) {
@@ -66,10 +66,21 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10px 30px;
+        text-align: center;        
+        padding: 10px 10px;
     }
 
-    .president-section {
+    .president-section h4,
+    .club-history h4 {
+        text-align: justify;
+    }
+
+    #aboutus .president-section {
+        width: 90%;
         margin-bottom: 40px;
+    }
+
+    #aboutus .club-history {
+        width: 90%;
     }
 }

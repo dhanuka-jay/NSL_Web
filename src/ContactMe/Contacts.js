@@ -9,7 +9,7 @@ const Contacts = () => {
     const sendMessage = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ids_mail', 'template_4nzquvn', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
+        emailjs.sendForm('service_nsl_cricket', 'nsl_email_template', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
         .then((result) => {
             // console.log(result.text);
             console.log(result.text, 'Message recieved')
