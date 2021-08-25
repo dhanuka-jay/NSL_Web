@@ -10,7 +10,12 @@
 }
 
 #aboutus .president-section {
-    width: 90%;
+    width: 70%;
+    padding: 30px 15px;
+}
+
+#aboutus .club-history {
+    width: 70%;
     padding: 30px 15px;
 }
 
@@ -18,6 +23,20 @@
     width: 300px;
     height: 300px;
     background: url('../img/president_img.jpg') center no-repeat;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-size: cover;
+    border: 3px solid #2d030b;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 20px;
+}
+
+#aboutus .club-history .photo-circle {
+    width: 300px;
+    height: 300px;
+    background: url('D:\NSL\nsl_web\src\img\gal_img_2.jpg') center no-repeat;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-size: cover;
     border: 3px solid #2d030b;
     border-radius: 50%;

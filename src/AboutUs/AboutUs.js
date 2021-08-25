@@ -16,6 +16,46 @@ const AboutUs = () => {
                     nostrum accusantium inventore perferendis, facilis cupiditate itaque vero 
                     adipisci sunt odio!</h4>
             </div>
+            <div className="club-history">
+            <div className="photo-circle"></div>
+                <h2 className="history-header">Club History in a nutshell</h2>
+                <p>
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore 
+                        corporis incidunt voluptatibus eum fuga nostrum hic aliquid asperiores mollitia 
+                        aliquam voluptas recusandae explicabo veritatis sint amet sequi laboriosam, 
+                        blanditiis accusamus ut officiis quaerat adipisci ad? Nisi saepe doloribus 
+                        quaerat consequatur praesentium, officiis quibusdam, atque quo, incidunt ullam aperiam 
+                        magni error? Laboriosam quibusdam rem, repellat qui ut ex quod distinctio sapiente 
+                        assumenda maxime saepe tenetur debitis veniam nesciunt recusandae, nam veritatis 
+                        provident necessitatibus suscipit facere sunt, quae est iusto. Quis asperiores quia 
+                        veritatis adipisci inventore nisi. Iure eum aliquid, veritatis, error repudiandae 
+                        repellat vero natus perspiciatis libero deleniti magni consequuntur!s</h4>
+                </p>
+                <p>
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore 
+                        corporis incidunt voluptatibus eum fuga nostrum hic aliquid asperiores mollitia 
+                        aliquam voluptas recusandae explicabo veritatis sint amet sequi laboriosam, 
+                        blanditiis accusamus ut officiis quaerat adipisci ad? Nisi saepe doloribus 
+                        quaerat consequatur praesentium, officiis quibusdam, atque quo, incidunt ullam aperiam 
+                        magni error? Laboriosam quibusdam rem, repellat qui ut ex quod distinctio sapiente 
+                        assumenda maxime saepe tenetur debitis veniam nesciunt recusandae, nam veritatis 
+                        provident necessitatibus suscipit facere sunt, quae est iusto. Quis asperiores quia 
+                        veritatis adipisci inventore nisi. Iure eum aliquid, veritatis, error repudiandae 
+                        repellat vero natus perspiciatis libero deleniti magni consequuntur!s</h4>
+                </p>
+                <p>
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore 
+                        corporis incidunt voluptatibus eum fuga nostrum hic aliquid asperiores mollitia 
+                        aliquam voluptas recusandae explicabo veritatis sint amet sequi laboriosam, 
+                        blanditiis accusamus ut officiis quaerat adipisci ad? Nisi saepe doloribus 
+                        quaerat consequatur praesentium, officiis quibusdam, atque quo, incidunt ullam aperiam 
+                        magni error? Laboriosam quibusdam rem, repellat qui ut ex quod distinctio sapiente 
+                        assumenda maxime saepe tenetur debitis veniam nesciunt recusandae, nam veritatis 
+                        provident necessitatibus suscipit facere sunt, quae est iusto. Quis asperiores quia 
+                        veritatis adipisci inventore nisi. Iure eum aliquid, veritatis, error repudiandae 
+                        repellat vero natus perspiciatis libero deleniti magni consequuntur!s</h4>
+                </p>
+            </div>
             
         </div>
     )
