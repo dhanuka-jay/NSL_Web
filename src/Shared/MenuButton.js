@@ -12,7 +12,6 @@ const MenuButton = ({rotateBtn, changeRotateBtn}) => {
                 </div>
             </div>
             <div className={rotateBtn ? 'btn-logo spin' : 'btn-logo '} onClick={() => changeRotateBtn(!rotateBtn)}>
-
             </div>
         </div>
     )

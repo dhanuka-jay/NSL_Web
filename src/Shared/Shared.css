@@ -5,13 +5,11 @@
 }
 
 .btn-background {
-    position: absolute;
     z-index: 10;
-    right: 35px;
-    top: 35px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin: 20px 5px 3px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,17 +24,29 @@
     transform: scaleX(2.2) scaleY(2.2); 
 }
 
-.btn-logo {
+.full-btn {
     position: absolute;
-    z-index: 10;
-    right:31.5px;
-    top: 105px;
-    width: 70px;
-    height: 70px;
-    background: url('../png_logo_NSL_70px.png');
-    transform: scaleX(1) scaleY(1);
-    transition: all 0.6s ease-in-out;
+    top: 10px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.btn-logo {
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url('../png_logo_NSL_70px.png') no-repeat center;
+    background-size: cover;
+    transform: scaleX(1) scaleY(1);
+    transition: all 0.6s ease-in-out;    
+}
+
+/* .btn-logo  {
+    ;
+} */
 
 .btn-logo:active {
     transform: scaleX(0.2) scaleY(0.2);
@@ -305,6 +315,7 @@
 /* Smaller Screens */
 @media (max-width:800px) {
     .main-menu {
+        position: relative;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -385,6 +396,21 @@
         padding-top: 15px;
     }
 
+    .full-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-logo {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+
+    
     .copyright h4 {
         font-size: 1.1rem;
         padding: 10px 0px 10px 0px;
