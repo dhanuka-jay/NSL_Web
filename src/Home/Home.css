@@ -194,7 +194,7 @@ h2.sm-heading {
                     1px 1px 0 #fff,
                     1px -1px 0 #fff,
                     -1px -1px 0 #fff;
-      padding: 3px 2px !important;
+      padding: 3px 2px 3px 8px !important;
       width: 52%;
       box-decoration-break: clone;
     }
