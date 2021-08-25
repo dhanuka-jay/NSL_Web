@@ -17,7 +17,7 @@ const AboutUs = () => {
                     adipisci sunt odio!</h4>
             </div>
             <div className="club-history">
-            <div className="photo-circle"></div>
+                <div className="photo-circle"></div>
                 <h2 className="history-header">Club History in a nutshell</h2>
                 <p>
                     <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore 

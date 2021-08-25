@@ -4,6 +4,7 @@
     color: #2d030b;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;    
     background: linear-gradient(#c4a25b99, #ffffff99);
     background-color: #fff;
@@ -43,4 +44,26 @@
     float: left;
     shape-outside: circle();
     margin: 20px;
+}
+
+@media (max-width: 800px) {
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .president-section,
+    .club-history {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 30px;
+    }
+
+    .president-section {
+        margin-bottom: 40px;
+    }
 }

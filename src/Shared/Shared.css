@@ -21,6 +21,16 @@
     z-index: 100;
 }
 
+.btn-logo {
+    position: absolute;
+    z-index: 10;
+    right:31.5px;
+    top: 105px;
+    width: 70px;
+    height: 70px;
+    background: url('../png_logo_NSL_70px.png');
+}
+
 .menu-btn {
     z-index: 10;
     cursor: pointer;
