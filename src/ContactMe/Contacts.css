@@ -186,10 +186,10 @@
 
 @media (max-width: 1000px) {
     .contacts-container {
+        padding-top: 35px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding-top: 70px;
         background-size: cover;
         background-attachment: fixed;
     }
@@ -220,6 +220,7 @@
     }
 
     .contact-big-header h1 {
+        width: 70%;
         padding: 5px 30px 5px 30px;
         font-size: 2.2rem !important;
         text-shadow: -1.25px 1.25px 0 #e8491d,

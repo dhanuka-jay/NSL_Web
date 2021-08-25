@@ -11,8 +11,8 @@ const MenuButton = ({rotateBtn, changeRotateBtn}) => {
                     <div className="btn-line line3"></div>
                 </div>
             </div>
-            <div className="btn-logo">
-                
+            <div className={rotateBtn ? 'btn-logo spin' : 'btn-logo '} onClick={() => changeRotateBtn(!rotateBtn)}>
+
             </div>
         </div>
     )
