@@ -39,7 +39,7 @@
 }
 
 .btn-logo:active {
-    transform: scaleX(2.2) scaleY(2.2);
+    transform: scaleX(0.2) scaleY(0.2);
 }
 
 /* .btn-logo.spin {
