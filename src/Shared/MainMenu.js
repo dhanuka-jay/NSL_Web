@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Image, Label } from 'semantic-ui-react';
+import { Image, Label, List } from 'semantic-ui-react';
 import Facebook from '../Members/Facebook';
 import MainLogo from '../png_logo_NSL.png';
 
@@ -28,9 +28,22 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                            Our Mission
                         </Label>
                         <div className="desc-text">
-                            <p>Providing an environment that encourages achievement, team spirit and 
-                            sportsmanship. Striving to offer the best facilities and coaching 
-                            available to promote the growth of the club in the local community.</p>
+                            <List>
+                                <List.Item>
+                                    <List.Icon name='users' />
+                                    <List.Content>Providing an environment that encourages achievement, team spirit and 
+                                            sportsmanship</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon name='users' />
+                                    <List.Content>Striving to offer the best facilities and coaching 
+                                            available</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon name='users' />
+                                    <List.Content>to promote the growth of the club in the local community</List.Content>
+                                </List.Item>
+                            </List>
                         </div>
                     </div>
                 </div> 

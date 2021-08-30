@@ -38,6 +38,7 @@
     z-index: 10;
     width: 40px;
     height: 40px;
+    margin-top: 3px;
     background: url('../png_logo_NSL_70px.png') no-repeat center;
     background-size: cover;
     transform: scaleX(1) scaleY(1);
@@ -203,8 +204,7 @@
     margin-bottom: 2px;
 }
 
-.main-menu .menu-desc .desc-vision p,
-.main-menu .menu-desc .desc-mission p {
+.main-menu .menu-desc .desc-vision p {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1rem;
   text-align: center;
@@ -212,6 +212,11 @@
                 0.5px 0.5px 0 #2d030b,
                 0.5px -0.5px 0 #2d030b,
                 -0.5px -0.5px 0 #2d030b;
+}
+
+.main-menu .menu-desc .desc-mission .desc-text .ui.list {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1rem;
 }
 
 .main-menu .menu-nav .nav-item {
@@ -367,8 +372,10 @@
         margin-bottom: 0px;
     }
 
-    .main-menu .menu-desc .desc-vision p,
-    .main-menu .menu-desc .desc-mission p {
+    .main-menu .menu-desc .desc-vision p {
+        font-size: 1rem;
+    }
+    .main-menu .menu-desc .desc-mission .ui.list {
         font-size: 0.7rem;
     }
 
