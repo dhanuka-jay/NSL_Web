@@ -326,6 +326,7 @@
     }
 
     .main-menu .menu-branding {
+        justify-content: flex-start;
         z-index: 8;
         height: 65vh;
         width: 100vw;
