@@ -353,7 +353,7 @@
     .main-menu .menu-desc .desc-vision,
     .main-menu .menu-desc .desc-mission {
       width: 95%;
-      padding: 5px 0px;
+      padding-top: 3px;
       border-radius: 15px;    
     }
 
