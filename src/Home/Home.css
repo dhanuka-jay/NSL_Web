@@ -1,21 +1,30 @@
 
-@keyframes main-enter {
-    from {
-      transform: translateX(-100%);
+@keyframes logomover {
+    0% {
+      transform: translateX(-5vw);
     }
-    to {
-      transform: translateX(0%);
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes logomovermobile {
+    0% {
+      transform: translateX(-5vw);
+    }
+    100% {
+      transform: translateX(5vw);
     }
   }
   
-  @keyframes main-exit {
+  /* @keyframes goleft {
     from {
       transform: translateX(0%);
     }
     to {
       transform: translateX(-100%);
     }
-  }
+  } */
 
 
 #home-main {
@@ -162,6 +171,55 @@ h2.sm-heading {
     transform: translateX(-1000px);
   }
 
+.sponsor-container {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 500px;
+  z-index: 2;  
+  animation: logomover 5s infinite alternate;
+}
+
+.sponsor-container:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+.sponsor-container .sp-aussie,
+.sponsor-container .sp-fintax,
+.sponsor-container .sp-tonight {
+  height: 80px;
+  border-radius: 10px;
+}
+
+.sponsor-container .sp-aussie {
+  width: 80px;
+  background: url('../img/sponsors/aussie.png') center;
+  background-size: cover;
+}
+
+.sponsor-container .sp-aussie:active,
+.sponsor-container .sp-fintax:active,
+.sponsor-container .sp-tonight:active {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.sponsor-container .sp-fintax {
+  width: 315px;
+  background: url('../img/sponsors/finTax.jpg') center;
+  background-size: cover;
+}
+
+.sponsor-container .sp-tonight {
+  width: 70px;
+  background: url('../img/sponsors/acomodation.png') center;
+  background-size: cover;
+}
+
 
   /* Smaller Screens */
 
@@ -214,5 +272,31 @@ h2.sm-heading {
 
     .social-icons {
       padding: 0.5rem 0.2rem;
-  }  
+    }  
+
+    .sponsor-container {
+      position: unset;
+      margin-bottom: 100px;
+      width: 300px;
+      animation: logomovermobile 5s infinite alternate;
+    }
+    
+    .sponsor-container .sp-aussie,
+    .sponsor-container .sp-fintax,
+    .sponsor-container .sp-tonight {
+      height: 50px;
+      border-radius: 5px;
+    }
+    
+    .sponsor-container .sp-aussie {
+      width: 50px;
+    }
+    
+    .sponsor-container .sp-fintax {
+      width: 170px;
+    }
+    
+    .sponsor-container .sp-tonight {
+      width: 50px;
+    }
 }

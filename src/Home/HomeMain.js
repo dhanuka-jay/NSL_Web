@@ -39,6 +39,17 @@ const HomeMain = ({rotateBtn}) => {
                     </a>                                  
                 </div>                       
             </div>
+            <div className="sponsor-container">
+                <a href="https://www.aussie.com.au/find-store/act/gungahlin.html?cid=010517&utm_medium=cpc&utm_source=google&utm_campaign%7bCampaign%7d&utm_termaussie%20gungahlin&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU1KQ7j9JAWXlh45jRBPmDpboIR17mE9dVfYW1zy4dhEYRq7OjbWdhQaAvKlEALw_wcB&gclsrc=aw.ds" target="_blank">
+                    <div className="sponsor sp-aussie"></div>
+                </a>  
+                <a href="https://www.fintaxservices.com.au/" target="_blank">
+                    <div className="sponsor sp-fintax"></div>
+                </a> 
+                <a href="" target="_blank">
+                    <div className="sponsor sp-tonight"></div>
+                </a>
+            </div>
         </div>
     )
 }
