@@ -140,6 +140,7 @@ h2.sm-heading {
     transform: translateX(0);
     transition: all 0.7s ease-in-out;
     margin-bottom: 1.5rem;
+    z-index: 3;
 }
 
 .social-icons a {

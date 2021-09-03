@@ -320,7 +320,6 @@
 /* Smaller Screens */
 @media (max-width:800px) {
     .main-menu {
-        position: relative;
         display: flex;
         flex-direction: column-reverse;
     }
