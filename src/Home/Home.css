@@ -1,31 +1,18 @@
 
-@keyframes logomover {
+  @keyframes logomover {
     0% {
-      transform: translateX(-5vw);
+      transform: translateX(-100vw);
     }
-    100% {
+    40% {
       transform: translateX(0);
     }
-  }
-
-  @keyframes logomovermobile {
-    0% {
-      transform: translateX(-5vw);
+    85% {
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(5vw);
+      transform: translateX(100vw);
     }
   }
-  
-  /* @keyframes goleft {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  } */
-
 
 #home-main {
     height: 100vh;
@@ -71,6 +58,7 @@
     min-height: 100vh;
     z-index: 2;
     background: rgba(35, 35, 35, 0.6);
+    /* overflow: hidden; */
 }
 
 #home-main h1, #home-main h2 {
@@ -181,7 +169,6 @@ h2.sm-heading {
   justify-content: space-evenly;
   width: 500px;
   z-index: 2;  
-  animation: logomover 5s infinite alternate;
 }
 
 .sponsor-container:hover {
@@ -196,12 +183,6 @@ h2.sm-heading {
   border-radius: 10px;
 }
 
-.sponsor-container .sp-aussie {
-  width: 80px;
-  background: url('../img/sponsors/aussie.png') center;
-  background-size: cover;
-}
-
 .sponsor-container .sp-aussie:active,
 .sponsor-container .sp-fintax:active,
 .sponsor-container .sp-tonight:active {
@@ -209,18 +190,28 @@ h2.sm-heading {
   transition: all 0.5s ease-in-out;
 }
 
-.sponsor-container .sp-fintax {
-  width: 315px;
-  background: url('../img/sponsors/finTax.jpg') center;
-  background-size: cover;
-}
-
 .sponsor-container .sp-tonight {
   width: 70px;
   background: url('../img/sponsors/acomodation.png') center;
   background-size: cover;
+  animation: logomover 10s infinite forwards;
 }
 
+.sponsor-container .sp-fintax {
+  width: 315px;
+  background: url('../img/sponsors/finTax.jpg') center;
+  background-size: cover;
+  animation: logomover 10s infinite forwards;
+  animation-delay: 0.3s;
+}
+
+.sponsor-container .sp-aussie {
+  width: 80px;
+  background: url('../img/sponsors/aussie.png') center;
+  background-size: cover;
+  animation: logomover 10s infinite forwards;
+  animation-delay: 0.6s;
+}
 
   /* Smaller Screens */
 
@@ -279,7 +270,7 @@ h2.sm-heading {
       position: unset;
       margin-bottom: 100px;
       width: 300px;
-      animation: logomovermobile 5s infinite alternate;
+      /* animation: logomovermobile 5s infinite alternate; */
     }
     
     .sponsor-container .sp-aussie,
