@@ -21,7 +21,7 @@
 }
 
 .btn-background:active {
-    transform: scaleX(2.2) scaleY(2.2); 
+    transform: scaleX(1.2) scaleY(1.2); 
 }
 
 .full-btn {
