@@ -10,9 +10,19 @@
     background-color: #fff;
 }
 
+#aboutus .ui.divider {
+    width: 70% !important;
+}
+
 #aboutus .president-section,
 #aboutus .club-history {
     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#aboutus .president-section h2,
+#aboutus .club-history h2{
+    font-family: 'ANDYB';
+    font-size: 2.8rem;
 }
 
 #aboutus .president-section {

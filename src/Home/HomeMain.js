@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Icon } from 'semantic-ui-react';
 import './Home.css';
-import Trailer from '../Home_bg_vid_01.mp4';
+import Trailer from '../home_bg_vid_nsl.mp4';
 
 const HomeMain = ({rotateBtn}) => {
     return (

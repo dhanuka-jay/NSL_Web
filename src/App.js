@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from "./Gallery/Gallery";
 import Footer from "./Shared/Footer";
 import AboutUs from "./AboutUs/AboutUs";
+import Sponsors from "./Sponors/Sponsors";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
@@ -49,6 +50,10 @@ function App() {
           </Route>
           <Route path='/contacts'>
             <Contacts />
+            <Footer />
+          </Route>
+          <Route path='/sponsors'>
+            <Sponsors />
             <Footer />
           </Route>
         </Switch>

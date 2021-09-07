@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Image, Label, List } from 'semantic-ui-react';
-import Facebook from '../Members/Facebook';
 import MainLogo from '../png_logo_NSL.png';
 
 const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    
@@ -81,7 +80,15 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 >
                     Contact Us
                 </Link>
-                { isLoggedIn ?
+                <Link
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link5'
+                    to='/sponsors'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    Sponsors
+                </Link>
+                {/* { isLoggedIn ?
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link5'
@@ -98,7 +105,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         setLoggedInMember={setLoggedInMember}                                     
                     />
                 </div>
-                }    
+                }     */}
             </div>
             
         </div>

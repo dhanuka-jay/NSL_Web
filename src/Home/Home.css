@@ -198,7 +198,7 @@ h2.sm-heading {
 }
 
 .sponsor-container .sp-fintax {
-  width: 315px;
+  width: 325px;
   background: url('../img/sponsors/finTax.jpg') center;
   background-size: cover;
   animation: logomover 10s infinite forwards;
@@ -285,7 +285,7 @@ h2.sm-heading {
     }
     
     .sponsor-container .sp-fintax {
-      width: 170px;
+      width: 190px;
     }
     
     .sponsor-container .sp-tonight {
