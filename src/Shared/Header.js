@@ -3,7 +3,7 @@ import MainMenu from './MainMenu';
 import MenuButton from './MenuButton';
 import './Shared.css';
 
-const Header = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {
+const Header = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember, activePage, setActivePage}) => {
     return (
         <div className='header-menu'>
             <MenuButton 
@@ -17,6 +17,8 @@ const Header = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLogge
                 isLoggedIn={isLoggedIn}
                 setIsLoggedIn={setIsLoggedIn}
                 setLoggedInMember={setLoggedInMember}
+                activePage={activePage}
+                setActivePage={setActivePage}
             />
         </div>
     )

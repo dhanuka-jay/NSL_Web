@@ -13,6 +13,7 @@ function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loggedInMember, setLoggedInMember] = useState({});
+  const [activePage, setActivePage] = useState('home');
 
   const changeRotateBtn = (isToggle) => {
     setRotateBtn(isToggle);
@@ -27,6 +28,8 @@ function App() {
           isLoggedIn={isLoggedIn}
           setIsLoggedIn={setIsLoggedIn}
           setLoggedInMember={setLoggedInMember}
+          activePage={activePage}
+          setActivePage={setActivePage}
         />
         <Switch>
           <Route exact path='/'>

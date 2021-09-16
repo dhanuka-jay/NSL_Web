@@ -219,7 +219,12 @@
     font-size: 1rem;
 }
 
-.main-menu .menu-nav .nav-item {
+.main-menu .menu-nav .nav-item {    
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+.main-menu .menu-nav .nav-item h2 {
     font-family: 'ANDYB';
     font-size: 2rem;
     color: #fff;
@@ -228,8 +233,6 @@
                     1.5px -1.5px 0 #2d030b,
                     -1.5px -1.5px 0 #2d030b;
     padding: 15px 0px;
-    transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-in-out;
 }
 
 .main-menu .menu-nav .fb-login {
@@ -267,9 +270,21 @@
     transition-delay: 0.6s;
 }
 
-.main-menu .menu-nav .nav-item:hover {
-    transition: all 0.5s ease-in-out;
-    text-decoration: underline;
+.main-menu .menu-nav .nav-item h2.active {
+    text-shadow:    -2.5px 2.5px 0 #2d030b,
+                    2.5px 2.5px 0 #2d030b,
+                    2.5px -2.5px 0 #2d030b,
+                    -2.5px -2.5px 0 #2d030b;
+    transform: scale(1.25, 1.25);
+}
+
+.main-menu .menu-nav .nav-item h2:hover {
+    text-shadow:    -2.5px 2.5px 0 #2d030b,
+                    2.5px 2.5px 0 #2d030b,
+                    2.5px -2.5px 0 #2d030b,
+                    -2.5px -2.5px 0 #2d030b;
+    transform: scale(1.25, 1.25);
+    transition: all 0.3s ease-in-out;
 }
 
 /* .main-menu .menu-nav .nav-item:active {
@@ -391,6 +406,17 @@
     .main-menu .menu-nav .nav-item {
         font-size: 1.6rem;
         color: #fff;
+        padding: 5px 0px;
+    }
+
+    .main-menu .menu-nav .nav-item h2 {
+        font-family: 'ANDYB';
+        font-size: 1.6rem;
+        color: #fff;
+        text-shadow:    -1px 1px 0 #2d030b,
+                        1px 1px 0 #2d030b,
+                        1px -1px 0 #2d030b,
+                        -1px -1px 0 #2d030b;
         padding: 5px 0px;
     }
 

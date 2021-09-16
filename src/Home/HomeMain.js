@@ -1,13 +1,15 @@
 import React from 'react';
 import {  Icon } from 'semantic-ui-react';
 import './Home.css';
-import Trailer from '../home_bg_vid_nsl.mp4';
+import Trailer from '../home_bg_vid_nsl_trl.mp4';
 
 const HomeMain = ({rotateBtn}) => {
     return (
         <div id='home-main'>            
             <div className="overlay"></div>
-            <video src={Trailer} playsInline muted loop autoPlay />
+            <video playsInline muted loop autoPlay >
+                <source src={Trailer} type="video/mp4" />
+            </video>
             
             <h1 className={ rotateBtn ? 'lg-heading hide' : 'lg-heading' }>
                 Northside Legends
@@ -39,7 +41,7 @@ const HomeMain = ({rotateBtn}) => {
                     </a>                                  
                 </div>                       
             </div>
-            <div className="sponsor-container">
+            {/* <div className="sponsor-container">
                 <a href="https://www.aussie.com.au/find-store/act/gungahlin.html?cid=010517&utm_medium=cpc&utm_source=google&utm_campaign%7bCampaign%7d&utm_termaussie%20gungahlin&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU1KQ7j9JAWXlh45jRBPmDpboIR17mE9dVfYW1zy4dhEYRq7OjbWdhQaAvKlEALw_wcB&gclsrc=aw.ds" target="_blank">
                     <div className="sponsor sp-aussie"></div>
                 </a>  
@@ -49,7 +51,7 @@ const HomeMain = ({rotateBtn}) => {
                 <a href="" target="_blank">
                     <div className="sponsor sp-tonight"></div>
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 }

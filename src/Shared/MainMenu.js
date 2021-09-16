@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Image, Label, List } from 'semantic-ui-react';
 import MainLogo from '../png_logo_NSL.png';
 
-const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember}) => {    
+const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember, activePage, setActivePage}) => {    
 
     return (
         <div className={ rotateBtn ? 'main-menu show' : 'main-menu' }>
@@ -54,7 +54,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     to='/'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
-                    Home
+                    <h2 
+                        className={ activePage === 'home' ? "active" : '' }
+                        onClick={ () => setActivePage('home')}
+                    >Home</h2>
                 </Link>
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
@@ -62,7 +65,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     to='/aboutus'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
-                    About Us
+                    <h2 
+                        className={ activePage === 'aboutus' ? "active" : '' }
+                        onClick={ () => setActivePage('aboutus')}
+                    >About Us</h2>
                 </Link>
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
@@ -70,7 +76,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     to='/gallery'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
-                    Media Gallery
+                    <h2 
+                        className={ activePage === 'media' ? "active" : '' }
+                        onClick={ () => setActivePage('media')}
+                    >Media Gallery</h2>
                 </Link>
                 <Link
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
@@ -78,7 +87,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     to='/contacts'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
-                    Contact Us
+                    <h2 
+                        className={ activePage === 'contactus' ? "active" : '' }
+                        onClick={ () => setActivePage('contactus')}
+                    >Contact Us</h2>
                 </Link>
                 <Link
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
@@ -86,7 +98,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     to='/sponsors'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
-                    Sponsors
+                    <h2 
+                        className={ activePage === 'sponsors' ? "active" : '' }
+                        onClick={ () => setActivePage('sponsors')}
+                    >Sponsors</h2>
                 </Link>
                 {/* { isLoggedIn ?
                 <Link 

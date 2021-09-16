@@ -143,9 +143,11 @@ h2.sm-heading {
   background: #fff;
 }
 
-.social-icons a:hover {
-    color: #e8491d;
-    transition: color 1s ease-out;
+.social-icons .icon-container:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid #e8491d; */
+    color: #2d030b;
 }
 
 .lg-heading.hide {
