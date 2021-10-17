@@ -1,4 +1,4 @@
-
+/* 
 @font-face {
   font-family: 'edo sz';
   src: local('edo sz'), url(./fonts/edosz.ttf) format('truetype')
@@ -7,12 +7,13 @@
 @font-face {
   font-family: 'ANDYB';
   src: local('ANDYB'), url(./fonts/ANDYB.TTF) format('truetype');
-}
+} */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;  
+  font-family: 'helvetica';
 }
 
 .App {
