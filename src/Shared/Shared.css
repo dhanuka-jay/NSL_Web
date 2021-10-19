@@ -194,7 +194,7 @@
 
 .main-menu .menu-desc .desc-vision .ui.label,
 .main-menu .menu-desc .desc-mission .ui.label{
-    align-self: flex-start;
+    /* align-self: flex-start; */
     text-shadow: -0.5px 0.5px 0 #2d030b,
                 0.5px 0.5px 0 #2d030b,
                 0.5px -0.5px 0 #2d030b,
@@ -205,7 +205,6 @@
 }
 
 .main-menu .menu-desc .desc-vision p {
-  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1rem;
   text-align: left;
   text-shadow: -0.5px 0.5px 0 #2d030b,
@@ -215,7 +214,6 @@
 }
 
 .main-menu .menu-desc .desc-mission .desc-text .ui.list {
-    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 1rem;
 }
 
@@ -225,14 +223,13 @@
 }
 
 .main-menu .menu-nav .nav-item h2 {
-    font-family: 'ANDYB';
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     text-shadow:    -1.5px 1.5px 0 #2d030b,
                     1.5px 1.5px 0 #2d030b,
                     1.5px -1.5px 0 #2d030b,
                     -1.5px -1.5px 0 #2d030b;
-    padding: 15px 0px;
+    padding: 25px 0px;
 }
 
 .main-menu .menu-nav .fb-login {
@@ -324,7 +321,6 @@
 }
 
 .copyright h4 {
-    font-family: 'ANDYB' !important;
     font-size: 1.3rem;
     color: #000;
 }
@@ -410,8 +406,7 @@
     }
 
     .main-menu .menu-nav .nav-item h2 {
-        font-family: 'ANDYB';
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: #fff;
         text-shadow:    -1px 1px 0 #2d030b,
                         1px 1px 0 #2d030b,

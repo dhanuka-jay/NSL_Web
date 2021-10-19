@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './Shared.css';
 
 const MenuButton = ({rotateBtn, changeRotateBtn}) => {
@@ -11,8 +11,7 @@ const MenuButton = ({rotateBtn, changeRotateBtn}) => {
                     <div className="btn-line line3"></div>
                 </div>
             </div>
-            <div className={rotateBtn ? 'btn-logo spin' : 'btn-logo '} onClick={() => changeRotateBtn(!rotateBtn)}>
-            </div>
+            <Link to="/"><div className='btn-logo' /></Link>
         </div>
     )
 }

@@ -29,18 +29,15 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         <div className="desc-text">
                             <List>
                                 <List.Item>
-                                    <List.Icon name='users' />
                                     <List.Content>Providing an environment that encourages achievement, team spirit and 
                                             sportsmanship</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='users' />
                                     <List.Content>Striving to offer the best facilities and coaching 
                                             available</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='users' />
-                                    <List.Content>to promote the growth of the club in the local community</List.Content>
+                                    <List.Content>To promote the growth of the club in the local community</List.Content>
                                 </List.Item>
                             </List>
                         </div>
@@ -59,7 +56,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         onClick={ () => setActivePage('home')}
                     >Home</h2>
                 </Link>
-                <Link 
+                {/* <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link2'
                     to='/aboutus'
@@ -69,6 +66,17 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         className={ activePage === 'aboutus' ? "active" : '' }
                         onClick={ () => setActivePage('aboutus')}
                     >About Us</h2>
+                </Link> */}
+                <Link 
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link2'
+                    to='/theclub'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    <h2 
+                        className={ activePage === 'theclub' ? "active" : '' }
+                        onClick={ () => setActivePage('theclub')}
+                    >The Club</h2>
                 </Link>
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  

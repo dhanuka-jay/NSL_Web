@@ -8,6 +8,7 @@ import Gallery from "./Gallery/Gallery";
 import Footer from "./Shared/Footer";
 import AboutUs from "./AboutUs/AboutUs";
 import Sponsors from "./Sponors/Sponsors";
+import TheClub from "./TheClub/TheClub";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
@@ -57,6 +58,11 @@ function App() {
           </Route>
           <Route path='/sponsors'>
             <Sponsors />
+            <Footer />
+          </Route>
+
+          <Route path='/theclub'>
+            <TheClub />
             <Footer />
           </Route>
         </Switch>
