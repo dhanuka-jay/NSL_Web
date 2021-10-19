@@ -94,6 +94,7 @@
 #theclub .affi-logos .ccsca{
     background: url('../img/Affiliates/ccsca.jpg') center no-repeat;
     background-size: cover;
+    margin-right: 15px;
 }
 
 #theclub .affi-logos .actcricket{
