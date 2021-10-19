@@ -7,6 +7,7 @@
     align-items: center;
     background: linear-gradient(#c4a25b99, #ffffff99);
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 #theclub .page-header {
@@ -31,13 +32,15 @@
 }
 
 .club-history-img {
-    min-height: 85vh;
-    min-width: 60vw;
+    max-width: 80vw;
     background: url('../img/theclub_clubhistory.jpg') center no-repeat;
-    object-fit: contain;
-    background-size: cover;
+    background-size: contain;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.club-history-img img {
+    border-radius: 10px;
 }
 
 .president-message .president-img {
@@ -67,6 +70,7 @@
 
 #theclub .second-sub-header {
     margin: 30px 0px 10px 0px;
+    text-align: center;
 }
 
 #theclub .affi-logos {
@@ -89,7 +93,7 @@
 
 #theclub .affi-logos .ccsca{
     background: url('../img/Affiliates/ccsca.jpg') center no-repeat;
-    /* background-size: s; */
+    background-size: cover;
 }
 
 #theclub .affi-logos .actcricket{
@@ -107,14 +111,17 @@
     background-size: cover;
 }
 
-/* @media (max-width: 800px) {
-    .club-history-img {
-        height: 100%;
-        width: 100%;
-        background: url('../img/theclub_clubhistory.jpg') center no-repeat;
-        object-fit: contain;
-        background-size: cover;
-        border-radius: 10px;
-        margin-bottom: 30px;
+@media (max-width: 800px) {
+    #theclub .affi-logos {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px 0px 50px 0px;
     }
-} */
+    
+    #theclub .affi-logos .affi-logo {
+        height: 70px;
+        width:60px;
+    }
+}

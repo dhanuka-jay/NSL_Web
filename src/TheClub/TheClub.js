@@ -1,5 +1,6 @@
 import { Divider, Header, Icon, List, Segment, Grid } from 'semantic-ui-react';
 import './TheClub.css';
+import clb_img from '../img/gal_img_8.jpg';
 
 const TheClub = () => {
     return (
@@ -30,7 +31,8 @@ const TheClub = () => {
                     cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a 
                     club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
                     <p className="p-desc p-sub">Go Legends!</p>
-                <div className="club-history-img"></div>
+                {/* <div className="club-history-img"></div> */}
+                <img src={clb_img} className="club-history-img" />
             </div>
 
             <Divider horizontal>
