@@ -89,7 +89,7 @@ const TheClub = () => {
                 <div className="affi-logos">
                     <a href="http://www.ccsca.org.au/" target="_blank"><div className="affi-logo ccsca"></div></a>    
                     <a href="https://www.cricketact.com.au/" target="_blank"><div className="affi-logo actcricket"></div></a> 
-                    <a href="https://www.cricket.com.au/" target="_blank"><div className="affi-logo cric-aus"></div></a>    
+                    <a href="https://www.cricketaustralia.com.au/" target="_blank"><div className="affi-logo cric-aus"></div></a>    
                     <a href="https://iamsacanberra.com.au/" target="_blank"><div className="affi-logo iamsa"></div></a>    
                 </div>  
             </div>
