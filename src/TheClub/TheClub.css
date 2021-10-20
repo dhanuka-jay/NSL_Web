@@ -127,6 +127,10 @@
 }
 
 @media (max-width: 800px) {
+    #theclub .club-history {
+        margin-top: 80px;
+    }
+
     #theclub .club-history-img {
         max-width: 80vw;
     }
