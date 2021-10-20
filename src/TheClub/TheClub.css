@@ -105,10 +105,10 @@
     width:110px;
 }
 
-/* #theclub .affi-logos .affi-logo.actcricket {
+#theclub .affi-logos .affi-logo.actcricket {
     height: 145px;
     width:130px;
-} */
+}
 
 /* #theclub .affi-logos .affi-logo.cric-aus {
     height: 125px;
@@ -173,7 +173,13 @@
     
     #theclub .affi-logos .affi-logo {
         height: 70px;
-        width:60px;
+        width: 60px;
+    }
+
+    #theclub .affi-logos .affi-logo.actcricket {
+        height: 80px;
+        width: 70px;
+        margin-top: 5px;
     }
 
     #theclub .affi-logos .affi-logo.iamsa {
