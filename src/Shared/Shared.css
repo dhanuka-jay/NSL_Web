@@ -299,8 +299,8 @@
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    border-top: 3px solid #e8491d;
-    border-bottom: 3px solid #e8491d;
+    border-top: 3px solid #530b18;
+    border-bottom: 3px solid #530b18;
     padding: 10px 100px;
     color: #2d030b;
     /* background: url('../img/gal_img_2.jpg') center;
@@ -498,13 +498,27 @@
         padding: 10px 30px;
     }
 
-    .footer-container .footer-contacts {
-        margin: 25px 0px;
+    .footer-container h4 {
+        font-size: 0.85rem;
     }
-    
-    .copyright h4 {
-        font-size: 1.1rem;
-        padding: 10px 0px 10px 0px;
+
+    .footer-container .footer-contacts {
+        margin: 5px 0px;
+        order: 1;
+    }
+
+    .footer-container .footer-contacts .contact-socialmedia-container {
+        padding: 0px;
+    }
+
+    .footer-container .logo-copyright-container {
+        margin: 5px 0px;
+        order: 2;
+    }
+
+    .footer-container .tech-msg-container {
+        margin: 5px 0px;
+        order: 3;
     }
 }
 

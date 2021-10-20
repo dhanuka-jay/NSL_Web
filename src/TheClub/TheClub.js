@@ -15,6 +15,7 @@ const TheClub = () => {
 
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
+                <img src={clb_img} className="club-history-img" />
                 <p className="p-desc">Northside Legends (NSL) started in 2009 to promote Sunday social cricket in the North side of Canberra. 
                     Due to the easy-going culture of cricket enthusiastic members and common values of the club, NSL has become emergent in terms of 
                     quantity and quality. Our vision is to foster ongoing respect and success by providing a positive and enjoyable cricket experience 
@@ -31,8 +32,7 @@ const TheClub = () => {
                     cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a 
                     club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
                     <p className="p-desc p-sub">Go Legends!</p>
-                {/* <div className="club-history-img"></div> */}
-                <img src={clb_img} className="club-history-img" />
+                {/* <div className="club-history-img"></div> */}                
             </div>
 
             <Divider horizontal>
