@@ -5,13 +5,13 @@ import clb_img from '../img/gal_img_8.jpg';
 const TheClub = () => {
     return (
         <div id="theclub">
-            <h2 className="page-header">The Club</h2>
+            {/* <h2 className="page-header">The Club</h2>
 
             <Divider horizontal>
                 <Header as='h2'>
                     <Icon name='handshake' />
                 </Header>
-            </Divider>
+            </Divider> */}
 
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
@@ -36,9 +36,7 @@ const TheClub = () => {
             </div>
 
             <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                </Header>
+                    <div className="divider-img"></div>
             </Divider>
 
             {/* <div className="club-segment president-message">
@@ -83,9 +81,7 @@ const TheClub = () => {
             </div>
 
             <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                </Header>
+                    <div className="divider-img"></div>
             </Divider>
 
             <div className="club-segment Affiliates">
