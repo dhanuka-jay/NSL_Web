@@ -67,17 +67,17 @@ const TheClub = () => {
             <div className="club-segment office-bearers">
                 <h2 className="sub-header">Office Bearers</h2>
                 <h3 className="second-sub-header">The Northside Legends Board</h3>
-                <h4 className="board-name">President - Yehan Muthukuda</h4>
-                <h4 className="board-name">Vice President - Lalitha Jayaweera</h4>
-                <h4 className="board-name">Secretary - Lalantha Liyanage</h4>
-                <h4 className="board-name">Treasurer - Rohan Jayasuriya</h4>
+                <p className="p-desc">President - Yehan Muthukuda</p>
+                <p className="p-desc">Vice President - Lalitha Jayaweera</p>
+                <p className="p-desc">Secretary - Lalantha Liyanage</p>
+                <p className="p-desc">Treasurer - Rohan Jayasuriya</p>
 
                 <h3 className="second-sub-header">Committee Members</h3>
-                <h4 className="board-name">Dammika Adhikari</h4>
-                <h4 className="board-name">Kapila Hapu Arachchige</h4>
-                <h4 className="board-name">Punya Abhayawickrama</h4>
-                <h4 className="board-name">Muditha Hettiarachchy</h4>
-                <h4 className="board-name">Indika Fernando</h4>
+                <p className="p-desc">Dammika Adhikari</p>
+                <p className="p-desc">Kapila Hapu Arachchige</p>
+                <p className="p-desc">Punya Abhayawickrama</p>
+                <p className="p-desc">Muditha Hettiarachchy</p>
+                <p className="p-desc">Indika Fernando</p>
             </div>
 
             <Divider horizontal>

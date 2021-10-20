@@ -15,7 +15,11 @@
 }
 
 #theclub .club-history {
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+#theclub .club-history .sub-header {
+    margin-bottom: 40px;
 }
 
 .club-segment {
@@ -40,6 +44,10 @@
     min-height: 40px;
     background: url('../img/cric-ball.png') center no-repeat;
     background-size: cover;
+}
+
+#theclub .club-history .p-desc{    
+    text-align: justify;
 }
 
 .club-history-img {
@@ -71,8 +79,8 @@
     margin-bottom: 50px;
 }
 
-.office-bearers .ui.list>.item {
-    font-size: 1.5rem;
+.office-bearers .p-desc {
+    padding: 10px 0px;
 }
 
 #theclub .ui.segment {
@@ -80,7 +88,7 @@
 }
 
 #theclub .second-sub-header {
-    margin: 30px 0px 10px 0px;
+    margin: 30px 0px 20px 0px;
     text-align: center;
 }
 
@@ -97,6 +105,21 @@
     width:110px;
 }
 
+/* #theclub .affi-logos .affi-logo.actcricket {
+    height: 145px;
+    width:130px;
+} */
+
+/* #theclub .affi-logos .affi-logo.cric-aus {
+    height: 125px;
+    width: 85px;
+}
+
+#theclub .affi-logos .affi-logo.iamsa {
+    height: 125px;
+    width:125px;
+} */
+
 #theclub .affi-logos .affi-logo:hover {
     transform: scale(0.9);
     transition: all 0.2s ease-in-out;
@@ -104,7 +127,7 @@
 
 #theclub .affi-logos .ccsca{
     background: url('../img/Affiliates/ccsca.png') center no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-right: 5px;
 }
 
@@ -115,14 +138,14 @@
 }
 
 #theclub .affi-logos .cric-aus{
-    background: url('../img/Affiliates/cric-aus.jfif') center no-repeat;
-    background-size: cover;
+    background: url('../img/Affiliates/cric-aus.png') center no-repeat;
+    background-size: contain;
     margin-top: 10px;
 }
 
 #theclub .affi-logos .iamsa{
     background: url('../img/Affiliates/iamsa.jpg') center no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 5px 0px 0px 5px;
 }
 
@@ -133,6 +156,11 @@
 
     #theclub .club-history-img {
         max-width: 80vw;
+    }
+
+    #theclub .divider-img {
+        min-width: 25px;
+        min-height: 25px;
     }
 
     #theclub .affi-logos {
@@ -146,5 +174,10 @@
     #theclub .affi-logos .affi-logo {
         height: 70px;
         width:60px;
+    }
+
+    #theclub .affi-logos .affi-logo.iamsa {
+        height: 70px;
+        width: 70px;
     }
 }
