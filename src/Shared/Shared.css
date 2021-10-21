@@ -324,6 +324,10 @@
     justify-content: center;
 }
 
+.footer-container .logo-copyright-container .ui.image {
+    max-width: 22%;
+}
+
 .footer-container .logo-copyright-container h4{
     margin: 0;
     padding: 3px 5px;
