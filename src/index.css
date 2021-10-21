@@ -40,3 +40,10 @@
   font-size: 1.3rem;
   word-spacing: 0.02rem;
 }
+
+.divider-img {
+  min-width: 40px;
+  min-height: 40px;
+  background: url('./img/cric-ball.png') center no-repeat;
+  background-size: cover;
+}

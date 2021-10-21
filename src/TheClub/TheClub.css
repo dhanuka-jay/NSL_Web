@@ -39,12 +39,12 @@
     margin: 20px 0px 70px 0px;
 }
 
-#theclub .divider-img {
+/* #theclub .divider-img {
     min-width: 40px;
     min-height: 40px;
     background: url('../img/cric-ball.png') center no-repeat;
     background-size: cover;
-}
+} */
 
 #theclub .club-history .p-desc{    
     text-align: justify;

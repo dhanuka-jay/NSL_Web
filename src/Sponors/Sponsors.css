@@ -12,11 +12,11 @@
 }
 
 #sponsors .sp-header {
-    padding: 20px 0px;
+    margin-top: 50px;
+    padding: 10px 0px 20px 0px;
 }
 
 #sponsors .sp-header h2{
-    font-family: 'ANDYB';
     font-size: 3.8rem;
     text-shadow:    -1.5px 1.5px 0 #2d030b,
                     1.5px 1.5px 0 #2d030b,
@@ -25,27 +25,61 @@
     padding-bottom: 0px;
 }
 
-#sponsors .sp-cards {   
-    width: 60%;
+#sponsors .sponsor-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+#sponsors .sponsor-logos .main-sponsors,
+#sponsors .sponsor-logos .secondary-sponsors {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 
-#sponsors .sp-cards .ui.card {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#sponsors .sponsor-logos .main-sponsors .m-sp {
+    min-height: 150px;
+    min-width: 450px;
+    margin-bottom: 20px;
 }
 
-/* #sponsors .sp-cards .ui.card>.image{
-    max-height: 290px;
-    max-width: 290px;
-}    */
-
-#sponsors .sp-cards .ui.card>.image>img{
-    max-height: 290px;
-    max-width: 290px;
+#sponsors .sponsor-logos .secondary-sponsors .s-sp {
+    min-height: 80px;
+    min-width: 300px;
+    margin-top: 20px;
 }
+
+#sponsors .sponsor-logos .main-sponsors .bemnt-tiles {
+    background: url('../img/sponsors/bemnt-tiles.jpg') center no-repeat;
+    background-size: contain;
+}
+
+#sponsors .sponsor-logos .main-sponsors .med-practice {
+    background: url('../img/sponsors/med-prac.png') center no-repeat;
+    background-size: contain;
+}
+
+#sponsors .sponsor-logos .secondary-sponsors .fintax {
+    background: url('../img/sponsors/finTax.jpg') center no-repeat;
+    background-size: contain;
+}
+
+#sponsors .sponsor-logos .secondary-sponsors .aussie {
+    background: url('../img/sponsors/aussie.jpg') center no-repeat;
+    background-size: contain;
+}
+
+#sponsors .sponsor-logos .secondary-sponsors .rma {
+    background: url('../img/sponsors/rma.jpg') center no-repeat;
+    background-size: contain;
+}
+
 
 @media (max-width:800px) {
     #sponsors {
@@ -54,11 +88,27 @@
         padding: 0 5vw;
     }
 
-    #sponsors .sp-container {
+    #sponsors .sponsor-logos {
         margin-bottom: 25px;
     }
 
-    #sponsors .sp-cards {
+    #sponsors .sp-header h2 {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    #sponsors .sponsor-logos .main-sponsors .m-sp,
+    #sponsors .sponsor-logos .secondary-sponsors .s-sp {
+        min-height: 10vh;
+        min-width: 80vw;
+        margin-bottom: 20px;
+    }
+
+    #sponsors .sponsor-logos .main-sponsors,
+    #sponsors .sponsor-logos .secondary-sponsors {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
