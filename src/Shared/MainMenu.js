@@ -45,7 +45,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </div> 
             </div>
             <div className={ rotateBtn ? 'menu-nav show' : 'menu-nav' }>
-                <Link 
+                {/* <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link1'
                     to='/'
@@ -55,7 +55,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         className={ activePage === 'home' ? "active" : '' }
                         onClick={ () => setActivePage('home')}
                     >Home</h2>
-                </Link>
+                </Link> */}
                 {/* <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link2'
@@ -87,22 +87,11 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     <h2 
                         className={ activePage === 'media' ? "active" : '' }
                         onClick={ () => setActivePage('media')}
-                    >Media Gallery</h2>
-                </Link>
+                    >Media</h2>
+                </Link>                
                 <Link
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link4'
-                    to='/contacts'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    <h2 
-                        className={ activePage === 'contactus' ? "active" : '' }
-                        onClick={ () => setActivePage('contactus')}
-                    >Contact Us</h2>
-                </Link>
-                <Link
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link5'
                     to='/sponsors'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
@@ -110,6 +99,17 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         className={ activePage === 'sponsors' ? "active" : '' }
                         onClick={ () => setActivePage('sponsors')}
                     >Sponsors</h2>
+                </Link>
+                <Link
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link5'
+                    to='/contacts'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    <h2 
+                        className={ activePage === 'contactus' ? "active" : '' }
+                        onClick={ () => setActivePage('contactus')}
+                    >Contact Us</h2>
                 </Link>
                 {/* { isLoggedIn ?
                 <Link 
