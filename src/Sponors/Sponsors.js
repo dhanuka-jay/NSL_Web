@@ -22,17 +22,20 @@ const Sponsors = () => {
 
                     </div>
                 </div>
-                <div className="secondary-sponsors">
-                    <div className="s-sp fintax">
+                <div className="secondary-sponsors">                    
+                    <div className="s-sp aussie">
 
                     </div>
-                    <div className="s-sp aussie">
+                    <div className="s-sp fintax">
 
                     </div>
                     <div className="s-sp rma">
 
                     </div>
                 </div>
+            </div>
+            <div className="sp-quote"> 
+                <h3>Thank you for your generous contribution.</h3>
             </div>
         </div>
     )
