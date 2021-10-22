@@ -328,7 +328,10 @@
     max-width: 18%;
 }
 
-.footer-container .logo-copyright-container h4{
+.footer-container .logo-copyright-container h4,
+.footer-container .tech-msg-container h4{
+    font-family: 'Lato';
+    font-weight: 100;
     margin: 0;
     padding: 3px 5px;
 }

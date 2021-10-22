@@ -8,7 +8,7 @@ const Sponsors = () => {
     return (
         <div id="sponsors">
             <div className="sp-header">
-                <h2>Our valued Partners</h2>
+                <h2>Our Partners</h2>
                 <Divider horizontal>
                     <div className="divider-img"></div>
                 </Divider>

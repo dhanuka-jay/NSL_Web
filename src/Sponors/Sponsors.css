@@ -9,10 +9,11 @@
     background: linear-gradient(rgba(45, 3, 11, 0.95), rgba(196, 162, 91, 0.95)), url('../img/sponsors/sponsors_bg_img_1.jpg') bottom no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #sponsors .sp-header {
-    margin-top: 50px;
+    /* margin-top: 30px; */
     padding: 10px 0px 20px 0px;
 }
 
@@ -26,13 +27,14 @@
 }
 
 #sponsors .sponsor-logos {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     padding: 20px 15px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 #sponsors .sponsor-logos .main-sponsors,
@@ -50,14 +52,15 @@
 }
 
 #sponsors .sponsor-logos .secondary-sponsors .s-sp {
-    min-height: 80px;
-    min-width: 300px;
+    min-height: 60px;
+    min-width: 250px;
     margin-top: 20px;
 }
 
 #sponsors .sponsor-logos .main-sponsors .bemnt-tiles {
     background: url('../img/sponsors/bemnt-tiles.jpg') center no-repeat;
     background-size: contain;
+    margin-right: 20px;
 }
 
 #sponsors .sponsor-logos .main-sponsors .med-practice {
@@ -97,10 +100,15 @@
         margin-top: 40px;
     }
 
-    #sponsors .sponsor-logos .main-sponsors .m-sp,
-    #sponsors .sponsor-logos .secondary-sponsors .s-sp {
+    #sponsors .sponsor-logos .main-sponsors .m-sp {
         min-height: 10vh;
-        min-width: 80vw;
+        max-width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    #sponsors .sponsor-logos .secondary-sponsors .s-sp {
+        min-height: 6vh;
+        max-width: 80vw;
         margin-bottom: 20px;
     }
 
