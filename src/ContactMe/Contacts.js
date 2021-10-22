@@ -52,7 +52,8 @@ const Contacts = () => {
                         <Icon name="phone" size="large" />
                     </div>
                     <h4>Give us a call</h4>
-                    <h3>+61 423 863519 / +61 435 399304</h3>                    
+                    <h3>+61 423 863519</h3>
+                    <h3>+61 435 399304</h3>                    
                 </div>
                 <div className="contact-email">
                     <div className="icon-div">

@@ -197,7 +197,6 @@
 
 @media (max-width: 1000px) {
     .contacts-container {
-        padding-top: 35px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
