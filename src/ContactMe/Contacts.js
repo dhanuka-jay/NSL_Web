@@ -84,6 +84,15 @@ const Contacts = () => {
                     >Send</Button>
                 </Form>
             </div>
+            <div className="terms-cond">
+                <p className="p-desc">
+                *Terms and conditions applicable for the registration:
+                </p>
+                <p className="p-desc">
+                The NSL Executive Committee will make the final decision with regard to acceptance of an individual as a registered player, 
+                including such considerations as status of clearances from previous clubs, final numbers of registrations received at close 
+                of registration period, or failure to provide accurate information about playing history.</p>
+            </div>
             <div className="contact-overlay"></div>
 
             <Modal
