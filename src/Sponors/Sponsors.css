@@ -12,6 +12,10 @@
     overflow-x: hidden;
 }
 
+#sponsors .sp-header .ui.divider {
+    width: 100vw;
+}
+
 #sponsors h1, #sponsors h2, #sponsors h3, #sponsors h4, #sponsors h5 {
     font-family: 'Open Sans', 'Lato';
 }

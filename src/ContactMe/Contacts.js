@@ -27,33 +27,37 @@ const Contacts = () => {
         <div className="contacts-container">
             <div className="contact-header">
                 <div className="contact-big-header">
-                    <h1>Keep in touch with us...</h1>
+                    <h1>"Compromise for your Dream but never Compromise on your Dream.”</h1>
+                    <h4>Imran Khan</h4>
                 </div>
                 <div className="contact-small-header">
-                    <h3>It's great to have you here! Let's get in touch for sure.</h3>
+                    <h3>Are you looking to get into cricket?</h3>
                 </div>
             </div>
             <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                    Reach Us On..
-                </Header>
+                    <div className="divider-img"></div>
             </Divider>
             <div className="contact-method-container">
                 <div className="contact-facebook">
-                    <Icon name="facebook f" size="big" />
-                    <h4>Like our facebook page</h4>
+                    <div className="icon-div">
+                        <Icon name="facebook f" size="big" />
+                    </div>
+                    <h4>Follow us on facebook</h4>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
                         <h3>Northside Legends</h3>
                     </a>                    
                 </div>
                 <div className="contact-phone">
-                    <Icon name="phone" size="large" />
+                    <div className="icon-div">
+                        <Icon name="phone" size="large" />
+                    </div>
                     <h4>Give us a call</h4>
-                    <h3>0423 863519</h3>                    
+                    <h3>+61 423 863519 / +61 435 399304</h3>                    
                 </div>
                 <div className="contact-email">
-                    <Icon name="mail" size="big" /> 
+                    <div className="icon-div">
+                        <Icon name="mail" size="big" /> 
+                    </div>
                     <h4>Send us an Email</h4>
                     <h3>info@northsidelegends.com.au</h3>     
                 </div>
@@ -68,7 +72,8 @@ const Contacts = () => {
                 <Form size="large" onSubmit={sendMessage}>
                     <Form.Group widths="equal">
                         <Form.Input label='Name' name="Name" placeholder='Your Name' required/>
-                        <Form.Input type="email" name="Email" label='Email' placeholder='joe@schmoe.com' required/>                        
+                        <Form.Input type="email" name="Email" label='Email' placeholder='joe@schmoe.com' required/>   
+                        <Form.Input label="Phone" name="Phone" placeholder="04xx xxx xxx" required />                     
                     </Form.Group>
                     <Form.TextArea label='Message' name="Message" placeholder='Your query here...' required/>
                     <Button 
