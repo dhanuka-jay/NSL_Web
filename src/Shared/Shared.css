@@ -98,6 +98,7 @@
     visibility: hidden;
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 .main-menu.show {
@@ -446,6 +447,8 @@
 
     .main-menu .menu-desc .desc-vision p {
         font-size: 0.8rem;
+        line-height: 1.3rem;
+        text-align: justify;
     }
     .main-menu .menu-desc .desc-mission .ui.list .item .content {
         font-size: 0.8rem;
