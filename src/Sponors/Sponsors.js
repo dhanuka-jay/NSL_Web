@@ -9,6 +9,7 @@ const Sponsors = () => {
         <div id="sponsors">
             <div className="sp-header">
                 <h2>Our Partners</h2>
+                <h3>Thank you for your generous contribution.</h3>
                 <Divider horizontal>
                     <div className="divider-img"></div>
                 </Divider>
@@ -34,9 +35,9 @@ const Sponsors = () => {
                     </div>
                 </div>
             </div>
-            <div className="sp-quote"> 
+            {/* <div className="sp-quote"> 
                 <h3>Thank you for your generous contribution.</h3>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -18,7 +18,11 @@
 
 #sponsors .sp-header {
     /* margin-top: 30px; */
-    padding: 10px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 20px 0px;    
 }
 
 #sponsors .sp-header h2{
@@ -28,6 +32,11 @@
                     1.5px -1.5px 0 #2d030b,
                     -1.5px -1.5px 0 #2d030b;
     padding-bottom: 0px;
+}
+
+#sponsors .sp-header h3{
+    font-size: 2.2rem;
+    margin-top: 5px !important;
 }
 
 #sponsors .sponsor-logos {
@@ -89,14 +98,14 @@
     background-size: contain;
 }
 
-#sponsors .sp-quote {
+/* #sponsors .sp-quote {
     margin-top: 70px;
 }
 
 #sponsors .sp-quote h3{
     font-size: 2.5rem;
     text-align: center;
-}
+} */
 
 
 @media (max-width:800px) {
@@ -107,12 +116,17 @@
     }
 
     #sponsors .sponsor-logos {
-        margin-bottom: 25px;
+        margin-bottom: 5px;
     }
 
     #sponsors .sp-header h2 {
         text-align: center;
         margin-top: 40px;
+    }
+
+    #sponsors .sp-header h3 {
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     #sponsors .sponsor-logos .main-sponsors .m-sp {
