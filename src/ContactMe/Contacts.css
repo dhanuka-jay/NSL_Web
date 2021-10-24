@@ -44,13 +44,13 @@
 }
 
 .contacts-container .contact-header .contact-big-header h1 {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     color: #2d030b;
     font-style: italic;
 }
 
 .contacts-container .contact-header .contact-big-header h4 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #2d030b;
     font-weight: bold;
     float: right;
@@ -61,7 +61,8 @@
 }
 
 .contacts-container .contact-header .contact-small-header h3 {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: bolder;
     color: #2d030b;
 }
 
