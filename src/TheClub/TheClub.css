@@ -74,6 +74,10 @@
     border-radius: 10px;
 }
 
+#theclub .president-message .club-sub-segment .p-left {
+    align-self: flex-start;
+}
+
 .president-message .president-img {
     width: 300px;
     height: 300px;
@@ -187,7 +191,7 @@
 
     #theclub .president-message .club-sub-segment {
         width: 80vw;
-    }
+    }  
 
     #theclub .affi-logos {
         width: 90%;
