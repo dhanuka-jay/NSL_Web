@@ -39,22 +39,14 @@ const TheClub = () => {
                     <div className="divider-img"></div>
             </Divider>
 
-            {/* <div className="club-segment president-message">
+            <div className="club-segment president-message">
                 <h2 className="sub-header">President's Message</h2>
                 <div className="club-sub-segment">
                     <div className="president-img"></div>
-                    <p className="p-desc">Northside Legends (NSL) started in 2009 to promote Sunday social cricket in the North side of Canberra. 
-                        Due to the easy-going culture of cricket enthusiastic members and common values of the club, NSL has become emergent in terms of 
-                        quantity and quality. Our vision is to foster ongoing respect and success by providing a positive and enjoyable cricket experience 
-                        for all, while developing players, people, and partnerships in the community. 
-                        The club strives hard to provide an environment to its players that encourages achievement, team spirit, sportsmanship while 
-                        promoting the growth of the club in the local community.</p>
-                    <p className="p-desc">In early days, the club participated in several soft-ball tournaments organised by various Canberra based 
-                        cricket communities.  In 2021 the club was registered in Cricket Australia as Northside Legends Inc.  The club started playing 
-                        hard-ball cricket in 2021 and soon achieved a vast success in this version by coming as far as quarter finals and semi-finals, 
-                        respectively by the two teams entered in Super T20 Sunday competition in 2021.  Due to the increased interest and enthusiasm 
-                        of members to play competitive cricket, NSL entered by fielding two teams in Canberra City & Suburban Cricket Association (CCSCA) 
-                        tournament in 2021/22 season.</p> 
+                    <p className="p-desc">Northside Legends (NSL) started in 2009 to promote Sunday social cricket in the North side of Canberra.  Due to the easy-going culture of cricket enthusiastic members and common values of the club, NSL has become emergent in terms of quantity and quality. Our vision is to foster ongoing respect and success by providing a positive and enjoyable cricket experience for all, while developing players, people, and partnerships in the community. The club strives hard to provide an environment to its players that encourages achievement, team spirit, sportsmanship while promoting the growth of the club in the local community.</p> 
+                    <p className="p-desc">In early days, the club participated in several soft-ball tournaments organised by various Canberra based cricket communities.  In 2021 the club was registered in Cricket Australia as Northside Legends Inc.  The club started playing hard-ball cricket in 2021 and soon achieved a vast success in this version by coming as far as quarter finals and semi-finals, respectively by the two teams entered in Super T20 Sunday competition in 2021.  Due to the increased interest and enthusiasm of members to play competitive cricket, NSL entered by fielding two teams in Canberra City & Suburban Cricket Association (CCSCA) tournament in 2021/22 season.</p>
+                    <p className="p-desc">We have been blessed with a wonderful set of members and backed by their families in various ways. How we play cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
+                    <p className="p-desc">Go Legends!</p> 
                 </div>               
             </div>
 
@@ -62,7 +54,7 @@ const TheClub = () => {
                 <Header as='h2'>
                     <Icon name='handshake' />
                 </Header>
-            </Divider> */}
+            </Divider>
 
             <div className="club-segment office-bearers">
                 <h2 className="sub-header">Office Bearers</h2>
