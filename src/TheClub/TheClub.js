@@ -45,7 +45,7 @@ const TheClub = () => {
                     <div className="president-img"></div>
                     <p className="p-desc">Welcome to the website of the Northside Legends Cricket Club (NSL). Northside Legends Cricket Club is striving to promote cricket in the north side of Canberra. In 2009, a group of Cricket-loving friends started to play cricket every Sunday using a softball cricket kit. Due to the easy-going culture and common values of the club, NSL has become emergent in terms of quantity and quality. One of the things I love about the club is the spirit of inclusion where we support and get all involved. </p> 
                     <p className="p-desc">NSL has only been playing cricket as a registered club for a very short time. But we have already attracted many keen followers. Due to the increased interest and enthusiasm of members to play competitive cricket, NSL has entered CCSCA tournament during 21-22 season. We also participated in Super8 T20 tournaments and our teams have achieved some outstanding results. I strive NSL to become a major force in Canberra cricket community.</p>
-                    <p className="p-desc">We have been blessed with a wonderful set of members and backed by their families in various ways. How we play cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
+                    <p className="p-desc">We have individuals with a great mix of capabilities in the committee as well as in our club in general and the combined efforts of this team will no doubt provide a great environment for all in the future. Serving in the committee can be a fun experience when you have a great team to work with and I certainly have that capability and the assurance in the current committee.</p>
                     <p className="p-desc">What I love about the club is that we have developed various channels to communicate across everyone in the club and collect all their ideas and it will be on display at a committee level. With collective thinking power, all of the ideas are welcomed by the committee to include in our discussions.</p>
                     <p className="p-desc p-left">We look forward to welcoming you soon and thank you for your visit.</p>
                     <p className="p-desc p-left">Yehan Muthukuda<br />
@@ -54,9 +54,7 @@ const TheClub = () => {
             </div>
 
             <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                </Header>
+                    <div className="divider-img"></div>
             </Divider>
 
             <div className="club-segment office-bearers">
