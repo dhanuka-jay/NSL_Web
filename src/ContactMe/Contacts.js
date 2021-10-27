@@ -29,16 +29,16 @@ const Contacts = () => {
                 <div className="contact-big-header">
                     <h1>"Compromise for your Dream but never Compromise on your Dream.”</h1>
                     <h4>Imran Khan</h4>
-                </div>
-                <div className="contact-small-header">
-                    <h3>Are you looking to get into cricket?</h3>
-                </div>
+                </div>                
             </div>
             <Divider horizontal>
                     <div className="divider-img"></div>
             </Divider>
+            <div className="contact-small-header">
+                <h3>Are you looking to get into cricket?</h3>
+            </div>
             <div className="contact-method-container">
-                <div className="contact-facebook">
+                {/* <div className="contact-facebook">
                     <div className="icon-div">
                         <Icon name="facebook f" size="big" />
                     </div>
@@ -46,14 +46,17 @@ const Contacts = () => {
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
                         <h3>Northside Legends</h3>
                     </a>                    
-                </div>
+                </div> */}
                 <div className="contact-phone">
                     <div className="icon-div">
                         <Icon name="phone" size="large" />
                     </div>
                     <h4>Give us a call</h4>
-                    <h3>+61 423 863519</h3>
-                    <h3>+61 435 399304</h3>                    
+                    <div className="phone-container">
+                        <h3>+61 423 863519</h3>
+                        <h3> &ensp;/&ensp; </h3>
+                        <h3>+61 435 399304</h3> 
+                    </div>                                       
                 </div>
                 <div className="contact-email">
                     <div className="icon-div">
@@ -71,10 +74,12 @@ const Contacts = () => {
             </Divider>
             <div className="send-message-container">
                 <Form size="large" onSubmit={sendMessage}>
+                    <Form.Group>
+                        <Form.Input label='Name' name="Name" placeholder='Your Name' required width={10}/>                          
+                        <Form.Input label="Phone" name="Phone" placeholder="04xx xxx xxx" required width={6}/>                     
+                    </Form.Group>
                     <Form.Group widths="equal">
-                        <Form.Input label='Name' name="Name" placeholder='Your Name' required/>
-                        <Form.Input type="email" name="Email" label='Email' placeholder='joe@schmoe.com' required/>   
-                        <Form.Input label="Phone" name="Phone" placeholder="04xx xxx xxx" required />                     
+                        <Form.Input type="email" name="Email" label='Email' placeholder='john@smith.com' required/> 
                     </Form.Group>
                     <Form.TextArea label='Message' name="Message" placeholder='Your query here...' required/>
                     <Button 
@@ -85,10 +90,10 @@ const Contacts = () => {
                 </Form>
             </div>
             <div className="terms-cond">
-                <p className="p-desc">
+                <p className="p-desc section-1">
                 *Terms and conditions applicable for the registration:
                 </p>
-                <p className="p-desc">
+                <p className="p-desc section-2">
                 The NSL Executive Committee will make the final decision with regard to acceptance of an individual as a registered player, 
                 including such considerations as status of clearances from previous clubs, final numbers of registrations received at close 
                 of registration period, or failure to provide accurate information about playing history.</p>

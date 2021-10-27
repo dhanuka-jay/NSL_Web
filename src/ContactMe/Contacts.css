@@ -45,12 +45,15 @@
 }
 
 .contacts-container .contact-header .contact-big-header h1 {
-    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Irish Grover', cursive;
     font-size: 2.0rem;
     color: #2d030b;
 }
 
 .contacts-container .contact-header .contact-big-header h4 {
+    font-family: 'Open Sans';
+    font-style: italic;
     font-size: 1rem;
     color: #2d030b;
     font-weight: bold;
@@ -61,14 +64,19 @@
     margin-bottom: 20px;
 }
 
-.contacts-container .contact-header .contact-small-header h3 {
-    font-size: 3rem;
+.contacts-container .contact-small-header {
+    margin-left: 10vw;
+    align-self: flex-start;
+}
+
+.contacts-container .contact-small-header h3 {
+    font-size: 1.6rem;
     font-weight: bolder;
     color: #2d030b;
 }
 
 .contacts-container .ui.divider {
-    width: 60% !important;
+    width: 80% !important;
 }
 
 .contacts-container .ui.divider h2 {
@@ -81,7 +89,7 @@
 
 .contacts-container .contact-method-container {
     margin: 30px 0px 30px 0px;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,6 +127,11 @@
     align-items: center;
 }
 
+.contact-phone .phone-container {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 .contact-phone h3, .contact-email h3, .contact-facebook h3 {
@@ -142,7 +155,7 @@
 
 .send-message-container {
     margin: 30px 0px;
-    width: 60%;
+    width: 80%;
 }
 
 .send-message-container .ui.form {
@@ -176,7 +189,12 @@
 }
 
 .contacts-container .terms-cond {
-    width: 60vw;
+    width: 80vw;
+    margin-bottom: 10px;
+}
+
+.contacts-container .terms-cond .section-1{
+    margin-bottom: 5px;
 }
 
 .contacts-container .terms-cond .p-desc {
@@ -309,6 +327,7 @@
 
     .contacts-container .terms-cond .p-desc{
         text-align: justify;
+        font-size: 0.6rem;
     }
 
 }

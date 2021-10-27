@@ -39,6 +39,23 @@
   align-items: center;
 }
 
+#home-main .home-content h2{
+  font-family: 'Indie Flower', cursive;
+}
+
+#home-main .home-content h5{
+  font-family: 'Open Sans';
+  font-style: italic;
+  align-self: flex-end;
+  margin-top: 0px;
+}
+
+#home-main .home-content h2.welcome-msg{
+  font-family: 'Lato', 'Open Sans';
+  font-size: 2.5rem;
+  margin-top: 60px;
+}
+
 #home-main video {
     position: absolute;
     top: 0;
@@ -104,7 +121,6 @@ h2.sm-heading {
     color: #fff;
     font-size: 2.0rem;
     font-weight: bold;
-    margin-bottom: 2rem;
     padding: 0.2rem 0.8rem;
     background-color: rgba(34, 36, 36, 0.5);
     /* width -> stop background running all the way
