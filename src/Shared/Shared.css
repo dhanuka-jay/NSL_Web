@@ -345,6 +345,7 @@
 }
 
 .footer-container .footer-contacts .p-desc {
+    font-family: 'Lato', 'Open Sans';
     color: #2d030b;
     font-size: 1.5rem;
 }

@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
               
             <div className="tech-msg-container">
-                <h4>Design & Powered by NSL Tech Team</h4>
+                <h4>Designed & Developed by NSL Tech Team</h4>
             </div>
         </div>
     )
