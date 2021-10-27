@@ -87,7 +87,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     <h2 
                         className={ activePage === 'media' ? "active" : '' }
                         onClick={ () => setActivePage('media')}
-                    >Media</h2>
+                    >Gallery</h2>
                 </Link>                
                 <Link
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  

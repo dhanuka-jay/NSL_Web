@@ -9,7 +9,8 @@
     width: 100vw;
     min-height: 100%;    
     /* background:  linear-gradient(rgba(46, 45, 46, 1), rgba(83, 81, 81, 0.8)), url('../img/gal_img_2.jpg') center no-repeat; */
-    background: linear-gradient(#c4a25b99, #ffffff99);
+    background: linear-gradient(rgba(136, 120, 85, 0.9), rgba(255, 255, 255, 0.9)), url('../img/contact-background.jpg') center no-repeat;
+    /* background: linear-gradient(rgba(196, 162, 91, 0.6), rgba(255, 255, 255, 0.6)); */
     background-size: cover;
     background-attachment: fixed;
     background-color: #fff;
@@ -44,9 +45,9 @@
 }
 
 .contacts-container .contact-header .contact-big-header h1 {
+    font-family: 'Indie Flower', cursive;
     font-size: 2.0rem;
     color: #2d030b;
-    font-style: italic;
 }
 
 .contacts-container .contact-header .contact-big-header h4 {
