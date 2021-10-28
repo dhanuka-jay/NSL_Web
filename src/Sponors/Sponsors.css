@@ -123,6 +123,11 @@
         padding: 0 5vw;
     }
 
+    #sponsors .divider-img {
+        min-width: 25px;
+        min-height: 25px;
+    }
+
     #sponsors .sponsor-logos {
         width: 90vw;
         padding: 20px 15px;

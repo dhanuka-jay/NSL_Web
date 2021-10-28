@@ -35,7 +35,7 @@ const Contacts = () => {
                     <div className="divider-img"></div>
             </Divider>
             <div className="contact-small-header">
-                <h3>Are you looking to get into cricket?</h3>
+                <div className="p-desc">Are you looking to get into cricket?</div>
             </div>
             <div className="contact-method-container">
                 {/* <div className="contact-facebook">
@@ -54,7 +54,7 @@ const Contacts = () => {
                     <h4>Give us a call</h4>
                     <div className="phone-container">
                         <h3>+61 423 863519</h3>
-                        <h3> &ensp;/&ensp; </h3>
+                        <h3 className="slash"> &ensp;/&ensp; </h3>
                         <h3>+61 435 399304</h3> 
                     </div>                                       
                 </div>

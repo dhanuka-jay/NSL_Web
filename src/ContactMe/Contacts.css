@@ -68,9 +68,8 @@
     align-self: flex-start;
 }
 
-.contacts-container .contact-small-header h3 {
+.contacts-container .contact-small-header .p-desc {
     font-size: 1.6rem;
-    font-weight: bolder;
     color: #2d030b;
 }
 
@@ -239,6 +238,11 @@
         width: 80% !important;
     }
 
+    .contacts-container  .divider-img {
+        min-width: 25px;
+        min-height: 25px;
+    }
+
     .contacts-container .contact-header .contact-big-header h1 {
         font-size: 1.4rem;
         color: #2d030b;
@@ -259,6 +263,15 @@
     .contacts-container .contact-header .contact-small-header h3 {
         font-size: 2.4rem;
         color: #2d030b;
+    }
+
+    .contact-phone .phone-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-phone .phone-container .slash{
+        display: none;
     }
 
     .contacts-container .ui.divider {
