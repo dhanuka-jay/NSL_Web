@@ -18,7 +18,7 @@ const HomeMain = ({rotateBtn}) => {
                 <h2 className={ rotateBtn ? 'sm-heading hide' : 'sm-heading' }>
                     “Cricket is a funny game, we have legends and living legends but the game doesn’t stop for anyone!”
                 </h2>
-                <h5 className={ rotateBtn ? 'name-kumar hide' : 'name-kumar' }>Kumar Sangakkara</h5>
+                <h4 className={ rotateBtn ? 'name-kumar hide' : 'name-kumar' }>Kumar Sangakkara</h4>
                 <h2 className="welcome-msg">Welcome to the home of Northside Legends!</h2>
                 {/* <div className={ rotateBtn ? 'social-icons hide' : 'social-icons' }>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>

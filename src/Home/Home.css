@@ -43,7 +43,7 @@
   font-family: 'Indie Flower', cursive !important;
 }
 
-#home-main .home-content h5{
+#home-main .home-content .name-kumar{
   font-family: 'Open Sans';
   font-style: italic;
   align-self: flex-end;
@@ -262,6 +262,11 @@ h2.sm-heading {
 
     #home-main .home-content h2.welcome-msg {
       font-size: 2rem;
+    }
+
+    #home-main .home-content .name-kumar{
+      font-size: 1rem;
+      margin-right: 10vw;
     }
 
     h1.lg-heading {
