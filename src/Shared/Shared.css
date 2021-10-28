@@ -381,6 +381,10 @@
   background: #fff;
 }
 
+.footer-container .footer-contacts .contact-socialmedia-container .icon-container i.icon {
+    color: #2d030b !important;
+}
+
 .footer-container .footer-contacts .contact-socialmedia-container .icon-container:hover {
     transform: scale(1.1, 1.1);
     transition: all 0.2s ease-out;

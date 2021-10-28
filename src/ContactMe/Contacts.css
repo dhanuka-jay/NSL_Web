@@ -2,7 +2,7 @@
     box-sizing: border-box !important;
     margin: 0%;
     padding: 0%;
-    /* font-family: 'Open Sans', sans-serif !important; */
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .contacts-container {
@@ -45,14 +45,13 @@
 }
 
 .contacts-container .contact-header .contact-big-header h1 {
-    /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Indie Flower', cursive !important;
+    /* font-family: 'Irish Grover', cursive; */
     font-size: 2.0rem;
     color: #2d030b;
 }
 
 .contacts-container .contact-header .contact-big-header h4 {
-    font-family: 'Open Sans';
     font-style: italic;
     font-size: 1rem;
     color: #2d030b;
@@ -83,6 +82,11 @@
     font-size: 1.5rem;
 }
 
+
+.contacts-container .ui.divider h2 i.icon {
+    font-family: Icons !important;
+}
+
 .contacts-container .ui.divider .ui.header{
     color: #2d030b;
 }
@@ -102,12 +106,10 @@
     margin-left: 5px;
     color: #2d030b;
 }
-/* 
+
 .contacts-container .contact-method-container .icon-div i.icon {
-    border: #2d030b 1px solid;
-    border-radius: 50%;
-    color: #2d030b;
-} */
+    font-family: Icons !important;
+}
 
 .contact-method-container h3:hover {
     transform: scale(0.9);

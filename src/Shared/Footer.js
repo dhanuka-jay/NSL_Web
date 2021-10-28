@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="contact-socialmedia-container">
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
                         <div className="icon-container">
-                            <Icon name='facebook f' size='large'/>
+                            <Icon name='facebook f' size='large'color="red"/>
                         </div>
                     </a>
                     <a href="https://www.youtube.com/channel/UCPmT74NawRaPkpVuVtWYkMA" target='_blank'>

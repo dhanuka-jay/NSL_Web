@@ -9,11 +9,15 @@
   src: local('ANDYB'), url(./fonts/ANDYB.TTF) format('truetype');
 } */
 
-* {
+h1, h2, h3, h4, h5, .p-desc{
   box-sizing: border-box;
   margin: 0;
   padding: 0;  
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+* .ui.divider {
+  color: #2d030b !important;
 }
 
 .App {

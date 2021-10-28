@@ -39,8 +39,8 @@
   align-items: center;
 }
 
-#home-main .home-content h2{
-  font-family: 'Indie Flower', cursive;
+#home-main .home-content h2.sm-heading{
+  font-family: 'Indie Flower', cursive !important;
 }
 
 #home-main .home-content h5{
