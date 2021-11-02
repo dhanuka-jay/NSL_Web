@@ -35,6 +35,9 @@ const Sponsors = () => {
 
                     </div>
                 </div>
+                <Divider horizontal>
+                    <p className="p-desc">Official Photography Partner</p>
+                </Divider>
                 <div className="own-sponsors">
                     <div className="flash-photo">
                         
