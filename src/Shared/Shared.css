@@ -479,6 +479,11 @@
         margin-top: 2px;
     }
 
+    .ui.modal.values-modal>.content h2 {
+        margin-top: 8px;
+    }
+    
+
     .main-menu .menu-desc .desc-vision .desc-text,
     .main-menu .menu-desc .desc-mission .desc-text {
         margin-bottom: 0px;
