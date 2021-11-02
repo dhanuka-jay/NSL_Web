@@ -78,6 +78,14 @@
     margin-top: 20px;
 }
 
+#sponsors .sponsor-logos .own-sponsors .flash-photo {
+    background: url('../img/sponsors/flashPhoto.png') center no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    min-width: 120px;
+    margin-top: 30px;
+}
+
 #sponsors .sponsor-logos .main-sponsors .bemnt-tiles {
     background: url('../img/sponsors/bemnt-tiles.jpg') center no-repeat;
     background-size: contain;
@@ -159,6 +167,11 @@
         min-height: 6vh;
         max-width: 80vw;
         margin-bottom: 20px;
+    }
+
+    #sponsors .sponsor-logos .own-sponsors .flash-photo {
+        min-height: 10vh;
+        max-width: 80vw;
     }
 
     #sponsors .sponsor-logos .secondary-sponsors .fintax {

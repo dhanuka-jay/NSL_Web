@@ -44,7 +44,7 @@
     transform: scale(1.1);
 }
 
-.ui.modal>.content {
+.gallery .ui.modal>.content {
     display: flex !important;
     justify-content: center;
     background: rgba(0, 0, 0, 0.9) !important;

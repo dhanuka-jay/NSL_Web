@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
-import { Image, Label, List } from 'semantic-ui-react';
+import { useState } from "react";
+import { Image, Label, List, Button, Header, Icon, Modal } from 'semantic-ui-react';
 import MainLogo from '../png_logo_NSL.png';
+import './Shared.css';
 
 const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember, activePage, setActivePage}) => {    
+
+    const [openModal, setOpenModal] = useState(false);
+
+    const toggleModal = () => {
+        setOpenModal(!openModal)
+    }
 
     return (
         <div className={ rotateBtn ? 'main-menu show' : 'main-menu' }>
@@ -12,18 +20,17 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </div>
                 <div className="menu-desc">
                     <div className={ rotateBtn ? "desc-vision hide" : "desc-vision"}>                        
-                        <Label size="huge" as='a' color='brown' >
+                        <Label size="huge" color='brown' >
                            Our Vision
                         </Label>
                         <div className="desc-text">
                             <p>Foster ongoing respect and success by providing a positive and 
                                 enjoyable cricket experience for all, while developing players, 
                                 people and partnerships in the community.</p>
-                        </div>
-                        
+                        </div>                        
                     </div>
                     <div className={ rotateBtn ? "desc-mission hide" : "desc-mission"}>
-                        <Label size="huge" as='a' color="brown">
+                        <Label size="huge" color="brown">
                            Our Mission
                         </Label>
                         <div className="desc-text">
@@ -41,6 +48,16 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                                 </List.Item>
                             </List>
                         </div>
+                    </div>
+                    <div className="value-container">
+                        <Label 
+                            className="lbl-values" 
+                            size="huge" 
+                            as='a' 
+                            color="brown" 
+                            onClick={() => toggleModal()}>
+                           Our Values
+                        </Label>
                     </div>
                 </div> 
             </div>
@@ -130,7 +147,39 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </div>
                 }     */}
             </div>
-            
+            <div className="modal-container">
+                <Modal
+                    className="values-modal"
+                    basic
+                    onClose={() => setOpenModal(false)}
+                    onOpen={() => setOpenModal(true)}
+                    open={openModal}
+                    size='small'
+                    >
+                    <Modal.Content>
+                        <h1>How We Play</h1>
+                        <h2>SPIRIT OF CRICKET</h2>
+                        <p className="p-desc">The laws of cricket clearly explain the expectations of how participants need to behave on the field. We believe in portraying professionalism in our conduct and attitude on the field.</p>
+
+                        <h2>INTEGRITY</h2>
+                        <p className="p-desc">We strive to protect NSL Cricket from activities that are detrimental to its integrity by means of disciplinary protocols that ensure fair-play. The establishment of the NSL Disciplinary Unit enables a more focused and coordinated approach to protecting the integrity of the sport in our community.</p>
+
+                        <h2>TEAM WORK</h2>
+                        <p className="p-desc">We are a multinational, multicultural, diverse team who process our own ideas. Through the collaboration of our individual uniqueness we try to achieve greater success.</p>
+
+                        <h2>ACCOUNTABILITY</h2>
+                        <p className="p-desc">We as a team believe in accountability and responsibility for all the actions within the NSL cricket community. We aim to achieve transparency through our governance protocols.</p>
+
+                        <h2>INNOVATION</h2>
+                        <p className="p-desc">We will be creative and innovative to be competitive in the game and to tackle unexpected situations in a competent manner.</p>
+                    </Modal.Content>
+                    <Modal.Actions>
+                        <Button color='brown' inverted onClick={() => setOpenModal(false)}>
+                        <Icon name='arrow circle left' /> Back To Menu
+                        </Button>
+                    </Modal.Actions>
+                </Modal>
+            </div>
         </div>
     )
 }

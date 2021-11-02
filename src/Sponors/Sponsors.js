@@ -35,6 +35,11 @@ const Sponsors = () => {
 
                     </div>
                 </div>
+                <div className="own-sponsors">
+                    <div className="flash-photo">
+                        
+                    </div>
+                </div>
             </div>
             {/* <div className="sp-quote"> 
                 <h3>Thank you for your generous contribution.</h3>
