@@ -10,6 +10,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+    padding-bottom: 100px;
 }
 
 #sponsors .sp-header .ui.divider {
@@ -58,6 +59,10 @@
     /* border-radius: 20px; */
 }
 
+#sponsors .sponsor-logos .ui.divider {
+    width: 80vw;
+}
+
 #sponsors .sponsor-logos .main-sponsors,
 #sponsors .sponsor-logos .secondary-sponsors {
     display: flex;
@@ -70,6 +75,13 @@
     margin-bottom: 20px;
 }
 
+/* #sponsors .sponsor-logos .secondary-sponsors .divider-img {
+    min-width: 40px;
+    min-height: 40px;
+    background: url('./img/cric-ball.png') center no-repeat;
+    background-size: cover;
+} */
+
 #sponsors .sponsor-logos .main-sponsors .m-sp {
     min-height: 150px;
     min-width: 450px;
@@ -80,6 +92,11 @@
     min-height: 60px;
     min-width: 250px;
     margin-top: 20px;
+}
+
+#sponsors .sponsor-logos .own-sponsors {
+    width: 80vw;
+    color: #2d030b;
 }
 
 #sponsors .sponsor-logos .own-sponsors .flash-photo {
@@ -109,7 +126,9 @@
 }
 
 #sponsors .sponsor-logos .secondary-sponsors .aussie {
-    background: url('../img/sponsors/aussie.jpg') center no-repeat;
+    min-height: 85px;
+    min-width: 250px;
+    background: url('../img/sponsors/aussie.png') center no-repeat;
     background-size: contain;
 }
 
@@ -148,7 +167,7 @@
     }
 
     #sponsors .sponsor-logos .p-desc {
-        font-size: 0.75rem;
+        font-size: 1.3rem;
     }
 
     #sponsors .sp-header h2 {
@@ -192,6 +211,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    #sponsors .sponsor-logos .secondary-sponsors .aussie {
+        min-height: 85px;
+        min-width: 250px;
     }
 
     #sponsors .sp-quote {
