@@ -474,6 +474,7 @@
       width: 95%;
       padding-top: 3px;
       border-radius: 15px;    
+      margin-bottom: 0px;
     }
 
     /* .main-menu .menu-desc .desc-vision h3,
@@ -549,9 +550,10 @@
     }
 
     .main-menu .menu-branding .branding-logo {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         padding-top: 15px;
+        margin-bottom: 5px;
     }
 
     .full-btn {
