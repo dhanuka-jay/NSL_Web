@@ -84,7 +84,7 @@ const Contacts = () => {
                     <Form.TextArea label='Message' name="Message" placeholder='Your query here...' required/>
                     <Button 
                         type="submit"
-                        size="large" 
+                        size="small" 
                         floated="right"
                     >Send</Button>
                 </Form>

@@ -45,14 +45,14 @@
 }
 
 .contacts-container .contact-header .contact-big-header h1 {
-    font-family: 'Indie Flower', cursive !important;
+    font-family: 'Qwigley', 'Indie Flower', cursive !important;
     /* font-family: 'Irish Grover', cursive; */
-    font-size: 2.0rem;
+    font-size: 3.0rem;
     color: #2d030b;
 }
 
 .contacts-container .contact-header .contact-big-header h4 {
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 1rem;
     color: #2d030b;
     font-weight: bold;
@@ -180,7 +180,7 @@
 .send-message-container .ui.button {
     font-size: 1.8rem !important;
     color: #fff;
-    padding: 8px 35px;
+    padding: 6px 25px;
     background-color: #2d030b;
 }
 
@@ -200,7 +200,7 @@
 
 .contacts-container .terms-cond .p-desc {
     color: #2d030b;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .contact-thankyou {
