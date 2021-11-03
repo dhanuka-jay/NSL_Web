@@ -28,6 +28,18 @@
     background-size: cover; */
 }
 
+#home-main .name-logo {
+    height: 300px;
+    width: 400px;
+    background: url('../img/name_logo.png') center no-repeat;
+    background-size: contain;
+    /* position: absolute;
+    top: 60px;
+    left: 100px; */
+    z-index: 2;
+    margin-bottom: 350px;
+}
+
 #home-main .home-content {
     z-index: 3;
 }
@@ -40,12 +52,14 @@
 }
 
 #home-main .home-content h2.sm-heading{
-  font-family: 'Indie Flower', cursive !important;
+  font-family: 'Qwigley', 'Indie Flower', cursive !important;
+  font-size: 3.5rem;
+  /* margin-top: 250px; */
 }
 
 #home-main .home-content .name-kumar{
   font-family: 'Open Sans';
-  font-style: italic;
+  /* font-style: italic; */
   align-self: flex-end;
   margin-top: 0px;
 }
@@ -53,7 +67,8 @@
 #home-main .home-content h2.welcome-msg{
   font-family: 'Lato', 'Open Sans';
   font-size: 2.5rem;
-  margin-top: 60px;
+  margin-top: 90px;
+  /* margin-bottom: 220px; */
 }
 
 #home-main video {

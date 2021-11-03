@@ -39,7 +39,7 @@ const Sponsors = () => {
                     <Icon name="fdfd" />
                 </Divider>
                 <div className="own-sponsors">
-                    <p className="p-desc">Official Photograpy Partner</p>
+                    <p className="p-desc">Official Photography Partner</p>
                     <div className="flash-photo">
                         
                     </div>
