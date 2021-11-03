@@ -175,7 +175,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     </Modal.Content>
                     <Modal.Actions>
                         <Button color='brown' inverted onClick={() => setOpenModal(false)}>
-                        <Icon name='arrow circle left' /> Back To Menu
+                        <Icon name='arrow circle left' /> Menu
                         </Button>
                     </Modal.Actions>
                 </Modal>
