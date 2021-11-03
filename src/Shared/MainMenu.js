@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
-import { Image, Label, List, Button, Header, Icon, Modal } from 'semantic-ui-react';
+import { Image, Label, List, Button, Header, Icon, Modal, Divider } from 'semantic-ui-react';
 import MainLogo from '../png_logo_NSL.png';
 import './Shared.css';
 
@@ -157,7 +157,12 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     size='small'
                     >
                     <Modal.Content>
-                        <h1>How We Play</h1>
+                        <h1>HOW WE PLAY</h1>
+
+                        <Divider horizontal>
+                                <div className="divider-img"></div>
+                        </Divider>
+
                         <h2>SPIRIT OF CRICKET</h2>
                         <p className="p-desc">The laws of cricket clearly explain the expectations of how participants need to behave on the field. We believe in portraying professionalism in our conduct and attitude on the field.</p>
 
