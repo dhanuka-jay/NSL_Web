@@ -53,12 +53,13 @@
 
 #home-main .home-content h2.sm-heading{
   font-family: 'Qwigley', 'Indie Flower', cursive !important;
-  font-size: 3.5rem;
+  font-size: 2.5rem;  
   /* margin-top: 250px; */
 }
 
 #home-main .home-content .name-kumar{
   font-family: 'Open Sans';
+  font-size: 1rem;
   /* font-style: italic; */
   align-self: flex-end;
   margin-top: 0px;
@@ -66,8 +67,10 @@
 
 #home-main .home-content h2.welcome-msg{
   font-family: 'Lato', 'Open Sans';
-  font-size: 2.5rem;
-  margin-top: 90px;
+  font-size: 2.8rem;
+  margin-top: 70px;
+  padding-bottom: 50px;
+  color: #c4a25b;
   /* margin-bottom: 220px; */
 }
 
