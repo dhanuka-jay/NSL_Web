@@ -175,6 +175,15 @@
     /* border: 1px solid #fff;  */
 }
 
+.main-menu .menu-desc .desc-vision .desc-text p,
+.main-menu .menu-desc .desc-mission .desc-text .ui.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* .main-menu .menu-desc .desc-vision h3,
 .main-menu .menu-desc .desc-mission h3{
   font-family: "Lucida Console", "Courier New", monospace;
