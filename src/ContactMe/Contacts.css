@@ -69,7 +69,7 @@
 }
 
 .contacts-container .contact-small-header .p-desc {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #2d030b;
 }
 
@@ -269,6 +269,10 @@
     .contacts-container .contact-header .contact-small-header h3 {
         font-size: 2.4rem;
         color: #2d030b;
+    }
+
+    .contacts-container .contact-small-header .p-desc {
+        font-size: 1.3rem;
     }
 
     .contact-phone .phone-container {
