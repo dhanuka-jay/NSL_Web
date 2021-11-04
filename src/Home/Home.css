@@ -284,7 +284,7 @@ h2.sm-heading {
     #home-main .name-logo {
       height: 100px;
       width: 200px;
-      margin-top: 5vh;
+      margin-top: 0vh;
       margin-bottom: 0vh;
     }
 
@@ -326,7 +326,7 @@ h2.sm-heading {
     #home-main .home-content h2.sm-heading {
       width: 80% !important;
       margin-bottom: 5px !important;
-      font-size: 2rem;
+      font-size: 1.75rem;
       padding: 3px 0px;
       width: fit-content;
       margin-top: 22.5vh;
