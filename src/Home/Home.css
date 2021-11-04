@@ -282,10 +282,10 @@ h2.sm-heading {
     }
 
     #home-main .name-logo {
-      height: 150px;
-      width: 250px;
-      margin-top: 10vh;
-      margin-bottom: 22.5vh;
+      height: 100px;
+      width: 200px;
+      margin-top: 5vh;
+      margin-bottom: 0vh;
     }
 
     #home-main .home-content {
@@ -293,12 +293,12 @@ h2.sm-heading {
       display: flex;
       justify-content: center;
       text-align: center;
-      margin-top: 22.5vh;
+      margin-top: 0vh;
     }
 
     #home-main .home-content h2.welcome-msg {
-      font-size: 2rem;
-      margin-bottom: 10px;
+      font-size: 1.5rem;
+      margin-bottom: 22.5vh;
     }
 
     #home-main .home-content .name-kumar{
@@ -326,9 +326,10 @@ h2.sm-heading {
     #home-main .home-content h2.sm-heading {
       width: 80% !important;
       margin-bottom: 5px !important;
-      font-size: 1.45rem;
+      font-size: 2rem;
       padding: 3px 0px;
       width: fit-content;
+      margin-top: 22.5vh;
     }
 
     h2.sm-heading>.highlight {
