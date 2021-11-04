@@ -14,12 +14,14 @@ const HomeMain = ({rotateBtn}) => {
             {/* <h1 className={ rotateBtn ? 'lg-heading hide' : 'lg-heading' }>
                 Northside Legends
             </h1> */}
-            <div className="name-logo">
+            <div className={rotateBtn ? 'name-logo hide' : 'name-logo'}>
 
             </div>
             <div className="home-content">                
                 
-                <h2 className="welcome-msg">Welcome to the home of Northside Legends!</h2>
+                <h2 className={rotateBtn ? 'welcome-msg hide' : 'welcome-msg'}>
+                    Welcome to the home of Northside Legends!
+                </h2>
                 {/* <div className={ rotateBtn ? 'social-icons hide' : 'social-icons' }>
                     <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
                         <div className="icon-container">
