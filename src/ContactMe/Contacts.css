@@ -20,6 +20,7 @@
     align-items: center;
     overflow-y: auto;
     overflow-x: hidden;
+    padding-top: 50px;
 }
 
 /* .contact-overlay {
@@ -40,7 +41,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     padding: 5px 0px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .contacts-container .contact-small-header .p-desc {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #2d030b;
 }
 
@@ -178,9 +178,9 @@
 }
 
 .send-message-container .ui.button {
-    font-size: 1.8rem !important;
+    font-size: 1.2rem !important;
     color: #fff;
-    padding: 6px 25px;
+    padding: 10px 30px;
     background-color: #2d030b;
 }
 
@@ -230,9 +230,10 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background-size: contain;
-        background-position: top;
+        background: linear-gradient(rgba(136, 120, 85, 0.9), rgba(255, 255, 255, 0.9)), url('../img/contact-background_mobile.jpg') center no-repeat;
+        background-size: cover;
         background-attachment: fixed;
+        padding-top: 80px;
     }
 
     .contacts-container .ui.divider {
@@ -249,13 +250,13 @@
     }
 
     .contacts-container .contact-header .contact-big-header h1 {
-        font-size: 1.4rem;
+        font-size: 1.75rem;
         color: #2d030b;
         font-style: italic;
     }
     
     .contacts-container .contact-header .contact-big-header h4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #2d030b;
         font-weight: bold;
         float: right;
@@ -293,7 +294,13 @@
         transform: scaleY(2) !important;
     }
 
-
+    .send-message-container .ui.button {
+        font-size: 1.2rem !important;
+        color: #fff;
+        padding: 8px 25px;
+        background-color: #2d030b;
+    }
+    
     .contact-header, .contact-method-container, .send-message-container {
         width: 90%;
     }
@@ -301,7 +308,7 @@
     .contact-header {
         word-wrap: break-word;
         text-align: center;
-        margin: 10px 0px 20px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     .contact-phone, .contact-email, .contact-facebook {
