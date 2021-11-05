@@ -9,6 +9,7 @@ import Footer from "./Shared/Footer";
 import AboutUs from "./AboutUs/AboutUs";
 import Sponsors from "./Sponors/Sponsors";
 import TheClub from "./TheClub/TheClub";
+import News from "./News/News";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
@@ -63,6 +64,11 @@ function App() {
 
           <Route path='/theclub'>
             <TheClub />
+            <Footer />
+          </Route>
+
+          <Route path='/news'>
+            <News />
             <Footer />
           </Route>
         </Switch>

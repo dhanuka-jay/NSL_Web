@@ -94,7 +94,7 @@
     border-radius: 50%;
     float: left;
     shape-outside: circle();
-    margin: 10px 60px 40px 40px;
+    /* margin: 10px 60px 40px 40px; */
 }
 
 .office-bearers {

@@ -1,0 +1,15 @@
+#news {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#news h2.sub-header {
+    margin-top: 50px;
+}
+
+#news .small-sub {
+    padding-top: 0px;
+}
