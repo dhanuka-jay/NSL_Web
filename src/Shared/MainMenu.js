@@ -50,14 +50,25 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         </div>
                     </div>
                     <div className="value-container">
-                        <Label 
+                        {/* <Label 
                             className="lbl-values" 
                             size="huge" 
                             as='a' 
                             color="brown" 
                             onClick={() => toggleModal()}>
                            Our Values
-                        </Label>
+                        </Label> */}
+
+                        <Button 
+                            className="btn-values"
+                            color="brown"
+                            inverted
+                            labelPosition="right"
+                            onClick={() => toggleModal()}
+                            icon="arrow circle right"
+                            content="Our Values"
+                        >
+                        </Button>
                     </div>
                 </div> 
             </div>

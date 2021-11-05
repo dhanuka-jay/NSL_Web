@@ -324,13 +324,13 @@
     margin-bottom: 15px;
 }
 
-.ui.label.lbl-values {
+/* .ui.label.lbl-values {
     transition: all 0.2s ease-in-out;
 }
 
 .ui.label.lbl-values:hover {
     transform: scale(1.1, 1.1);
-}
+} */
 
 /* .main-menu .menu-nav .nav-item:active {
     transition: all 0.5 ease-in-out;
@@ -492,10 +492,19 @@
         margin-bottom: 1px;
     }
 
-    .ui.label.lbl-values {
-        font-size: 1.2rem !important;
-        margin-top: 2px;
+    .ui.labeled.icon.button.btn-values  {
+        font-size: 1rem !important;
+        margin-top: 3px;
+        padding: 7px 30px 7px 15px !important;
+        /* padding-left: 15px !important;
+        padding-right: 30px !important; */
     }
+
+    /* .ui.icon.button.btn-values {
+        font-size: 1rem !important;
+        margin-top: 2px;
+        padding: 10px 10px !important;
+    } */
 
     .ui.modal.values-modal>.content h2 {
         margin-top: 8px;
