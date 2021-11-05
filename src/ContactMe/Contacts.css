@@ -247,6 +247,7 @@
 
     .contacts-container .contact-header {
         width: 75%;
+        padding: 0px 10px;
     }
 
     .contacts-container .contact-header .contact-big-header h1 {
