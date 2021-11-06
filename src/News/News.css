@@ -4,6 +4,15 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    background: linear-gradient(#c4a25b99, #ffffff99);
+    background-color: #fff;
+    color: #2d030b;
+}
+
+#news .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #news h2.sub-header {
@@ -12,4 +21,8 @@
 
 #news .small-sub {
     padding-top: 0px;
+}
+
+h3.h-inline {
+    display: inline !important;
 }

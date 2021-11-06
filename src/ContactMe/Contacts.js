@@ -27,7 +27,7 @@ const Contacts = () => {
         <div className="contacts-container">
             <div className="contact-header">
                 <div className="contact-big-header">
-                    <h1>"Compromise for your Dream but never Compromise on your Dream.”</h1>
+                    <h1>"Compromise for your Dream but never Compromise on your Dream”</h1>
                     <h4>Imran Khan</h4>
                 </div>                
             </div>

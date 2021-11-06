@@ -299,11 +299,20 @@ h2.sm-heading {
     #home-main .home-content h2.welcome-msg {
       font-size: 1rem;
       margin-bottom: 22.5vh;
-    }
+    }    
 
     #home-main .home-content .name-kumar{
       font-size: 0.7rem;
       margin-right: 10vw;
+    }
+
+    #home-main .home-content h2.sm-heading {
+      width: 90% !important;
+      margin-bottom: 5px !important;
+      font-size: 1.75rem;
+      padding: 3px 0px;
+      width: fit-content;
+      margin-top: 22.5vh;
     }
 
     h1.lg-heading {
@@ -321,15 +330,6 @@ h2.sm-heading {
       padding: 3px 2px 3px 15px !important;
       width: 52%;
       box-decoration-break: clone;
-    }
-
-    #home-main .home-content h2.sm-heading {
-      width: 80% !important;
-      margin-bottom: 5px !important;
-      font-size: 1.75rem;
-      padding: 3px 0px;
-      width: fit-content;
-      margin-top: 22.5vh;
     }
 
     h2.sm-heading>.highlight {
