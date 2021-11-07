@@ -44,7 +44,7 @@
     padding: 5px 0px;
 }
 
-.contacts-container .contact-header .contact-big-header h1 {
+.contacts-container .contact-header .contact-big-header h2 {
     font-family: 'Qwigley', 'Indie Flower', cursive !important;
     /* font-family: 'Irish Grover', cursive; */
     font-size: 3.0rem;
@@ -250,10 +250,11 @@
         padding: 0px;
     }
 
-    .contacts-container .contact-header .contact-big-header h1 {
+    .contacts-container .contact-header .contact-big-header h2 {
         font-size: 1.75rem;
         color: #2d030b;
         font-style: italic;
+        font-weight: 500;
     }
     
     .contacts-container .contact-header .contact-big-header h4 {
