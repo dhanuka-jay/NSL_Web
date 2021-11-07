@@ -2,21 +2,24 @@ import './News.css';
 import coach_img from '../img/News/Coach-Image.png';
 import covid_safety_plan from '../img/cact_covid_safety_plan_for_clubs.pdf';
 import playing_conditions from '../img/playing_conditions.pdf';
-
+import news_img1 from '../img/News_Images/news_img_1.jpg';
+import news_img2 from '../img/News_Images/news_img_2.jpg';
+import news_img3 from '../img/News_Images/news_img_3.jpg';
+import news_img4 from '../img/News_Images/news_img_4.jpg';
 
 
 const News = () => {
     return (
         <div id="news">
-            <h2 className="sub-header">Announcements</h2>
+            <h2 className="sub-header header-announce">Announcements</h2>
             <div className="content-container">
-                <h3 className="second-sub-header">CCSCA Announce tournament fixers</h3>
+                <h3 className="second-sub-header">CCSCA Announce tournament fixtures</h3>
                 <h5 className="small-sub">18/09/2021</h5>
                 <p className="p-desc">CCSCA has allocated Northside Legends to Grade 2 and Grade 4 for the upcoming
                 tournament.</p>
             </div>
 
-            <div className="content-container">
+            <div className="content-container news-coach">
                 <h3 className="second-sub-header">New Head Coach Appointment for Season 2021/22</h3>
                 <h5 className="small-sub">18/07/2021</h5>
                 <p className="p-desc">The Northside Cricket Club is excited to announce the appointment of Shehan De Silva as
@@ -28,7 +31,7 @@ const News = () => {
                 <img src={coach_img} className="coach-img" />
             </div>
 
-            <div className="content-container">
+            <div className="content-container news-covid">
                 <h3 className="second-sub-header">COVID safety plan and playing conditions</h3>
                 <p className="p-desc">CricketACT and NSL have developed a COVID-19 Safety Plan to help create and maintain
                     a safe environment for you, the players, volunteers and spectators.</p>
@@ -43,11 +46,27 @@ const News = () => {
             </div>
 
             <h2 className="sub-header">Latest News</h2>
-            <div className="content-container">
-                <h3 className="second-sub-header h-inline">Super 8 Community Cup 2021-</h3>
-                <h4>Sundays Awards Ceremony</h4>
-                <p className="p-desc">CricketACT and NSL have developed a COVID-19 Safety Plan to help create and maintain
-                    a safe environment for you, the players, volunteers and spectators.</p>
+            <div className="content-container news-latest">
+                <h3 className="second-sub-header">Super 8 Community Cup 2021 - <span className="sp-text">Sundays Awards Ceremony</span></h3>
+                <h5 className="small-sub">20/06/2021</h5>
+                <p className="p-desc">NSL was recognised for its outstanding performances including the Best Batsman of the
+                    tournament ( Shehan De Silva ) and few player of the match awards.</p>
+                <div className="news-img-container">
+                    <div className="news-img img1">
+                        <img src={news_img1} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img2">
+                        <img src={news_img2} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+                <div className="news-img-container">
+                    <div className="news-img img3">
+                        <img src={news_img3} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img4">
+                        <img src={news_img4} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
             </div>
         </div>
     )
