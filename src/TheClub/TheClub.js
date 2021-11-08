@@ -1,4 +1,4 @@
-import { Divider, Header, Icon, List, Segment, Grid } from 'semantic-ui-react';
+import { Divider } from 'semantic-ui-react';
 import './TheClub.css';
 import clb_img from '../img/gal_img_8.jpg';
 
