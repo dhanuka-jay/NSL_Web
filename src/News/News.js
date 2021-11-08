@@ -17,11 +17,6 @@ const News = () => {
     return (
         <div id="news">
             <h2 className="sub-header header-announce">Announcements</h2>
-
-            <Divider horizontal>
-                    <div className="divider-img"></div>
-            </Divider>
-
             <div className="content-container">
                 <h3 className="second-sub-header">CCSCA Announce tournament fixtures</h3>
                 <h5 className="small-sub">18/09/2021</h5>
@@ -55,12 +50,11 @@ const News = () => {
                     <p className="p-desc"><a href={playing_conditions} target="_blank">cricket act covid-19 supplement playing conditions</a></p> 
             </div>
 
-            <h2 className="sub-header">Latest News</h2>
-
             <Divider horizontal>
                     <div className="divider-img"></div>
             </Divider>
 
+            <h2 className="sub-header">Latest News</h2>
             <div className="content-container news-latest">
                 <h3 className="second-sub-header">Super 8 Community Cup 2021 - <span className="sp-text">Sundays Awards Ceremony</span></h3>
                 <h5 className="small-sub">20/06/2021</h5>
@@ -84,12 +78,11 @@ const News = () => {
                 </div>
             </div>
 
-            <h2 className="sub-header">Events</h2>
-
             <Divider horizontal>
                     <div className="divider-img"></div>
             </Divider>
 
+            <h2 className="sub-header">Events</h2>
             <div className="content-container news-events">
                 <h3 className="second-sub-header">Official Launch Northside Legends</h3>
                 <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
