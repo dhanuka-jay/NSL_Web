@@ -73,12 +73,8 @@
 }
 
 #news .news-img-container.community-cup img,
-#news .news-img-container.religeous-activity img  {
-    max-width: 39vw;
-    border-radius: 10px;
-}
-
-#news .news-img-container.cap-ceremony img {
+#news .news-img-container.religeous-activity img,
+#news .news-img-container.cap-ceremony img   {
     max-width: 19.5vw;
     border-radius: 10px;
 }
