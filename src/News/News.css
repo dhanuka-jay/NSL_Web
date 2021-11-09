@@ -45,7 +45,7 @@
 #news .content-container.news-coach img,
 #news .news-img-container {
     align-self: center;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 #news h2.sub-header {
@@ -60,6 +60,11 @@
     font-weight: 500;
 }
 
+#news .news-latest .header-community-cup,
+#news .news-latest .header-religeous {
+    margin-top: 40px;
+}
+
 #news .news-img-container {
     width: 80vw;
     display: flex;
@@ -67,17 +72,25 @@
     justify-content: space-around;
 }
 
-#news .news-img-container img {
+#news .news-img-container.community-cup img,
+#news .news-img-container.religeous-activity img  {
     max-width: 39vw;
+    border-radius: 10px;
+}
+
+#news .news-img-container.cap-ceremony img {
+    max-width: 19.5vw;
     border-radius: 10px;
 }
 
 #news .news-img-container.event-img-container1 img {
     max-width: 80vw;
+    border-radius: 10px;
 }
 
 #news .news-img-container.event-img-container2 img {
-    max-width: 26.33vw;
+    max-width: 26.3vw;
+    border-radius: 10px;
 }
 
 #news .ui.divider {
@@ -99,7 +112,9 @@
     }
 
     #news .content-container.news-coach img,
-    #news .news-img-container img,
+    #news .news-img-container.community-cup img,
+    #news .news-img-container.religeous-activity img,
+    #news .news-img-container.cap-ceremony img,
     #news .news-img-container.event-img-container2 img {
         max-width: 80vw;
     }

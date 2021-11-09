@@ -11,6 +11,19 @@ import news_img5 from '../img/News_Images/news_img_5.jpg';
 import news_img6 from '../img/News_Images/news_img_6.jpg';
 import news_img7 from '../img/News_Images/news_img_7.jpg';
 import news_img8 from '../img/News_Images/news_img_8.jpg';
+import news_img9 from '../img/News_Images/news_img_9.jpg';
+import news_img10 from '../img/News_Images/news_img_10.jpg';
+import news_img11 from '../img/News_Images/news_img_11.jpg';
+import news_img12 from '../img/News_Images/news_img_12.jpg';
+import news_img13 from '../img/News_Images/news_img_13.jpg';
+import news_img14 from '../img/News_Images/news_img_14.jpg';
+import news_img15 from '../img/News_Images/news_img_15.jpg';
+import news_img16 from '../img/News_Images/news_img_16.jpg';
+import news_img17 from '../img/News_Images/news_img_17.jpg';
+import news_img18 from '../img/News_Images/news_img_18.jpg';
+import news_img19 from '../img/News_Images/news_img_19.jpg';
+import news_img20 from '../img/News_Images/news_img_20.jpg';
+import news_img21 from '../img/News_Images/news_img_21.jpg';
 
 
 const News = () => {
@@ -55,12 +68,67 @@ const News = () => {
             </Divider>
 
             <h2 className="sub-header">Latest News</h2>
-            <div className="content-container news-latest">
-                <h3 className="second-sub-header">Super 8 Community Cup 2021 - <span className="sp-text">Sundays Awards Ceremony</span></h3>
+            <div className="content-container news-latest">                
+
+                <h3 className="second-sub-header header-cap">Legends receiving the official NSL Cap</h3>
+                <h5 className="small-sub">30/10/2021</h5>
+                <p className="p-desc">Our Legends receiving their official NSL Cap from head coach Shehan De Silva on the morning before the match.</p>
+                <div className="news-img-container cap-ceremony">
+                    <div className="news-img img1">
+                        <img src={news_img9} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img2">
+                        <img src={news_img10} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img1">
+                        <img src={news_img11} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img2">
+                        <img src={news_img12} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+                <div className="news-img-container cap-ceremony">
+                    <div className="news-img img3">
+                        <img src={news_img13} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img4">
+                        <img src={news_img14} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img3">
+                        <img src={news_img15} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img4">
+                        <img src={news_img16} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>                
+
+                <h3 className="second-sub-header header-religeous">Northside Legends teams took part in religious ceremonies</h3>
+                <h5 className="small-sub">29/10/2021</h5>
+                <p className="p-desc">NSL CCSCA teams took part in religious ceremonies seeking for blessings from religious leaders 
+                    in the community for the cricket season. NSL being a multinational and multicultural team, we value all religious 
+                    practises and take this opportunity to wish everyone in the team all the very best for the season 2021/2022.</p>
+                <div className="news-img-container religeous-activity">
+                    <div className="news-img img1">
+                        <img src={news_img17} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img2">
+                        <img src={news_img18} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+                <div className="news-img-container religeous-activity">
+                    <div className="news-img img3">
+                        <img src={news_img19} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img4">
+                        <img src={news_img20} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+
+                <h3 className="second-sub-header header-community-cup">Super 8 Community Cup 2021 - <span className="sp-text">Sundays Awards Ceremony</span></h3>
                 <h5 className="small-sub">20/06/2021</h5>
                 <p className="p-desc">NSL was recognised for its outstanding performances including the Best Batsman of the
                     tournament ( Shehan De Silva ) and few player of the match awards.</p>
-                <div className="news-img-container">
+                <div className="news-img-container community-cup">
                     <div className="news-img img1">
                         <img src={news_img1} alt="Sorry, Photo unavailable" />
                     </div>
@@ -68,7 +136,7 @@ const News = () => {
                         <img src={news_img2} alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
-                <div className="news-img-container">
+                <div className="news-img-container community-cup">
                     <div className="news-img img3">
                         <img src={news_img3} alt="Sorry, Photo unavailable" />
                     </div>
@@ -76,7 +144,7 @@ const News = () => {
                         <img src={news_img4} alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
-            </div>
+            </div>            
 
             <Divider horizontal>
                     <div className="divider-img"></div>
