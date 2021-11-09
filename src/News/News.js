@@ -73,7 +73,7 @@ const News = () => {
                 <h3 className="second-sub-header header-cap">Legends receiving the official NSL Cap</h3>
                 <h5 className="small-sub">30/10/2021</h5>
                 <p className="p-desc">Our Legends receiving their official NSL Cap from head coach Shehan De Silva on the morning before the match.</p>
-                <div className="news-img-container cap-ceremony">
+                <div className="news-img-container cap-ceremony section1">
                     <div className="news-img img1">
                         <img src={news_img9} alt="Sorry, Photo unavailable" />
                     </div>
@@ -87,7 +87,7 @@ const News = () => {
                         <img src={news_img12} alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
-                <div className="news-img-container cap-ceremony">
+                <div className="news-img-container cap-ceremony section2">
                     <div className="news-img img3">
                         <img src={news_img13} alt="Sorry, Photo unavailable" />
                     </div>
@@ -152,12 +152,12 @@ const News = () => {
                 <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
                     Hotel at Griffith at 3.00pm. This event was organised as the first official event after
                     becoming a registered club in Canberra</p>
-                <div className="news-img-container event-img-container1">
+                <div className="news-img-container event-img-container1 section1">
                     <div className="news-img img5">
                         <img src={news_img5} alt="Sorry, Photo unavailable" />
                     </div>                    
                 </div>
-                <div className="news-img-container event-img-container2">
+                <div className="news-img-container event-img-container2 section2">
                     <div className="news-img img6">
                         <img src={news_img6} alt="Sorry, Photo unavailable" />
                     </div>

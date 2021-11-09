@@ -45,7 +45,11 @@
 #news .content-container.news-coach img,
 #news .news-img-container {
     align-self: center;
-    margin: 5px 0px;
+    margin: 15px 0px 5px 0px;
+}
+
+#news .news-img-container.section2 {
+    margin-top: 5px;
 }
 
 #news h2.sub-header {
@@ -104,6 +108,10 @@
 
     #news .news-img-container {
         flex-direction: column;
+        margin: 15px 0px 0px 0px;
+    }
+
+    #news .news-img-container.section2 {
         margin: 0px;
     }
 
