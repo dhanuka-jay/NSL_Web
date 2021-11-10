@@ -30,7 +30,7 @@ const Fixtures = () => {
                 <div className="result-container">
                     <h2 className="sub-header">Results</h2>
                     <div className="round-results">
-                        <h3 className="second-sub-header">CCSCA season 2021/22 Round 3 results</h3>
+                        <h3 className="second-sub-header">CCSCA season 2021/22 results</h3>
                         <div className="result-img-container">
                             <div className="result-img">
                                 <img src={fixtures_img3} alt="Sorry, Photo unavailable" />

@@ -15,6 +15,8 @@ import img10 from '../img/gal_img_10.jpg';
 import img11 from '../img/gal_img_11.jpg';
 import img12 from '../img/gal_img_12.jpg';
 import img13 from '../img/gal_img_13.jpg';
+import img14 from '../img/gal_img_14.jpg';
+import img15 from '../img/gal_img_15.jpg';
 
 const Gallery = () => {
 
@@ -64,7 +66,13 @@ const Gallery = () => {
                 break;  
             case 13:
                 setCurrImg(img13)
-                break;    
+                break;  
+            case 14:
+                setCurrImg(img14)
+                break;  
+            case 15:
+                setCurrImg(img15)
+                break;        
             default:
                 setCurrImg('')
                 break;
@@ -112,8 +120,8 @@ const Gallery = () => {
                 </div>                
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(8)}>
-                    <img src={img8} alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(10)}>
+                    <img src={img10} alt="Sorry, Photo unavailable" />
                 </div>                
                 <div 
                     className="gal-img"
@@ -122,8 +130,8 @@ const Gallery = () => {
                 </div>
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(10)}>
-                    <img src={img10} alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(14)}>
+                    <img src={img14} alt="Sorry, Photo unavailable" />
                 </div>
                 <div 
                     className="gal-img"
@@ -134,6 +142,11 @@ const Gallery = () => {
                     className="gal-img"
                     onClick={() => handleImageClick(13)}>
                     <img src={img13} alt="Sorry, Photo unavailable" />
+                </div>
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(15)}>
+                    <img src={img15} alt="Sorry, Photo unavailable" />
                 </div>
             </div>
 
