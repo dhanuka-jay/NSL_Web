@@ -58,7 +58,7 @@ const News = () => {
                     participate in a day at the local cricket safely.</p>
                 <p className="p-desc">The COVID safety plan and supplementary playing conditions provide the policies and
                     procedures which must be applied at all games and trainings this season and can be
-                    found at these links</p>
+                    found at these links.</p>
                     <p className="p-desc"><a href={covid_safety_plan} target="_blank">CACT Covid Safety Plan for Clubs</a></p>
                     <p className="p-desc"><a href={playing_conditions} target="_blank">cricket act covid-19 supplement playing conditions</a></p> 
             </div>
@@ -151,7 +151,7 @@ const News = () => {
                 <h3 className="second-sub-header">Official Launch Northside Legends</h3>
                 <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
                     Hotel at Griffith at 3.00pm. This event was organised as the first official event after
-                    becoming a registered club in Canberra</p>
+                    becoming a registered club in Canberra.</p>
                 <div className="news-img-container event-img-container1 section1">
                     <div className="news-img img5">
                         <img src={news_img5} alt="Sorry, Photo unavailable" />

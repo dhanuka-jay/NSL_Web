@@ -97,7 +97,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </Link> */}
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link2'
+                    id='link1'
                     to='/theclub'
                     onClick={() => changeRotateBtn(!rotateBtn)}
                 >
@@ -105,6 +105,17 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         className={ activePage === 'theclub' ? "active" : '' }
                         onClick={ () => setActivePage('theclub')}
                     >The Club</h2>
+                </Link>
+                <Link 
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link2'
+                    to='/fixtures'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    <h2 
+                        className={ activePage === 'fixtures' ? "active" : '' }
+                        onClick={ () => setActivePage('fixtures')}
+                    >Fixtures</h2>
                 </Link>
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  

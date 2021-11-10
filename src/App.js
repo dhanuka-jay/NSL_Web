@@ -10,6 +10,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import Sponsors from "./Sponors/Sponsors";
 import TheClub from "./TheClub/TheClub";
 import News from "./News/News";
+import Fixtures from "./Fixtures/Fixtures";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
@@ -41,6 +42,10 @@ function App() {
           </Route>
           <Route path='/aboutus'>
             <AboutUs />
+            <Footer />
+          </Route>
+          <Route path='/fixtures'>
+            <Fixtures />
             <Footer />
           </Route>
           <Route path='/gallery'>
