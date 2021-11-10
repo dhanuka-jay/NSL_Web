@@ -486,8 +486,13 @@
         font-size: 1.5rem;
     } */
 
+    .main-menu .menu-desc .value-container {
+        margin-top: 3px;
+    }
+
     .main-menu .menu-desc .desc-vision .ui.brown.label,
-    .main-menu .menu-desc .desc-mission .ui.brown.label{
+    .main-menu .menu-desc .desc-mission .ui.brown.label,
+    .main-menu .menu-desc .value-container .ui.brown.label{
         font-size: 1.2rem;
         margin-bottom: 1px;
     }
