@@ -217,7 +217,7 @@
 }
 
 .main-menu .menu-desc .desc-vision p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: left;
   text-shadow: -0.5px 0.5px 0 #2d030b,
                 0.5px 0.5px 0 #2d030b,
@@ -226,7 +226,7 @@
 }
 
 .main-menu .menu-desc .desc-mission .desc-text .ui.list {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .main-menu .menu-nav .nav-item {    
