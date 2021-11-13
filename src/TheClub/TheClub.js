@@ -16,12 +16,12 @@ const TheClub = () => {
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
                 <img src={clb_img} className="club-history-img" />
-                <p className="p-desc">Northside Legends (NSL) started in 2009 to promote Sunday social cricket in the North side of Canberra. 
-                    Due to the easy-going culture of cricket enthusiastic members and common values of the club, NSL has become emergent in terms of 
-                    quantity and quality. Our vision is to foster ongoing respect and success by providing a positive and enjoyable cricket experience 
-                    for all, while developing players, people, and partnerships in the community. 
-                    The club strives hard to provide an environment to its players that encourages achievement, team spirit, sportsmanship while 
-                    promoting the growth of the club in the local community.</p>
+                <p className="p-desc">Northside Legends (NSL) started in 2009 founded by Mr. Yehan Muthukuda together with a few friends from the 
+                    community to promote Sunday social cricket in the North side of Canberra.  Due to the easy-going culture of cricket 
+                    enthusiastic members and common values of the club, NSL has become emergent in terms of quantity and quality. Our vision is 
+                    to foster ongoing respect and success by providing a positive and enjoyable cricket experience for all, while developing 
+                    players, people, and partnerships in the community. The club strives hard to provide an environment to its players that 
+                    encourages achievement, team spirit, sportsmanship while promoting the growth of the club in the local community.</p>
                 <p className="p-desc">In early days, the club participated in several soft-ball tournaments organised by various Canberra based 
                     cricket communities.  In 2021 the club was registered in Cricket Australia as Northside Legends Inc.  The club started playing 
                     hard-ball cricket in 2021 and soon achieved a vast success in this version by coming as far as quarter finals and semi-finals, 
@@ -49,7 +49,7 @@ const TheClub = () => {
                     <p className="p-desc">What I love about the club is that we have developed various channels to communicate across everyone in the club and collect all their ideas and it will be on display at a committee level. With collective thinking power, all of the ideas are welcomed by the committee to include in our discussions.</p>
                     <p className="p-desc p-left">We look forward to welcoming you soon and thank you for your visit.</p>
                     <p className="p-desc p-left">Yehan Muthukuda<br />
-                        President</p> 
+                    President/Founder</p> 
                 </div>               
             </div>
 
@@ -63,7 +63,7 @@ const TheClub = () => {
                 <p className="p-desc">President - Yehan Muthukuda</p>
                 <p className="p-desc">Vice President - Lalitha Jayaweera</p>
                 <p className="p-desc">Secretary - Lalantha Liyanage</p>
-                <p className="p-desc">Treasurer - Rohan Jayasuriya</p>
+                <p className="p-desc">Treasurer - Rohan Jayasooriya</p>
 
                 <h3 className="second-sub-header">Committee Members</h3>
                 <p className="p-desc">Dammika Adhikari</p>
