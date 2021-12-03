@@ -29,8 +29,12 @@
 }
 
 #news .content-container.news-covid h3.second-sub-header,
-#news .content-container.news-events h3.second-sub-header {
+#news .content-container.news-events h3.second-sub-header.launch {
     padding-bottom: 20px;
+}
+
+#news .content-container.news-events h3.second-sub-header.launch {
+    padding-top: 50px;
 }
 
 #news .content-container .small-sub {

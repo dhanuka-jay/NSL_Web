@@ -24,6 +24,10 @@ import news_img18 from '../img/News_Images/news_img_18.jpg';
 import news_img19 from '../img/News_Images/news_img_19.jpg';
 import news_img20 from '../img/News_Images/news_img_20.jpg';
 import news_img21 from '../img/News_Images/news_img_21.jpg';
+import news_img_ssg_1 from '../img/News_Images/sausage/news_img_ssg_1.jpg';
+import news_img_ssg_2 from '../img/News_Images/sausage/news_img_ssg_2.jpg';
+import news_img_ssg_3 from '../img/News_Images/sausage/news_img_ssg_3.jpg';
+import news_img_ssg_4 from '../img/News_Images/sausage/news_img_ssg_4.jpg';
 
 
 const News = () => {
@@ -148,7 +152,33 @@ const News = () => {
 
             <h2 className="sub-header">Events</h2>
             <div className="content-container news-events">
-                <h3 className="second-sub-header">Official Launch Northside Legends</h3>
+            <h3 className="second-sub-header ssg-zzl">NSL Bunnings Sausage Sizzle fundraiser</h3>
+            <h5 className="small-sub">01/12/2021</h5>
+                <p className="p-desc">On the 28th of November, 2021, Northside Legends had a Mini Fundraiser as a Sausage
+                            Sizzle at Gungahlin Bunnings Warehouse. We humbly thank you, the Canberra
+                            community who were very supportive by participating in this fundraiser. The Sausage
+                            sizzle was a fun-filled event, with most of the members at the grill, doing the barbecue
+                            and serving. It was a successful event and credit goes to the Dynamic Duo, Muditha and
+                            Rohan, backed by the NSL Committee for organising it. We are looking to have many
+                            more fun-filled events like this in future.</p>
+                <div className="news-img-container event-img-container1 section1">
+                    <div className="news-img img5">
+                        <img src={news_img_ssg_1} alt="Sorry, Photo unavailable" />
+                    </div>                    
+                </div>
+                <div className="news-img-container event-img-container2 section2">
+                    <div className="news-img img6">
+                        <img src={news_img_ssg_2} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img7">
+                        <img src={news_img_ssg_3} alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img8">
+                        <img src={news_img_ssg_4} alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+
+                <h3 className="second-sub-header launch">Official Launch Northside Legends</h3>
                 <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
                     Hotel at Griffith at 3.00pm. This event was organised as the first official event after
                     becoming a registered club in Canberra.</p>
