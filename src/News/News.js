@@ -161,7 +161,7 @@ const News = () => {
                             and serving. It was a successful event and credit goes to the Dynamic Duo, Muditha and
                             Rohan, backed by the NSL Committee for organising it. We are looking to have many
                             more fun-filled events like this in future.</p>
-                <div className="news-img-container event-img-container1 section1">
+                <div className="news-img-container event-img-container1  section1">
                     <div className="news-img img5">
                         <img src={news_img_ssg_1} alt="Sorry, Photo unavailable" />
                     </div>                    

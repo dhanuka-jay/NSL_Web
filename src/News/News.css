@@ -127,6 +127,10 @@
         max-width: 80vw;
     }
 
+    #news .news-img-container.event-img-container2 img {
+        max-width: 80vw;
+    }
+
     #news .divider-img {
         min-width: 25px;
         min-height: 25px;
