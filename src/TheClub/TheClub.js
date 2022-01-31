@@ -1,6 +1,5 @@
 import { Divider } from 'semantic-ui-react';
 import './TheClub.css';
-import clb_img from '../img/gal_img_8.jpg';
 
 const TheClub = () => {
     return (
@@ -15,7 +14,7 @@ const TheClub = () => {
 
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
-                <img src={clb_img} className="club-history-img" />
+                <img src="img/gallery/gal_img_8.jpg" className="club-history-img" />
                 <p className="p-desc">Northside Legends (NSL) started in 2009 founded by Mr. Yehan Muthukuda together with a few friends from the 
                     community to promote Sunday social cricket in the North side of Canberra.  Due to the easy-going culture of cricket 
                     enthusiastic members and common values of the club, NSL has become emergent in terms of quantity and quality. Our vision is 

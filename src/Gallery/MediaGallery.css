@@ -1,7 +1,7 @@
 
 .gallery {    
     min-height: 100vh;
-    background: linear-gradient(rgba(45, 3, 11, 0.95), rgba(196, 162, 91, 0.95)), url('../img/gal_img_2.jpg') center no-repeat;
+    background: linear-gradient(rgba(45, 3, 11, 0.95), rgba(196, 162, 91, 0.95)), url('../img/gallery/gal_img_2.jpg') center no-repeat;
     background-size: cover;   
     /* background: rgba(35, 35, 35, 1); */
     display: flex;

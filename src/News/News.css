@@ -28,8 +28,12 @@
     padding-bottom: 20px;
 }
 
-#news .content-container.news-covid h3.second-sub-header,
-#news .content-container.news-events h3.second-sub-header.launch {
+#news .content-container .event-container.ssg-zzl,
+#news .content-container .event-container.launch {
+    margin-top: 50px;
+}
+
+#news .content-container.news-covid h3.second-sub-header{
     padding-bottom: 20px;
 }
 

@@ -28,6 +28,13 @@ import news_img_ssg_1 from '../img/News_Images/sausage/news_img_ssg_1.jpg';
 import news_img_ssg_2 from '../img/News_Images/sausage/news_img_ssg_2.jpg';
 import news_img_ssg_3 from '../img/News_Images/sausage/news_img_ssg_3.jpg';
 import news_img_ssg_4 from '../img/News_Images/sausage/news_img_ssg_4.jpg';
+import news_img_fam_bbq_1 from '../img/News_Images/family_barbeque/news_img_fam_bbq_1.jpg';
+import news_img_fam_bbq_2 from '../img/News_Images/family_barbeque/news_img_fam_bbq_2.jpg';
+import news_img_fam_bbq_3 from '../img/News_Images/family_barbeque/news_img_fam_bbq_3.jpg';
+import news_img_fam_bbq_4 from '../img/News_Images/family_barbeque/news_img_fam_bbq_4.jpg';
+import news_img_fam_bbq_5 from '../img/News_Images/family_barbeque/news_img_fam_bbq_5.jpg';
+import news_img_fam_bbq_6 from '../img/News_Images/family_barbeque/news_img_fam_bbq_6.jpg';
+import news_img_fam_bbq_7 from '../img/News_Images/family_barbeque/news_img_fam_bbq_7.jpg';
 
 
 const News = () => {
@@ -152,50 +159,99 @@ const News = () => {
 
             <h2 className="sub-header">Events</h2>
             <div className="content-container news-events">
-            <h3 className="second-sub-header ssg-zzl">NSL Bunnings Sausage Sizzle fundraiser</h3>
-            <h5 className="small-sub">01/12/2021</h5>
-                <p className="p-desc">On the 28th of November, 2021, Northside Legends had a Mini Fundraiser as a Sausage
-                            Sizzle at Gungahlin Bunnings Warehouse. We humbly thank you, the Canberra
-                            community who were very supportive by participating in this fundraiser. The Sausage
-                            sizzle was a fun-filled event, with most of the members at the grill, doing the barbecue
-                            and serving. It was a successful event and credit goes to the Dynamic Duo, Muditha and
-                            Rohan, backed by the NSL Committee for organising it. We are looking to have many
-                            more fun-filled events like this in future.</p>
-                <div className="news-img-container event-img-container1  section1">
-                    <div className="news-img img5">
-                        <img src={news_img_ssg_1} alt="Sorry, Photo unavailable" />
-                    </div>                    
-                </div>
-                <div className="news-img-container event-img-container2 section2">
-                    <div className="news-img img6">
-                        <img src={news_img_ssg_2} alt="Sorry, Photo unavailable" />
+                <div className="event-container fam-bbq">
+                    <h3 className="second-sub-header">NSL Annual Family get-together & BBQ</h3>
+                    <h5 className="small-sub">02/01/2022</h5>
+                    <p className="p-desc">NSL annual family get-together 2022 was held at Bonner Cricket Ground 
+                        on 2nd January 2022 from 12.30pm onwards.</p>
+                    <p className="p-desc">The highlight of the day was the inter club match between NSL Thunders 
+                        and NSL Gladiators. Congratulations to ‘NSL Thunders’ for their victory by 2 runs. It was 
+                        a fantastic match went up to the last ball in a nail biting game and everyone had a great time. 
+                        It was amazing to see such a turnout of the event, even though it was a busy period of the year. 
+                        </p>
+                    <p className="p-desc">A big Thank you goes to all the members for bringing their family and the 
+                        kids and we are sure they enjoyed the fun filled day especially the ‘ladies and kids cricket match'. 
+                        We had similar BBQs and family get-togethers in the last 12 years of NSL and this one is very significant 
+                        for us due to the new additions and the substantial growth of our club within last year. We are also 
+                        very glad to see how the NSL family grows bigger and better each year while we maintain our quality 
+                        and standards in our unique way.</p>
+                    <div className="news-img-container event-img-container1  section1">
+                        <div className="news-img img5">
+                            <img src={news_img_fam_bbq_1} alt="Sorry, Photo unavailable" />
+                        </div>                    
                     </div>
-                    <div className="news-img img7">
-                        <img src={news_img_ssg_3} alt="Sorry, Photo unavailable" />
+                    <div className="news-img-container event-img-container2 section2">
+                        <div className="news-img img6">
+                            <img src={news_img_fam_bbq_2} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img7">
+                            <img src={news_img_fam_bbq_3} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img8">
+                            <img src={news_img_fam_bbq_4} alt="Sorry, Photo unavailable" />
+                        </div>
                     </div>
-                    <div className="news-img img8">
-                        <img src={news_img_ssg_4} alt="Sorry, Photo unavailable" />
+                    <div className="news-img-container event-img-container2 section2">
+                        <div className="news-img img6">
+                            <img src={news_img_fam_bbq_5} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img7">
+                            <img src={news_img_fam_bbq_6} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img8">
+                            <img src={news_img_fam_bbq_7} alt="Sorry, Photo unavailable" />
+                        </div>
                     </div>
                 </div>
 
-                <h3 className="second-sub-header launch">Official Launch Northside Legends</h3>
-                <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
-                    Hotel at Griffith at 3.00pm. This event was organised as the first official event after
-                    becoming a registered club in Canberra.</p>
-                <div className="news-img-container event-img-container1 section1">
-                    <div className="news-img img5">
-                        <img src={news_img5} alt="Sorry, Photo unavailable" />
-                    </div>                    
+                <div className="event-container ssg-zzl">
+                    <h3 className="second-sub-header">NSL Bunnings Sausage Sizzle fundraiser</h3>
+                    <h5 className="small-sub">01/12/2021</h5>
+                    <p className="p-desc">On the 28th of November, 2021, Northside Legends had a Mini Fundraiser as a Sausage
+                                Sizzle at Gungahlin Bunnings Warehouse. We humbly thank you, the Canberra
+                                community who were very supportive by participating in this fundraiser. The Sausage
+                                sizzle was a fun-filled event, with most of the members at the grill, doing the barbecue
+                                and serving. It was a successful event and credit goes to the Dynamic Duo, Muditha and
+                                Rohan, backed by the NSL Committee for organising it. We are looking to have many
+                                more fun-filled events like this in future.</p>
+                    <div className="news-img-container event-img-container1  section1">
+                        <div className="news-img img5">
+                            <img src={news_img_ssg_1} alt="Sorry, Photo unavailable" />
+                        </div>                    
+                    </div>
+                    <div className="news-img-container event-img-container2 section2">
+                        <div className="news-img img6">
+                            <img src={news_img_ssg_2} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img7">
+                            <img src={news_img_ssg_3} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img8">
+                            <img src={news_img_ssg_4} alt="Sorry, Photo unavailable" />
+                        </div>
+                    </div>
                 </div>
-                <div className="news-img-container event-img-container2 section2">
-                    <div className="news-img img6">
-                        <img src={news_img6} alt="Sorry, Photo unavailable" />
+
+                <div className="event-container launch">
+                    <h3 className="second-sub-header">Official Launch Northside Legends</h3>
+                    <p className="p-desc">The official launch of Northside Legends was held on 18th July 2021 at Ramada Diplomat
+                        Hotel at Griffith at 3.00pm. This event was organised as the first official event after
+                        becoming a registered club in Canberra.</p>
+                    <div className="news-img-container event-img-container1 section1">
+                        <div className="news-img img5">
+                            <img src={news_img5} alt="Sorry, Photo unavailable" />
+                        </div>                    
                     </div>
-                    <div className="news-img img7">
-                        <img src={news_img7} alt="Sorry, Photo unavailable" />
-                    </div>
-                    <div className="news-img img8">
-                        <img src={news_img8} alt="Sorry, Photo unavailable" />
+                    <div className="news-img-container event-img-container2 section2">
+                        <div className="news-img img6">
+                            <img src={news_img6} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img7">
+                            <img src={news_img7} alt="Sorry, Photo unavailable" />
+                        </div>
+                        <div className="news-img img8">
+                            <img src={news_img8} alt="Sorry, Photo unavailable" />
+                        </div>
                     </div>
                 </div>
             </div>
