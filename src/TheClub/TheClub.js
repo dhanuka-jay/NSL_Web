@@ -65,9 +65,8 @@ const TheClub = () => {
                 <p className="p-desc">Treasurer - Rohan Jayasooriya</p>
 
                 <h3 className="second-sub-header">Committee Members</h3>
-                <p className="p-desc">Dammika Adhikari</p>
+                <p className="p-desc">Dammika Adikari</p>
                 <p className="p-desc">Kapila Hapu Arachchige</p>
-                <p className="p-desc">Punya Abhayawickrama</p>
                 <p className="p-desc">Muditha Hettiarachchy</p>
                 <p className="p-desc">Indika Fernando</p>
             </div>

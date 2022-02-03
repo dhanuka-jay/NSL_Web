@@ -116,7 +116,7 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                     <h2 
                         className={ activePage === 'fixtures' ? "active" : '' }
                         onClick={ () => setActivePage('fixtures')}
-                    >Fixtures</h2>
+                    >Match Center</h2>
                 </Link>
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  

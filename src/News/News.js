@@ -3,6 +3,7 @@ import './News.css';
 import coach_img from '../img/News/Coach-Image.png';
 import covid_safety_plan from '../img/cact_covid_safety_plan_for_clubs.pdf';
 import playing_conditions from '../img/playing_conditions.pdf';
+import nsl_covid_safe from '../img/NSL_COVID_safe_plan.pdf';
 import news_img1 from '../img/News_Images/news_img_1.jpg';
 import news_img2 from '../img/News_Images/news_img_2.jpg';
 import news_img3 from '../img/News_Images/news_img_3.jpg';
@@ -70,6 +71,7 @@ const News = () => {
                 <p className="p-desc">The COVID safety plan and supplementary playing conditions provide the policies and
                     procedures which must be applied at all games and trainings this season and can be
                     found at these links.</p>
+                    <p className="p-desc"><a href={nsl_covid_safe} target="_blank">COVID safety plan and playing conditions</a></p>
                     <p className="p-desc"><a href={covid_safety_plan} target="_blank">CACT Covid Safety Plan for Clubs</a></p>
                     <p className="p-desc"><a href={playing_conditions} target="_blank">cricket act covid-19 supplement playing conditions</a></p> 
             </div>
