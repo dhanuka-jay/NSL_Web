@@ -13,7 +13,7 @@ const TheClub = () => {
             </Divider> */}
 
             <div className="club-segment club-history">
-                <h2 className="sub-header">Club History</h2>
+                <h2 className="sub-header">Club History1</h2>
                 <img src="img/gallery/gal_img_8.jpg" className="club-history-img" />
                 <p className="p-desc">Northside Legends (NSL) started in 2009 founded by Mr. Yehan Muthukuda together with a few friends from the 
                     community to promote Sunday social cricket in the North side of Canberra.  Due to the easy-going culture of cricket 
