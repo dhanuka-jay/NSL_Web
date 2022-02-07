@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Divider } from 'semantic-ui-react';
 import './News.css';
 import coach_img from '../img/News/Coach-Image.png';
@@ -39,6 +40,11 @@ import news_img_fam_bbq_7 from '../img/News_Images/family_barbeque/news_img_fam_
 
 
 const News = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+    
     return (
         <div id="news">
             <h2 className="sub-header header-announce">Announcements</h2>

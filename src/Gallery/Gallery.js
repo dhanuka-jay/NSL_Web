@@ -1,5 +1,5 @@
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './MediaGallery.css';
 import { Modal, Popup } from 'semantic-ui-react';
 // import img1 from '../img/gal_img_1.jpg';
@@ -18,6 +18,10 @@ import { Modal, Popup } from 'semantic-ui-react';
 // import img15 from '../img/gal_img_15.jpg';
 
 const Gallery = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     const [isImgOpen, setIsImgOpen] = useState(false);
     const [currImg, setCurrImg] = useState();

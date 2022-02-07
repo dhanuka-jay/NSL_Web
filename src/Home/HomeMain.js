@@ -1,9 +1,14 @@
-import React from 'react';
+import { useEffect } from 'react';
 import {  Icon } from 'semantic-ui-react';
 import './Home.css';
 import Trailer from '../home_bg_vid_nsl_trl.mp4';
 
 const HomeMain = ({rotateBtn}) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
     return (
         <div id='home-main'>            
             <div className="overlay"></div>

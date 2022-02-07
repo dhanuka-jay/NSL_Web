@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Divider } from 'semantic-ui-react';
 import './Fixtures.css';
 import fixtures_img1 from '../img/Fixtures/fixtures_img_1.jpg';
@@ -8,6 +9,11 @@ import fixtures_img5 from '../img/Fixtures/fixtures_img_5.jpg';
 import fixtures_img6 from '../img/Fixtures/fixtures_img_6.jpg';
 
 const Fixtures = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
     return (
         <div id="fixtures">
             <div className="fixture-result-container">

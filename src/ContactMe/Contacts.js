@@ -1,9 +1,14 @@
 import emailjs from 'emailjs-com';
 import { Button, Form, Icon, Modal, Divider, Header } from 'semantic-ui-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Contacts.css';
 
 const Contacts = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);    
+
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const sendMessage = (e) => {

@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import './AboutUs.css';
 import { Divider, Header, Icon } from 'semantic-ui-react';
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
     return (
         <div id="aboutus">
             <div className="president-section">
