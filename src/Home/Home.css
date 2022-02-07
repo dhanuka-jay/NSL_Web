@@ -1,31 +1,12 @@
 
-  @keyframes logomover {
-    0% {
-      transform: translateX(-100vw);
-    }
-    40% {
-      transform: translateX(0);
-    }
-    85% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100vw);
-    }
-  }
-
 #home-main {
     height: 100vh;
-    /* padding: 4rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* justify-content: flex-end; */
     align-items: center;
     overflow: hidden;
     z-index: 1;
-    /* background: url('../photo_1.jpg') no-repeat center fixed;
-    background-size: cover; */
 }
 
 #home-main .name-logo {
@@ -33,9 +14,6 @@
     width: 400px;
     background: url('../img/name_logo.png') center no-repeat;
     background-size: contain;
-    /* position: absolute;
-    top: 60px;
-    left: 100px; */
     z-index: 2;
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
@@ -61,13 +39,11 @@
 #home-main .home-content h2.sm-heading{
   font-family: 'Qwigley', 'Indie Flower', cursive !important;
   font-size: 3.5rem;  
-  /* margin-top: 250px; */
 }
 
 #home-main .home-content .name-kumar{
   font-family: 'Open Sans';
   font-size: 1rem;
-  /* font-style: italic; */
   align-self: flex-end;
   margin-top: 0px;
 }
@@ -77,7 +53,6 @@
   font-size: 2.8rem;
   padding-bottom: 50px;
   color: #c4a25b;
-  /* margin-bottom: 220px; */
   transform: translateX(0);
   transition: all 0.5s ease-in-out;
 }
@@ -105,7 +80,6 @@
     min-height: 100vh;
     z-index: 2;
     background: rgba(35, 35, 35, 0.3);
-    /* overflow: hidden; */
 }
 
 #home-main h1, #home-main h2 {
@@ -120,7 +94,6 @@ h1.lg-heading {
     float: left;
     font-family: 'edo sz' !important;
     font-size: 6rem;
-    /* margin-bottom: 2rem; */
     padding: 1px 3px !important;
     margin-top: 0px !important;
     background-color: rgba(34, 36, 36, 0.5);
@@ -135,26 +108,12 @@ h1.lg-heading {
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
 }
-
-/* h2 .highlight {
-    font-family: 'edo sz' !important;
-    text-shadow: -1px 1px 0 #e8491d,
-                          1px 1px 0 #e8491d,
-                         1px -1px 0 #e8491d,
-                        -1px -1px 0 #e8491d;
-    font-size: 2.5rem;
-} */
-
 h2.sm-heading {
-    /* font-family: 'ANDYB' !important; */
     font-family: "Lucida Console", "Courier New", monospace;
     color: #fff;
     font-size: 2.0rem;
     font-weight: bold;
     padding: 0.2rem 0.8rem;
-    /* background-color: rgba(34, 36, 36, 0.5); */
-    /* width -> stop background running all the way
-      across the screen */
     width: fit-content;
     text-shadow: -1px 1px 0 #2d030b,
                           1px 1px 0 #2d030b,
@@ -170,36 +129,6 @@ h2.sm-heading {
   transition: all 0.6s ease-in-out;
 }
 
-/* .social-icons {
-    display: flex;
-    padding: 0.5rem 0.8rem;
-    background-color: rgba(34, 36, 36, 0.5);
-    width: fit-content;
-    border-radius: 10px;
-    transform: translateX(0);
-    transition: all 0.7s ease-in-out;
-    margin-bottom: 1.5rem;
-    z-index: 3;
-}
-
-.social-icons a {
-    color: #000;
-    padding: 0.2rem;
-}
-
-.social-icons .icon-container {  
-  padding: 7px 3px 6px 6px;
-  margin-left: 5px;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.social-icons .icon-container:hover {
-    transform: scale(1.1, 1.1);
-    transition: all 0.2s ease-in-out;
-    color: #2d030b;
-} */
-
 .lg-heading.hide {
     transform: translateX(1000px);
   }
@@ -207,67 +136,10 @@ h2.sm-heading {
 .sm-heading.hide {
     transform: translateX(1000px);
   }
-  
-/* .social-icons.hide {  
-    transform: translateX(-1000px);
-  } */
 
 .name-kumar.hide {
   transform: translateX(1000px);
-}  
-
-/* .sponsor-container {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 500px;
-  z-index: 2;  
-}
-
-.sponsor-container:hover {
-  cursor: pointer;
-  animation-play-state: paused;
-}
-
-.sponsor-container .sp-aussie,
-.sponsor-container .sp-fintax,
-.sponsor-container .sp-tonight {
-  height: 80px;
-  border-radius: 10px;
-}
-
-.sponsor-container .sp-aussie:active,
-.sponsor-container .sp-fintax:active,
-.sponsor-container .sp-tonight:active {
-  transform: scaleX(1.5);
-  transition: all 0.5s ease-in-out;
-}
-
-.sponsor-container .sp-tonight {
-  width: 70px;
-  background: url('../img/sponsors/acomodation.png') center;
-  background-size: cover;
-  animation: logomover 10s infinite forwards;
-}
-
-.sponsor-container .sp-fintax {
-  width: 325px;
-  background: url('../img/sponsors/finTax.jpg') center;
-  background-size: cover;
-  animation: logomover 10s infinite forwards;
-  animation-delay: 0.3s;
-}
-
-.sponsor-container .sp-aussie {
-  width: 80px;
-  background: url('../img/sponsors/aussie.png') center;
-  background-size: cover;
-  animation: logomover 10s infinite forwards;
-  animation-delay: 0.6s;
-} */
+} 
 
   /* Smaller Screens */
 
@@ -322,7 +194,6 @@ h2.sm-heading {
       font-size: 2.7rem;
       left: 5px;
       margin: 30px 0px 0px 10px !important;
-      /* padding: 5px 6px !important; */
       text-shadow: -1px 1px 0 #fff,
                     1px 1px 0 #fff,
                     1px -1px 0 #fff,

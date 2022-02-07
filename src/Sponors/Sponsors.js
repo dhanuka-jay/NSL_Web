@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './Sponsors.css';
 import { Divider, Header, Card, Icon, Image } from 'semantic-ui-react';
 import p_rohan from '../img/sponsors/sp-rohan.jpg';
@@ -5,6 +6,11 @@ import p_himanshu from '../img/sponsors/sp-himanshu.jpg';
 import p_anton from '../img/sponsors/sp-anton.jfif';
 
 const Sponsors = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
     return (
         <div id="sponsors">
             <div className="sp-header">

@@ -1,27 +1,17 @@
 
-import { useState, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './MediaGallery.css';
 import { Modal, Popup } from 'semantic-ui-react';
-// import img1 from '../img/gal_img_1.jpg';
-// import img3 from '../img/gal_img_3.jpg';
-// import img4 from '../img/gal_img_4.jpg';
-// import img5 from '../img/gal_img_5.jpg';
-// import img6 from '../img/gal_img_6.jpg';
-// import img7 from '../img/gal_img_7.jpg';
-// import img8 from '../img/gal_img_8.jpg';
-// import img9 from '../img/gal_img_9.jpg';
-// import img10 from '../img/gal_img_10.jpg';
-// import img11 from '../img/gal_img_11.jpg';
-// import img12 from '../img/gal_img_12.jpg';
-// import img13 from '../img/gal_img_13.jpg';
-// import img14 from '../img/gal_img_14.jpg';
-// import img15 from '../img/gal_img_15.jpg';
 
 const Gallery = () => {
 
     const [isImgOpen, setIsImgOpen] = useState(false);
     const [currImg, setCurrImg] = useState();
     const imgRef = useRef();
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const handleImageClick = (img_id) => {
         setIsImgOpen(true);

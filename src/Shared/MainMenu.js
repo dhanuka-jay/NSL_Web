@@ -74,28 +74,6 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                 </div> 
             </div>
             <div className={ rotateBtn ? 'menu-nav show' : 'menu-nav' }>
-                {/* <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link1'
-                    to='/'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    <h2 
-                        className={ activePage === 'home' ? "active" : '' }
-                        onClick={ () => setActivePage('home')}
-                    >Home</h2>
-                </Link> */}
-                {/* <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link2'
-                    to='/aboutus'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    <h2 
-                        className={ activePage === 'aboutus' ? "active" : '' }
-                        onClick={ () => setActivePage('aboutus')}
-                    >About Us</h2>
-                </Link> */}
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link1'
@@ -162,24 +140,6 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         onClick={ () => setActivePage('contactus')}
                     >Contact Us</h2>
                 </Link>
-                {/* { isLoggedIn ?
-                <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link5'
-                    to='/member'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    My Profile
-                </Link> 
-                :
-                <div className={ rotateBtn ? 'fb-login show' : 'fb-login' }>
-                    <Facebook 
-                        isLoggedIn={isLoggedIn}
-                        setIsLoggedIn={setIsLoggedIn}   
-                        setLoggedInMember={setLoggedInMember}                                     
-                    />
-                </div>
-                }     */}
             </div>
             <div className="modal-container">
                 <Modal

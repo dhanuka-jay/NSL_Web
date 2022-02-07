@@ -56,13 +56,6 @@
     margin: 20px 0px 70px 0px;
 }
 
-/* #theclub .divider-img {
-    min-width: 40px;
-    min-height: 40px;
-    background: url('../img/cric-ball.png') center no-repeat;
-    background-size: cover;
-} */
-
 #theclub .club-history .p-desc{    
     text-align: justify;
 }
@@ -136,16 +129,6 @@
     height: 145px;
     width: 130px;
 }
-
-/* #theclub .affi-logos .affi-logo.cric-aus {
-    height: 125px;
-    width: 85px;
-}
-
-#theclub .affi-logos .affi-logo.iamsa {
-    height: 125px;
-    width:125px;
-} */
 
 #theclub .affi-logos .affi-logo:hover {
     transform: scale(0.9);

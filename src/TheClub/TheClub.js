@@ -1,16 +1,14 @@
+import { useEffect } from 'react';
 import { Divider } from 'semantic-ui-react';
 import './TheClub.css';
 
 const TheClub = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
     return (
         <div id="theclub">
-            {/* <h2 className="page-header">The Club</h2>
-
-            <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                </Header>
-            </Divider> */}
 
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
@@ -30,8 +28,7 @@ const TheClub = () => {
                 <p className="p-desc">We have been blessed with a wonderful set of members and backed by their families in various ways. How we play 
                     cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a 
                     club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
-                    <p className="p-desc p-sub">Go Legends!</p>
-                {/* <div className="club-history-img"></div> */}                
+                    <p className="p-desc p-sub">Go Legends!</p>              
             </div>
 
             <Divider horizontal>

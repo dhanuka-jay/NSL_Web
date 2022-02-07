@@ -2,11 +2,9 @@ import Header from "./Shared/Header";
 import { useState } from "react";
 import HomeMain from "./Home/HomeMain";
 import Contacts from "./ContactMe/Contacts";
-import MemberProfile from "./Members/MemberProfile";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from "./Gallery/Gallery";
 import Footer from "./Shared/Footer";
-import AboutUs from "./AboutUs/AboutUs";
 import Sponsors from "./Sponors/Sponsors";
 import TheClub from "./TheClub/TheClub";
 import News from "./News/News";
@@ -40,22 +38,12 @@ function App() {
               rotateBtn={rotateBtn}
             />
           </Route>
-          <Route path='/aboutus'>
-            <AboutUs />
-            <Footer />
-          </Route>
           <Route path='/fixtures'>
             <Fixtures />
             <Footer />
           </Route>
           <Route path='/gallery'>
             <Gallery />
-            <Footer />
-          </Route>
-          <Route path='/member'>
-            <MemberProfile 
-              loggedInMember={loggedInMember}
-            />
             <Footer />
           </Route>
           <Route path='/contacts'>
