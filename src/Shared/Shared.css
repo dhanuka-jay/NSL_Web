@@ -156,7 +156,8 @@
 }
 
 .main-menu .menu-desc .desc-vision,
-.main-menu .menu-desc .desc-mission {
+.main-menu .menu-desc .desc-mission,
+.main-menu .menu-desc .value-container {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -165,7 +166,8 @@
 }
 
 .main-menu .menu-desc .desc-vision .desc-text,
-.main-menu .menu-desc .desc-mission .desc-text {
+.main-menu .menu-desc .desc-mission .desc-text,
+.main-menu .menu-desc .value-container .desc-text {
     width: 100%;
     background-color: rgba(45, 3, 11, 0.5);
     background-image: linear-gradient(to right, #2d030b88, #c4a25b88);
@@ -176,7 +178,8 @@
 }
 
 .main-menu .menu-desc .desc-vision .desc-text p,
-.main-menu .menu-desc .desc-mission .desc-text .ui.list {
+.main-menu .menu-desc .desc-mission .desc-text .ui.list,
+.main-menu .menu-desc .value-container .desc-text .ui.list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -474,7 +477,8 @@
     }
     
     .main-menu .menu-desc .desc-vision,
-    .main-menu .menu-desc .desc-mission {
+    .main-menu .menu-desc .desc-mission,
+    .main-menu .menu-desc .value-container {
       width: 95%;
       padding-top: 3px;
       border-radius: 15px;    
@@ -517,7 +521,8 @@
     
 
     .main-menu .menu-desc .desc-vision .desc-text,
-    .main-menu .menu-desc .desc-mission .desc-text {
+    .main-menu .menu-desc .desc-mission .desc-text
+    .main-menu .menu-desc .value-container .desc-text {
         margin-bottom: 0px;
         padding: 3px 7px;
         text-align: center;

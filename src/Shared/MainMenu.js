@@ -59,6 +59,15 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                            Our Values
                         </Label>
 
+                        <div className="desc-text">
+                            <List>
+                                <List.Item>
+                                    <List.Content>Goals we aspire to achieve is one thing, but how we play to achieve it, 
+                                        is equally important. <a onClick={() => toggleModal()}>Click here</a> to see our values</List.Content>
+                                </List.Item>
+                            </List>
+                        </div>
+
                         {/* <Button 
                             className="btn-values"
                             color="brown"
