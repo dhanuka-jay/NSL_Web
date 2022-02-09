@@ -228,7 +228,8 @@
                 -0.5px -0.5px 0 #2d030b;
 }
 
-.main-menu .menu-desc .desc-mission .desc-text .ui.list {
+.main-menu .menu-desc .desc-mission .desc-text .ui.list,
+.main-menu .menu-desc .value-container .desc-text .ui.list {
     font-size: 1.2rem;
 }
 
@@ -485,14 +486,18 @@
       margin-bottom: 0px;
     }
 
+    .main-menu .menu-desc .desc-mission .desc-text {
+        margin-bottom: 0px;
+    }
+
     /* .main-menu .menu-desc .desc-vision h3,
     .main-menu .menu-desc .desc-mission h3{
         font-size: 1.5rem;
     } */
 
-    .main-menu .menu-desc .value-container {
+    /* .main-menu .menu-desc .value-container {
         margin-top: 3px;
-    }
+    } */
 
     .main-menu .menu-desc .desc-vision .ui.brown.label,
     .main-menu .menu-desc .desc-mission .ui.brown.label,
@@ -540,7 +545,8 @@
         line-height: 1.3rem;
         text-align: justify;
     }
-    .main-menu .menu-desc .desc-mission .ui.list .item .content {
+    .main-menu .menu-desc .desc-mission .ui.list .item .content,
+    .main-menu .menu-desc .value-container .ui.list .item .content {
         font-size: 0.8rem;
     }
 
