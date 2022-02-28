@@ -97,6 +97,10 @@
     padding: 10px 0px;
 }
 
+#theclub .structure .nsl-structure-header{
+    margin-bottom: 40px;
+}
+
 #theclub .structure .clubStructure-img {
     width: 1000px;
     height: 800px;

@@ -68,8 +68,12 @@ const TheClub = () => {
                 <p className="p-desc">Indika Fernando</p>
             </div>
 
+            <Divider horizontal>
+                    <div className="divider-img"></div>
+            </Divider>
+
             <div className="club-segment structure">
-                <h3 className="second-sub-header">Northside Legends Club Structure</h3>
+                <h2 className="sub-header nsl-structure-header">Northside Legends Club Structure</h2>
                 <div className="clubStructure-img"></div>
             </div>
 
