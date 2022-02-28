@@ -31,6 +31,17 @@ const News = () => {
                     team gained a huge amount of experience by playing the tournament and had some
                     really good contributions between them. We thank the coaching staff for their
                     contribution for this success. We wish all the very best for NSL Grade 2 at semi-finals.</div>
+                    <div className="news-img-container cap-ceremony section1">
+                    <div className="news-img img1">
+                        <img src="img/news_img_23.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img2">
+                        <img src="img/news_img_24.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img img1">
+                        <img src="img/news_img_25.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
             </div>
             <div className="content-container">
                 <h3 className="second-sub-header">CCSCA Announce tournament fixtures</h3>
