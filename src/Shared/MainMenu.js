@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
-import { Image, Label, List, Button, Header, Icon, Modal, Divider } from 'semantic-ui-react';
+import { Image, Label, List, Button, Icon, Modal, Divider } from 'semantic-ui-react';
 import MainLogo from '../png_logo_NSL.png';
 import './Shared.css';
 
-const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLoggedInMember, activePage, setActivePage}) => {    
+const MainMenu = ({rotateBtn, changeRotateBtn, activePage, setActivePage}) => {    
 
     const [openModal, setOpenModal] = useState(false);
 
@@ -67,44 +67,10 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                                 </List.Item>
                             </List>
                         </div>
-
-                        {/* <Button 
-                            className="btn-values"
-                            color="brown"
-                            inverted
-                            labelPosition="right"
-                            onClick={() => toggleModal()}
-                            icon="arrow circle right"
-                            content="Our Values"
-                        >
-                        </Button> */}
-
                     </div>
                 </div> 
             </div>
             <div className={ rotateBtn ? 'menu-nav show' : 'menu-nav' }>
-                {/* <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link1'
-                    to='/'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    <h2 
-                        className={ activePage === 'home' ? "active" : '' }
-                        onClick={ () => setActivePage('home')}
-                    >Home</h2>
-                </Link> */}
-                {/* <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link2'
-                    to='/aboutus'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    <h2 
-                        className={ activePage === 'aboutus' ? "active" : '' }
-                        onClick={ () => setActivePage('aboutus')}
-                    >About Us</h2>
-                </Link> */}
                 <Link 
                     className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
                     id='link1'
@@ -171,24 +137,6 @@ const MainMenu = ({rotateBtn, changeRotateBtn, isLoggedIn, setIsLoggedIn, setLog
                         onClick={ () => setActivePage('contactus')}
                     >Contact Us</h2>
                 </Link>
-                {/* { isLoggedIn ?
-                <Link 
-                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
-                    id='link5'
-                    to='/member'
-                    onClick={() => changeRotateBtn(!rotateBtn)}
-                >
-                    My Profile
-                </Link> 
-                :
-                <div className={ rotateBtn ? 'fb-login show' : 'fb-login' }>
-                    <Facebook 
-                        isLoggedIn={isLoggedIn}
-                        setIsLoggedIn={setIsLoggedIn}   
-                        setLoggedInMember={setLoggedInMember}                                     
-                    />
-                </div>
-                }     */}
             </div>
             <div className="modal-container">
                 <Modal

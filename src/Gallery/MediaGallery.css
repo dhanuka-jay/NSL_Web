@@ -3,22 +3,11 @@
     min-height: 100vh;
     background: linear-gradient(rgba(45, 3, 11, 0.95), rgba(196, 162, 91, 0.95)), url('../img/gallery/gal_img_2.jpg') center no-repeat;
     background-size: cover;   
-    /* background: rgba(35, 35, 35, 1); */
     display: flex;
     justify-content: center;
     align-items: center;    
     background-attachment: fixed;    
 }
-
-/* .gallery-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(15, 17, 17, 0.7);
-    z-index: 0;
-} */
 
 .gallery-container {
     position: relative;

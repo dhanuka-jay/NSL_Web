@@ -10,14 +10,6 @@ const TheClub = () => {
 
     return (
         <div id="theclub">
-            {/* <h2 className="page-header">The Club</h2>
-
-            <Divider horizontal>
-                <Header as='h2'>
-                    <Icon name='handshake' />
-                </Header>
-            </Divider> */}
-
             <div className="club-segment club-history">
                 <h2 className="sub-header">Club History</h2>
                 <img src="img/gallery/gal_img_8.jpg" className="club-history-img" />
@@ -36,8 +28,7 @@ const TheClub = () => {
                 <p className="p-desc">We have been blessed with a wonderful set of members and backed by their families in various ways. How we play 
                     cricket on the field as a team united with team sprit enables us to maintain a high level of integrity and accountability. As a 
                     club we are innovative both on and off the field paving the success of NSL within a short period of time.</p>
-                    <p className="p-desc p-sub">Go Legends!</p>
-                {/* <div className="club-history-img"></div> */}                
+                    <p className="p-desc p-sub">Go Legends!</p>            
             </div>
 
             <Divider horizontal>
@@ -77,6 +68,11 @@ const TheClub = () => {
                 <p className="p-desc">Indika Fernando</p>
             </div>
 
+            <div className="club-segment structure">
+                <h3 className="second-sub-header">Northside Legends Club Structure</h3>
+                <div className="clubStructure-img"></div>
+            </div>
+
             <Divider horizontal>
                     <div className="divider-img"></div>
             </Divider>
@@ -90,7 +86,6 @@ const TheClub = () => {
                     <a href="https://iamsacanberra.com.au/" target="_blank"><div className="affi-logo iamsa"></div></a>    
                 </div>  
             </div>
-
         </div>
     )
 }

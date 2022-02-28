@@ -1,21 +1,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import './MediaGallery.css';
-import { Modal, Popup } from 'semantic-ui-react';
-// import img1 from '../img/gal_img_1.jpg';
-// import img3 from '../img/gal_img_3.jpg';
-// import img4 from '../img/gal_img_4.jpg';
-// import img5 from '../img/gal_img_5.jpg';
-// import img6 from '../img/gal_img_6.jpg';
-// import img7 from '../img/gal_img_7.jpg';
-// import img8 from '../img/gal_img_8.jpg';
-// import img9 from '../img/gal_img_9.jpg';
-// import img10 from '../img/gal_img_10.jpg';
-// import img11 from '../img/gal_img_11.jpg';
-// import img12 from '../img/gal_img_12.jpg';
-// import img13 from '../img/gal_img_13.jpg';
-// import img14 from '../img/gal_img_14.jpg';
-// import img15 from '../img/gal_img_15.jpg';
+import { Modal } from 'semantic-ui-react';
 
 const Gallery = () => {
 
@@ -75,7 +61,22 @@ const Gallery = () => {
                 break;  
             case 15:
                 setCurrImg("img/gallery/gal_img_15.jpg")
-                break;        
+                break;  
+            case 16:
+                setCurrImg("img/gallery/gal_img_16.jpg")
+                break;
+            case 17:
+                setCurrImg("img/gallery/gal_img_17.jpg")
+                break;  
+            case 18:
+                setCurrImg("img/gallery/gal_img_18.jpg")
+                break;  
+            case 19:
+                setCurrImg("img/gallery/gal_img_19.jpg")
+                break;  
+            case 20:
+                setCurrImg("img/gallery/gal_img_20.jpg")
+                break;      
             default:
                 setCurrImg('')
                 break;
@@ -118,8 +119,8 @@ const Gallery = () => {
                 </div>
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(5)}>
-                    <img ref={imgRef} src="img/gallery/gal_img_5.jpg" alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(18)}>
+                    <img ref={imgRef} src="img/gallery/gal_img_18.jpg" alt="Sorry, Photo unavailable" />
                 </div>                
                 <div 
                     className="gal-img"
@@ -128,8 +129,8 @@ const Gallery = () => {
                 </div>                
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(9)}>
-                    <img src="img/gallery/gal_img_9.jpg" alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(16)}>
+                    <img src="img/gallery/gal_img_16.jpg" alt="Sorry, Photo unavailable" />
                 </div>
                 <div 
                     className="gal-img"
@@ -138,18 +139,23 @@ const Gallery = () => {
                 </div>
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(11)}>
-                    <img src="img/gallery/gal_img_11.jpg" alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(17)}>
+                    <img src="img/gallery/gal_img_17.jpg" alt="Sorry, Photo unavailable" />
                 </div>
                 <div 
                     className="gal-img"
-                    onClick={() => handleImageClick(13)}>
-                    <img src="img/gallery/gal_img_13.jpg" alt="Sorry, Photo unavailable" />
+                    onClick={() => handleImageClick(19)}>
+                    <img src="img/gallery/gal_img_19.jpg" alt="Sorry, Photo unavailable" />
                 </div>
                 <div 
                     className="gal-img"
                     onClick={() => handleImageClick(15)}>
                     <img src="img/gallery/gal_img_15.jpg" alt="Sorry, Photo unavailable" />
+                </div>
+                <div 
+                    className="gal-img"
+                    onClick={() => handleImageClick(20)}>
+                    <img src="img/gallery/gal_img_20.jpg" alt="Sorry, Photo unavailable" />
                 </div>
             </div>
 

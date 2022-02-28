@@ -5,38 +5,6 @@ import coach_img from '../img/News/Coach-Image.png';
 import covid_safety_plan from '../img/cact_covid_safety_plan_for_clubs.pdf';
 import playing_conditions from '../img/playing_conditions.pdf';
 import nsl_covid_safe from '../img/NSL_COVID_safe_plan.pdf';
-import news_img1 from '../img/News_Images/news_img_1.jpg';
-import news_img2 from '../img/News_Images/news_img_2.jpg';
-import news_img3 from '../img/News_Images/news_img_3.jpg';
-import news_img4 from '../img/News_Images/news_img_4.jpg';
-import news_img5 from '../img/News_Images/news_img_5.jpg';
-import news_img6 from '../img/News_Images/news_img_6.jpg';
-import news_img7 from '../img/News_Images/news_img_7.jpg';
-import news_img8 from '../img/News_Images/news_img_8.jpg';
-import news_img9 from '../img/News_Images/news_img_9.jpg';
-import news_img10 from '../img/News_Images/news_img_10.jpg';
-import news_img11 from '../img/News_Images/news_img_11.jpg';
-import news_img12 from '../img/News_Images/news_img_12.jpg';
-import news_img13 from '../img/News_Images/news_img_13.jpg';
-import news_img14 from '../img/News_Images/news_img_14.jpg';
-import news_img15 from '../img/News_Images/news_img_15.jpg';
-import news_img16 from '../img/News_Images/news_img_16.jpg';
-import news_img17 from '../img/News_Images/news_img_17.jpg';
-import news_img18 from '../img/News_Images/news_img_18.jpg';
-import news_img19 from '../img/News_Images/news_img_19.jpg';
-import news_img20 from '../img/News_Images/news_img_20.jpg';
-import news_img21 from '../img/News_Images/news_img_21.jpg';
-import news_img_ssg_1 from '../img/News_Images/sausage/news_img_ssg_1.jpg';
-import news_img_ssg_2 from '../img/News_Images/sausage/news_img_ssg_2.jpg';
-import news_img_ssg_3 from '../img/News_Images/sausage/news_img_ssg_3.jpg';
-import news_img_ssg_4 from '../img/News_Images/sausage/news_img_ssg_4.jpg';
-import news_img_fam_bbq_1 from '../img/News_Images/family_barbeque/news_img_fam_bbq_1.jpg';
-import news_img_fam_bbq_2 from '../img/News_Images/family_barbeque/news_img_fam_bbq_2.jpg';
-import news_img_fam_bbq_3 from '../img/News_Images/family_barbeque/news_img_fam_bbq_3.jpg';
-import news_img_fam_bbq_4 from '../img/News_Images/family_barbeque/news_img_fam_bbq_4.jpg';
-import news_img_fam_bbq_5 from '../img/News_Images/family_barbeque/news_img_fam_bbq_5.jpg';
-import news_img_fam_bbq_6 from '../img/News_Images/family_barbeque/news_img_fam_bbq_6.jpg';
-import news_img_fam_bbq_7 from '../img/News_Images/family_barbeque/news_img_fam_bbq_7.jpg';
 
 
 const News = () => {
@@ -48,6 +16,22 @@ const News = () => {
     return (
         <div id="news">
             <h2 className="sub-header header-announce">Announcements</h2>
+            <div className="content-container">
+                <h3 className="second-sub-header">Northside Legends in Semi Final</h3>
+                <h5 className="small-sub">26/01/2022</h5>
+                <div className="p-desc">Northside Legends booked their place in the CCSCA premier One Day League semi-finals
+                    with a 7 wicket win over Canberra Rhinos CC thanks to some fine top-order batting.</div>
+                <div className="p-desc">A fine half-century by Anjula Ranasinghe with a knock of 82 not out, as well as 42 from
+                    Vincika Hapuarachchige, helped NSL to 178 for 3 from just 30.3 overs and that helped
+                    NSL secure a spot in the semi final with a bonus point. Canberra Rhinos was in a very
+                    strong position at one stage at 93 for 2 but a fine bowling performance of 4 for 30 by
+                    Sudheera Ilandarage and 3 for 37 by Nishantha Dissanayake was able to get Rhinos all
+                    out in the last over.</div>
+                <div className="p-desc">We are very pleased that our Grade 2 team secured a spot at the semi-final. Our Grade 4
+                    team gained a huge amount of experience by playing the tournament and had some
+                    really good contributions between them. We thank the coaching staff for their
+                    contribution for this success. We wish all the very best for NSL Grade 2 at semi-finals.</div>
+            </div>
             <div className="content-container">
                 <h3 className="second-sub-header">CCSCA Announce tournament fixtures</h3>
                 <h5 className="small-sub">18/09/2021</h5>
@@ -77,7 +61,7 @@ const News = () => {
                 <p className="p-desc">The COVID safety plan and supplementary playing conditions provide the policies and
                     procedures which must be applied at all games and trainings this season and can be
                     found at these links.</p>
-                    <p className="p-desc"><a href={nsl_covid_safe} target="_blank">COVID safety plan and playing conditions</a></p>
+                    <p className="p-desc"><a href={nsl_covid_safe} target="_blank">NSL COVID safety plan</a></p>
                     <p className="p-desc"><a href={covid_safety_plan} target="_blank">CACT Covid Safety Plan for Clubs</a></p>
                     <p className="p-desc"><a href={playing_conditions} target="_blank">cricket act covid-19 supplement playing conditions</a></p> 
             </div>
@@ -94,30 +78,30 @@ const News = () => {
                 <p className="p-desc">Our Legends receiving their official NSL Cap from head coach Shehan De Silva on the morning before the match.</p>
                 <div className="news-img-container cap-ceremony section1">
                     <div className="news-img img1">
-                        <img src={news_img9} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_9.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img2">
-                        <img src={news_img10} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_10.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img1">
-                        <img src={news_img11} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_11.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img2">
-                        <img src={news_img12} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_12.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
                 <div className="news-img-container cap-ceremony section2">
                     <div className="news-img img3">
-                        <img src={news_img13} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_13.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img4">
-                        <img src={news_img14} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_14.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img3">
-                        <img src={news_img15} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_15.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img4">
-                        <img src={news_img16} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_16.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                 </div>                
 
@@ -128,16 +112,16 @@ const News = () => {
                     practises and take this opportunity to wish everyone in the team all the very best for the season 2021/22.</p>
                 <div className="news-img-container religeous-activity">
                     <div className="news-img img1">
-                        <img src={news_img17} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_17.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img2">
-                        <img src={news_img18} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_18.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img3">
-                        <img src={news_img19} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_19.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img4">
-                        <img src={news_img20} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_20.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
 
@@ -147,16 +131,16 @@ const News = () => {
                     tournament (Shehan De Silva) and few player of the match awards.</p>
                 <div className="news-img-container community-cup">
                     <div className="news-img img1">
-                        <img src={news_img1} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_1.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img2">
-                        <img src={news_img2} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_2.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img3">
-                        <img src={news_img3} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_3.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                     <div className="news-img img4">
-                        <img src={news_img4} alt="Sorry, Photo unavailable" />
+                        <img src="img/news_img_4.jpg" alt="Sorry, Photo unavailable" />
                     </div>
                 </div>
             </div>            
@@ -185,29 +169,29 @@ const News = () => {
                         and standards in our unique way.</p>
                     <div className="news-img-container event-img-container1  section1">
                         <div className="news-img img5">
-                            <img src={news_img_fam_bbq_1} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_1.jpg" alt="Sorry, Photo unavailable" />
                         </div>                    
                     </div>
                     <div className="news-img-container event-img-container2 section2">
                         <div className="news-img img6">
-                            <img src={news_img_fam_bbq_2} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_2.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img7">
-                            <img src={news_img_fam_bbq_3} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_3.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img8">
-                            <img src={news_img_fam_bbq_4} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_4.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                     </div>
                     <div className="news-img-container event-img-container2 section2">
                         <div className="news-img img6">
-                            <img src={news_img_fam_bbq_5} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_5.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img7">
-                            <img src={news_img_fam_bbq_6} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_6.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img8">
-                            <img src={news_img_fam_bbq_7} alt="Sorry, Photo unavailable" />
+                            <img src="img/family_barbeque/news_img_fam_bbq_7.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                     </div>
                 </div>
@@ -224,18 +208,18 @@ const News = () => {
                                 more fun-filled events like this in future.</p>
                     <div className="news-img-container event-img-container1  section1">
                         <div className="news-img img5">
-                            <img src={news_img_ssg_1} alt="Sorry, Photo unavailable" />
+                            <img src="img/sausage/news_img_ssg_1.jpg" alt="Sorry, Photo unavailable" />
                         </div>                    
                     </div>
                     <div className="news-img-container event-img-container2 section2">
                         <div className="news-img img6">
-                            <img src={news_img_ssg_2} alt="Sorry, Photo unavailable" />
+                            <img src="img/sausage/news_img_ssg_2.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img7">
-                            <img src={news_img_ssg_3} alt="Sorry, Photo unavailable" />
+                            <img src="img/sausage/news_img_ssg_3.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img8">
-                            <img src={news_img_ssg_4} alt="Sorry, Photo unavailable" />
+                            <img src="img/sausage/news_img_ssg_4.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                     </div>
                 </div>
@@ -247,18 +231,18 @@ const News = () => {
                         becoming a registered club in Canberra.</p>
                     <div className="news-img-container event-img-container1 section1">
                         <div className="news-img img5">
-                            <img src={news_img5} alt="Sorry, Photo unavailable" />
+                            <img src="img/news_img_5.jpg" alt="Sorry, Photo unavailable" />
                         </div>                    
                     </div>
                     <div className="news-img-container event-img-container2 section2">
                         <div className="news-img img6">
-                            <img src={news_img6} alt="Sorry, Photo unavailable" />
+                            <img src="img/news_img_6.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img7">
-                            <img src={news_img7} alt="Sorry, Photo unavailable" />
+                            <img src="img/news_img_7.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                         <div className="news-img img8">
-                            <img src={news_img8} alt="Sorry, Photo unavailable" />
+                            <img src="img/news_img_8.jpg" alt="Sorry, Photo unavailable" />
                         </div>
                     </div>
                 </div>

@@ -16,11 +16,9 @@ const Contacts = () => {
 
         emailjs.sendForm('service_nsl_cricket', 'nsl_email_template', e.target, 'user_YWybZdEldONxtoh7c2bJ2')
         .then((result) => {
-            // console.log(result.text);
             console.log(result.text, 'Message recieved')
         }, (error) => {
-            // console.log(error.text);
-            console.log('Message recieved')
+            console.log(error)
         });
         
         e.target.reset();
@@ -43,15 +41,6 @@ const Contacts = () => {
                 <div className="p-desc">Are you looking to get into cricket?</div>
             </div>
             <div className="contact-method-container">
-                {/* <div className="contact-facebook">
-                    <div className="icon-div">
-                        <Icon name="facebook f" size="big" />
-                    </div>
-                    <h4>Follow us on facebook</h4>
-                    <a href="https://www.facebook.com/NorthSide-Legends-540287353026304" target='_blank'>
-                        <h3>Northside Legends</h3>
-                    </a>                    
-                </div> */}
                 <div className="contact-phone">
                     <div className="icon-div">
                         <Icon name="phone" size="large" />
@@ -81,7 +70,17 @@ const Contacts = () => {
                 <Form size="large" onSubmit={sendMessage}>
                     <Form.Group>
                         <Form.Input label='Name' name="Name" placeholder='Your Name' required width={10}/>                          
-                        <Form.Input label="Phone" name="Phone" placeholder="04xx xxx xxx" required width={6}/>                     
+                        <Form.Input label="Phone" name="Phone" placeholder="04xx xxx xxx" maxLength="10" required width={6}
+                            onKeyDown={(evt) => {
+                                //Restrict from entering characters other than numeric & backspace, delete, arrow keys
+                                const acceptedChars = [8, 37, 39, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+
+                                if (!acceptedChars.includes(evt.which))
+                                {
+                                        evt.preventDefault();                            
+                                }
+                            }}
+                        />                     
                     </Form.Group>
                     <Form.Group widths="equal">
                         <Form.Input type="email" name="Email" label='Email' placeholder='john@smith.com' required/> 
