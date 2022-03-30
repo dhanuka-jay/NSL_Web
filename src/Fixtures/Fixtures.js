@@ -49,10 +49,13 @@ const Fixtures = () => {
                         {/* <h3 className="second-sub-header">NSL Top Performers of the Week!</h3> */}
                         <div className="perform-img-container">
                             <div className="performance-img section1">
-                                <img src="/img/Fixtures/fixtures_img_7.jpg" alt="Sorry, Photo unavailable" />
+                                <img src="/img/Fixtures/fixtures_img_9.jpg" alt="Sorry, Photo unavailable" />
                             </div>
                             <div className="performance-img section2">
-                                <img src="/img/Fixtures/fixtures_img_8.jpg" alt="Sorry, Photo unavailable" />                      
+                                <img src="/img/Fixtures/fixtures_img_10.jpg" alt="Sorry, Photo unavailable" />                      
+                            </div>
+                            <div className="performance-img section2">
+                                <img src="/img/Fixtures/fixtures_img_11.jpg" alt="Sorry, Photo unavailable" />                      
                             </div>
                         </div>
                         <p className="p-desc">Keep up the Fighting Spirit Legends!</p>

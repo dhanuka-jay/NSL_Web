@@ -137,6 +137,17 @@ const MainMenu = ({rotateBtn, changeRotateBtn, activePage, setActivePage}) => {
                         onClick={ () => setActivePage('contactus')}
                     >Contact Us</h2>
                 </Link>
+                <Link 
+                    className={ rotateBtn ? 'nav-item show' : 'nav-item' }  
+                    id='link7'
+                    to='/playerprofile'
+                    onClick={() => changeRotateBtn(!rotateBtn)}
+                >
+                    <h2 
+                        className={ activePage === 'playerprofile' ? "active" : '' }
+                        onClick={ () => setActivePage('playerprofile')}
+                    >Player Profile</h2>
+                </Link>
             </div>
             <div className="modal-container">
                 <Modal

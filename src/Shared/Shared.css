@@ -254,6 +254,10 @@
     transition-delay: 0.7s;
 }
 
+.main-menu .menu-nav .nav-item.show#link7 {
+    transition-delay: 0.8s;
+}
+
 .main-menu .menu-nav .fb-login.show {
     transform: translate3d(0, 0, 0);
     transition-delay: 0.6s;

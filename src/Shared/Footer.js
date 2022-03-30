@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="logo-copyright-container">
                 <Image src={FooterLogo} alt="Player Profile Photo" /> 
                 <div className="text-wrap">
-                    <h4>&copy;2021 Northside Legends</h4>
+                    <h4>&copy;2022 Northside Legends</h4>
                     <h4>All Rights Reserved</h4>
                 </div>                 
             </div> 

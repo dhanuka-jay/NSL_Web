@@ -17,6 +17,32 @@ const News = () => {
         <div id="news">
             <h2 className="sub-header header-announce">Announcements</h2>
             <div className="content-container">
+                <h3 className="second-sub-header">Sinhala and Tamil New year Celebrations 2022</h3>
+                <h5 className="small-sub">22/03/2022</h5>
+                <div className="p-desc">Canberra Sinhala and Tamil New Year Celebrations 2022. The annual Sinhala and Tamil
+                    cultural event organised by the Australia Sri Lanka Association (ASLA https://aslaact.com)
+                    together with other Sri Lankan community organisations will take place on 9th April 2022
+                    from 1:00PM onwards at Melrose High school, Marr Street, Pearce ACT 2607.</div>
+                <div className="p-desc">Traditional customs and cultural items performed by the young and the old will add colour to
+                    the event and a range of traditional Avurudu games will be organised at the celebration. The
+                    much anticipated ‘Aurudu Kumara’ and the ‘Aurudu Kumariya’ pageants will also be staged
+                    during the celebration.</div>
+                <div className="p-desc">Northside Legends has been proudly appointed to organise the ‘Aurudu Kumara’ and the
+                    ‘Aurudu Kumariya’ pageant contest 2022. අවුරුදු කුමරා සහ කුමරිය 2022.</div>
+                <div className="p-desc">The final winners will be selected by a distinguished panel of judges and the winners will
+                    receive valuable gifts including a photography package by Flashed Photography and more. All
+                    participants will receive a gift.</div>
+                <div className="p-desc">For more information, please contact - Thulasee 0469162032, Yehan 0401562172, Dammika
+                    0423124976 or write to us on info@northsidelegends.com.au</div>
+                <div className="p-desc"><a href='https://forms.gle/cqc23kiniN21UmaPA' target="_blank">Please register here for the pageant.</a></div>
+                <div className="news-img-container aurudu-kumara">
+                    <div className="news-img img1">
+                        <img src="img/news_img_40.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="content-container">
                 <h3 className="second-sub-header">Northside Legends in Semi Final</h3>
                 <h5 className="small-sub">26/01/2022</h5>
                 <div className="p-desc">Northside Legends booked their place in the CCSCA premier One Day League semi-finals
@@ -31,7 +57,7 @@ const News = () => {
                     team gained a huge amount of experience by playing the tournament and had some
                     really good contributions between them. We thank the coaching staff for their
                     contribution for this success. We wish all the very best for NSL Grade 2 at semi-finals.</div>
-                    <div className="news-img-container cap-ceremony section1">
+                <div className="news-img-container semi-qualify">
                     <div className="news-img img1">
                         <img src="img/news_img_23.jpg" alt="Sorry, Photo unavailable" />
                     </div>
@@ -82,7 +108,68 @@ const News = () => {
             </Divider>
 
             <h2 className="sub-header">Latest News</h2>
-            <div className="content-container news-latest">                
+
+            <div className="content-container news-latest">
+
+                <h3 className="second-sub-header semis-writeup">Rain prematurely ended the Semifinals between Northside Legends and
+                    Canberra Rhinos</h3>
+                <h5 className="small-sub">06/03/2022</h5>
+                <div className="p-desc">Northside Legends finished the CCSCA Premier on a high note despite rain prematurely
+                    ending the Semifinals between NSL and Canberra Rhinos which prevented NSL qualifying
+                    for finals. Despite NSL beating Canberra Rhinos twice in the tournament before the
+                    semifinals, according to tournament rules, Canberra Rhinos qualified to play for the finals
+                    as they finished higher on the round ladder. Both Rhinos and NSL won 7 games each
+                    during round matches despite losing few games to rain throughout the tournament. The
+                    difference was just two bonus points. The only other team who won more matches(10)
+                    were the Workers Redbacks CC who finished first on the table.</div>
+                <div className="p-desc">Semifinals day morning was a very sad day as Australia and the cricket world were in
+                    shock after the sudden death of Shane Warne, one of the sport's greatest players.
+                    Warne's death came few hours after former Australian wicketkeeper Rod Marsh’s death.
+                    Ahead of the start of play, Northside Legends and Canberra Rhinos players observed a
+                    minute of silence and were also seen donning black armbands for Shane Warne and Rod
+                    Marsh.</div>
+                <div className="news-img-container end-of-season">
+                    <div className="news-img">
+                        <img src="img/news_img_26.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_27.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_28.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_29.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+                <div className="news-img-container end-of-season section2">
+                    <div className="news-img">
+                        <img src="img/news_img_30.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_31.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_32.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_33.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
+                <div className="news-img-container end-of-season section2">
+                    <div className="news-img">
+                        <img src="img/news_img_34.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_35.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_36.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                    <div className="news-img">
+                        <img src="img/news_img_37.jpg" alt="Sorry, Photo unavailable" />
+                    </div>
+                </div>
 
                 <h3 className="second-sub-header header-cap">Legends receiving the official NSL Cap</h3>
                 <h5 className="small-sub">30/10/2021</h5>

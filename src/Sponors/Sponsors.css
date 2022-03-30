@@ -76,7 +76,6 @@
 }
 
 #sponsors .sponsor-logos .secondary-sponsors .s-sp {
-    max-width: 60;
     min-height: 160px;
     min-width: 250px;
     margin-top: 20px;
@@ -108,8 +107,8 @@
 }
 
 #sponsors .sponsor-logos .secondary-sponsors .fintax {
-    min-height: 150px;
-    min-width: 300px;
+    min-height: 120px;
+    min-width: 200px;
     background: url('../img/sponsors/finTax.jpg') center no-repeat;
     background-size: contain;
 }
@@ -123,8 +122,8 @@
 } */
 
 #sponsors .sponsor-logos .secondary-sponsors .rma {
-    min-height: 150px;
-    min-width: 200px;
+    min-height: 90px;
+    min-width: 150px;
     background: url('../img/sponsors/rma.jpg') center no-repeat;
     background-size: contain;
 }
@@ -186,7 +185,11 @@
     }
 
     #sponsors .sponsor-logos .secondary-sponsors .fintax {
-        min-height: 5vh;
+        min-height: 3.2vh;
+    }
+
+    #sponsors .sponsor-logos .secondary-sponsors .rma {
+        min-height: 5.2vh;
     }
 
     #sponsors .sponsor-logos .main-sponsors,

@@ -60,7 +60,7 @@
 #fixtures .fixture-result-container .fixtures-container .fixtures-img-container .fixture-img img,
 #fixtures .fixture-result-container .result-container .result-img-container .result-img img,
 #fixtures .fixture-result-container .top-performs .perform-img-container .performance-img img {
-    max-width: 39.5vw;
+    max-width: 26vw;
 }
 
 #fixtures .fixture-result-container .top-performs h3.second-sub-header {

@@ -1,5 +1,5 @@
 import Header from "./Shared/Header";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import HomeMain from "./Home/HomeMain";
 import Contacts from "./ContactMe/Contacts";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -9,10 +9,25 @@ import Sponsors from "./Sponors/Sponsors";
 import TheClub from "./TheClub/TheClub";
 import News from "./News/News";
 import Fixtures from "./Fixtures/Fixtures";
+import PlayerProfile from "./PlayerProfile/PlayerProfile";
 
 function App() {
   const [rotateBtn, setRotateBtn] = useState(false);
   const [activePage, setActivePage] = useState('home');
+
+  
+  const [members, setMembers] = useState();
+
+  useEffect(() => {
+      fetch('https://nslapi.azurewebsites.net/api/Member/')
+      .then(response => response.json())
+      .then(json => {
+          setMembers(json);
+          // setMemberNames(json.map(m => {
+          //   return ({key:m.id, value:m.fName, text:m.fName})
+          // }));
+      });
+  })
 
   const changeRotateBtn = (isToggle) => {
     setRotateBtn(isToggle);
@@ -55,6 +70,13 @@ function App() {
           </Route>
           <Route path='/news'>
             <News />
+            <Footer />
+          </Route>
+          <Route path='/playerprofile'>
+            <PlayerProfile 
+              members={members}
+              setMembers={setMembers}
+            />
             <Footer />
           </Route>
         </Switch>
